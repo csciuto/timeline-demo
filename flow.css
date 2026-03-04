@@ -1,0 +1,373 @@
+/* Styles specific to flow.html */
+
+body {
+    /* Allow body to scroll if content overflows */
+    height: auto;
+    min-height: 100vh;
+    min-width: 300px; /* NEW: Ensure minimum width for at least one tile + padding */
+}
+
+.header-link {
+    font-family: Arial, Helvetica, sans-serif; /* Use readable font for link */
+    font-size: 0.9em;
+    color: #222222;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid transparent; /* For hover effect */
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.header-link.header-title {
+     font-family: 'Press Start 2P', cursive; /* Keep title pixelated */
+     font-size: 1.4em;
+}
+
+.header-link:hover {
+    background-color: #eeeeee;
+    border-color: #444444;
+    color: #5850ae;
+}
+
+.flow-page-container {
+    padding: 20px;
+    /* max-width: 95%; */ /* Use most of the page width */ /* REMOVED */
+    /* margin: 0 auto; */ /* Center the container */ /* REMOVED */
+    margin-left: 50px;  /* NEW: Fixed left margin */
+    margin-right: 50px; /* NEW: Fixed right margin */
+}
+
+.flow-page-container > h2 {
+    text-align: center;
+    width: 100%; /* Ensure heading text is centered */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+/* Text Filter Styles */
+.flow-text-filter-container {
+    width: 100%; /* NEW: Fill available space */
+    max-width: 1000px; /* NEW: But cap at 1000px */
+    margin: 0 auto 20px auto; /* Center horizontally, add bottom margin */
+}
+
+#flow-text-filter {
+    padding: 8px 12px;
+    width: 100%; /* Fill the container */
+    font-size: 1em;
+    border: 2px solid #a0a0a0;
+    background-color: #eeeeee;
+    color: #222222;
+    box-sizing: border-box; /* Include padding/border in width */
+}
+
+#flow-text-filter::placeholder {
+    color: #666666;
+    font-style: italic;
+}
+/* END Text Filter Styles */
+
+/* NEW Category Filter Container Styles */
+#flow-category-filters {
+    padding: 15px;
+    box-sizing: border-box;
+    /* Let content flow naturally, REMOVED fixed width/flex properties */
+    /* REMOVED border, background, margin-bottom (handled by parent) */
+    /* Transition styles for collapsing */
+    max-height: 1000px; /* Adjust as needed for content */
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out;
+}
+
+#flow-category-filters.filters-collapsed {
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* border-top: none; Optional */
+}
+
+#flow-category-filters h4 {
+     font-family: 'Press Start 2P', cursive;
+     font-size: 0.9em;
+     font-weight: normal;
+     margin-bottom: 10px;
+     color: #222222;
+     text-align: center; /* Center if present */
+     width: 100%;
+}
+
+/* Style Controls (All/None buttons) container */
+#flow-category-filters .flow-controls {
+    margin-bottom: 15px;
+    display: flex; /* Use flex for layout */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center; /* Center buttons horizontally */
+    gap: 10px;
+}
+
+#flow-category-filters button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d1d1d1;
+    color: #222222;
+    border: 2px solid #444444;
+    border-radius: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+#flow-category-filters button:hover {
+    background-color: #eeeeee;
+    color: #5850ae;
+    border-color: #222222;
+}
+
+/* Container for checkboxes */
+#flow-category-filters .flow-checkboxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 5px 15px;
+    width: 100%; /* Fill the available space */
+}
+
+#flow-category-filters label {
+     display: inline-flex;
+     align-items: center;
+     margin-bottom: 6px;
+     font-size: 0.9em;
+     font-family: Arial, Helvetica, sans-serif;
+     cursor: pointer;
+}
+
+/* Style Checkboxes */
+#flow-category-filters input[type="checkbox"] {
+    margin-right: 5px;
+    accent-color: #5850ae;
+    appearance: none;
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #444444;
+    background-color: #eeeeee;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+}
+
+#flow-category-filters input[type="checkbox"]::before {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #5850ae;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.1s ease-in-out;
+}
+
+#flow-category-filters input[type="checkbox"]:checked::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+/* END NEW Category Filter Container Styles */
+
+/* Tiles Container */
+#flow-tiles-container {
+    width: 100%; /* NEW: Fill available space */
+    max-width: 1000px; /* NEW: But cap at 1000px */
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.flow-tile {
+    border: 2px solid #a0a0a0;
+    padding: 15px;
+    width: 220px; /* Fixed width */
+    background-color: #d1d1d1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.flow-tile .year {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #5850ae;
+}
+
+.flow-tile img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+    border: 1px solid #a0a0a0;
+}
+
+/* Style for tiles without images */
+/*
+.flow-tile .image-placeholder {
+    width: 100%;
+    height: 150px;
+    background-color: #eeeeee;
+    border: 1px solid #a0a0a0;
+    margin-bottom: 10px;
+    display: flex; // To center text if needed
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 0.8em;
+}
+*/
+
+.flow-tile .caption {
+    font-size: 0.9em;
+    color: #222222;
+    margin-bottom: 5px;
+    flex-grow: 1;
+}
+
+.flow-tile .category {
+    font-size: 0.8em;
+    color: #666666;
+    margin-top: auto;
+    font-style: italic;
+}
+
+/* Accordion Filter Section Styles */
+#collapsible-filter-section {
+    width: 100%; /* NEW: Fill available space */
+    max-width: 1000px; /* NEW: But cap at 1000px */
+    margin: 0 auto 25px auto; /* Center horizontally, add bottom margin */
+    border: 2px solid #444444; /* RESTORED Original Border */
+    background-color: #a0a0a0;
+}
+
+#toggle-filters-btn {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #a0a0a0; /* Match section background */
+    border: none;
+    border-bottom: 2px solid #444444;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1em;
+    color: #222222;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    box-sizing: border-box; /* Ensure padding is included */
+}
+
+#toggle-filters-btn:hover {
+    background-color: #bbbbbb;
+}
+
+#toggle-filters-btn .toggle-icon {
+    float: right;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+#toggle-filters-btn[aria-expanded="true"] .toggle-icon {
+    transform: rotate(180deg);
+}
+
+#toggle-filters-btn[aria-expanded="true"] {
+     border-bottom-style: dashed;
+     border-bottom-width: 1px;
+}
+
+/* Tiles Container */
+/* REMOVING DUPLICATE RULE
+#flow-tiles-container {
+    width: 100%; 
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+*/
+
+.flow-tile {
+    border: 2px solid #a0a0a0;
+    padding: 15px;
+    width: 220px; /* Adjust width as needed */
+    background-color: #d1d1d1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.flow-tile .year {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #5850ae; /* Purple */
+}
+
+.flow-tile img {
+    max-width: 100%;
+    height: 150px; /* Fixed height for consistency */
+    object-fit: contain; /* Scale image while preserving aspect ratio */
+    margin-bottom: 10px;
+    background-color: #eeeeee; /* Background for image area */
+    border: 1px solid #a0a0a0;
+}
+
+/* Style for tiles without images */
+/*
+.flow-tile .image-placeholder {
+    width: 100%;
+    height: 150px;
+    background-color: #eeeeee;
+    border: 1px solid #a0a0a0;
+    margin-bottom: 10px;
+    display: flex; // To center text if needed
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 0.8em;
+}
+*/
+
+.flow-tile .caption {
+    font-size: 0.9em;
+    color: #222222;
+    margin-bottom: 5px;
+    flex-grow: 1; /* Allow caption to take up space */
+}
+
+.flow-tile .category {
+    font-size: 0.8em;
+    color: #666666;
+    margin-top: auto; /* Push category to bottom */
+    font-style: italic;
+}
+
+/* --- REMOVE Flow View Filter Panel Styles --- */
+/* #flow-hamburger-btn { ... } */
+/* #flow-hamburger-btn:hover { ... } */
+/* #flow-filter-panel { ... } */
+/* .filter-panel-hidden { ... } */
+/* .filter-panel-visible { ... } */
+/* #flow-filter-panel #flow-filter-container { ... } */
+/* #flow-filter-panel h4 { ... } */
+/* #flow-filter-container .flow-controls { ... } */ /* Now #flow-category-filters .flow-controls */
+/* #flow-filter-panel button { ... } */ /* Now #flow-category-filters button */
+/* #flow-filter-panel button:hover { ... } */ /* Now #flow-category-filters button:hover */
+/* #flow-filter-panel label { ... } */ /* Now #flow-category-filters label */
+/* #flow-filter-panel input[type="checkbox"] { ... } */ /* Now #flow-category-filters input */
+/* #flow-filter-panel input[type="checkbox"]::before { ... } */ /* Now #flow-category-filters input::before */
+/* #flow-filter-panel input[type="checkbox"]:checked::before { ... } */ /* Now #flow-category-filters input:checked::before */
+/* #flow-filter-panel .panel-link { ... } */
+/* #flow-filter-panel .panel-link:hover { ... } */ 

@@ -1,0 +1,515 @@
+/* NES Theme Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* UPDATED: Default font */
+    margin: 0;
+    padding: 0;
+    background-color: #d1d1d1; /* UPDATED: Light Grey */
+    color: #222222; /* UPDATED: Dark Charcoal */
+    display: flex;
+    flex-direction: column; 
+    height: 100vh; 
+}
+
+.header {
+    height: 50px;
+    background-color: #a0a0a0; /* UPDATED: Dark Grey */
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    position: relative;
+    z-index: 10;
+    flex-shrink: 0; 
+}
+
+.header-title {
+    font-family: 'Press Start 2P', cursive; /* UPDATED: Pixel font */
+    font-size: 1.4em; /* Adjust size for pixel font */
+    margin: 0;
+    font-weight: normal; /* Pixel font often doesn't need bold */
+    color: #222222; /* UPDATED: Dark Charcoal */
+    margin-right: 0; 
+}
+
+/* Apply pixel font to other headers */
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.1em; /* Adjust size */
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    position: relative; 
+    align-items: stretch; 
+    flex-grow: 1; 
+    background-color: #a0a0a0; /* NEW - Match header background */
+    /* overflow-y: auto; */ /* REMOVED - Let children handle scrolling */
+
+    /* REMOVE Hide scrollbar */
+    /* scrollbar-width: none; */
+    /* -ms-overflow-style: none; */ 
+    /* &::-webkit-scrollbar { 
+        display: none;
+    } */
+
+    /* REMOVE custom styling */
+    /* &::-webkit-scrollbar {
+        width: 10px; 
+    } */
+    /* &::-webkit-scrollbar-track {
+        background: #a0a0a0; 
+    } */
+    /* &::-webkit-scrollbar-thumb {
+        background-color: #5850ae; 
+        border-radius: 0; 
+        border: 2px solid #a0a0a0; 
+    } */
+    /* &::-webkit-scrollbar-thumb:hover {
+        background-color: #46408a; 
+    } */
+    /* scrollbar-width: thin; */
+    /* scrollbar-color: #5850ae #a0a0a0; */
+}
+
+.timeline-container {
+    /* width: 225px; */ /* Base/Max width - Use flex-basis */
+    /* flex-basis: 225px; */ /* OLD - Fixed width basis */
+    /* flex-basis: 25%; */ /* OLD - Percentage basis */
+    /* flex-basis: 225px; */ /* OLD - Restore fixed basis */
+    flex-basis: 25%; /* NEW - Percentage basis for flex */
+    max-width: 225px; /* Keep max width cap */
+    flex-grow: 0; 
+    flex-shrink: 2; /* Shrink more readily */
+    min-width: 120px; /* Min width for content */
+    padding: 20px;
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    box-sizing: border-box;
+    position: relative;
+    background-color: #a0a0a0; 
+    z-index: 1; 
+    scrollbar-width: thin; 
+    scrollbar-color: #5850ae #444444; 
+    &::-webkit-scrollbar { width: 8px; }
+    &::-webkit-scrollbar-track { background: #444444; }
+    &::-webkit-scrollbar-thumb { background-color: #5850ae; border-radius: 0; }
+}
+
+/* Select the H2 specifically inside timeline-container */
+.timeline-container h2 {
+    font-family: 'Press Start 2P', cursive; /* Keep font */
+    /* font-size: 1.1em; */ /* Original size becomes max in clamp */
+    font-weight: normal; /* Keep weight */
+    margin-bottom: 15px; /* Keep margin */
+    /* NEW Responsive Font Size - Adjusted */
+    font-size: clamp(0.7em, 6vw, 1.1em); 
+    overflow: hidden; /* NEW - Prevent content influencing shrink */
+    text-overflow: ellipsis; /* Optional: Handle text cut-off */
+    white-space: nowrap; /* Optional: Ensure it stays on one line */
+    max-width: 100%; /* ADDED - Ensure H2 respects container width */
+}
+
+.main-content-column { 
+    flex-grow: 1; 
+    padding: 20px; 
+    overflow-y: auto; 
+    /* background-color: lightblue; */ /* DEBUG: Remove this */
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative; 
+    /* padding-left: 30px; */ /* Adjust as needed */
+}
+
+.timeline li {
+    font-family: 'Press Start 2P', cursive; /* ADD: Pixel font */
+    font-size: 0.8em; /* Adjust size */
+    color: #222222; /* Match main text */
+    padding: 6px 0; /* Restore */
+    padding-right: 25px; /* Restore */
+    cursor: pointer;
+    text-align: left; 
+    position: relative; 
+    margin: 2px 0; 
+    display: block; 
+    overflow-wrap: break-word; /* Keep - Allow text to break if needed */
+}
+
+/* Remove background highlight */
+.timeline li:hover {
+    /* background-color: #dcd8cc; */
+}
+.timeline li.selected {
+    font-weight: normal; /* Pixel font doesn't usually need bold */
+    color: #5850ae; /* Highlight text purple */
+}
+
+/* Keep marker highlight (This won't do anything without the ::before element) */
+.timeline li:hover::before,
+.timeline li.selected::before {
+    background: #5850ae; /* UPDATED: SNES Purple */
+}
+
+/* Arrow for selected item - LINE SEGMENT only - COMMENT OUT */
+/*
+.timeline li.selected::after {
+   display: block;
+   content: '';
+   position: absolute;
+   left: 58px; 
+   top: 50%;
+   transform: translateY(-50%);
+   height: 2px; 
+   width: var(--connector-line-width, 0); 
+   background-color: #8b8573;
+   opacity: 0; 
+   visibility: hidden;
+   transition: width 0.05s linear, opacity 0.2s ease-out, visibility 0.2s ease-out; 
+}
+*/
+
+/* Show line when selected and width is set - COMMENT OUT */
+/*
+.timeline li.selected[style*="--connector-line-width"]:not([style*="width: 0px"])::after {
+    opacity: 1;
+    visibility: visible;
+}
+*/
+
+/* Remove Arrowhead SPAN styles */
+/*
+.timeline li .arrowhead { ... }
+.timeline li.selected .arrowhead { ... }
+*/
+
+/* NEW RULE for the wrapper */
+.tiles-area {
+    flex-basis: 75%; /* Proportion relative to timeline */
+    flex-grow: 1;    /* Allow growing */
+    flex-shrink: 1;  /* Allow shrinking */
+    min-width: 375px; /* Accommodate tiles-container min-width (300px / 0.8) */
+    background-color: #d1d1d1; /* NEW - Light Grey (match body) */
+    display: flex; /* Use flex to manage tiles-container */
+    justify-content: flex-start; /* NEW - Align tiles-container to left */
+    align-items: flex-start; /* Align tiles-container to top */
+    padding: 20px; /* Padding around the tiles-container */
+    box-sizing: border-box;
+    /* DEBUGGING - REMOVE */
+    /* border: 3px solid red; */ /* Make it obvious */
+    /* min-height: 100px; */ /* Ensure it has some height */
+}
+
+.tiles-container { 
+    /* REMOVE Flex properties related to .container */
+    /* flex-grow: 1; */ 
+    /* flex-shrink: 1; */ 
+    /* flex-basis: 0; */ 
+    /* max-width: none needed? */
+
+    /* width: 80%; */ /* OLD - Take 80% of parent (.tiles-area) */
+    /* width: calc(100% - 225px); */ /* OLD - Fill parent minus fixed space */
+    width: 100%; /* NEW - Fill parent */
+    /* max-width: 1100px; */ /* OLD - Keep max width */
+    /* max-width: 1150px; */ /* OLD - Increased max width */
+    max-width: 1400px; /* NEW - User preferred max width */
+    min-width: 300px; /* Keep min width */
+    
+    /* margin-top: 20px; */ /* REMOVE - Positioning handled by parent */
+    padding: 20px; /* Keep for internal spacing */
+    box-sizing: border-box;
+    background-color: #eeeeee; /* RESTORE - Off-white color */
+    border-radius: 0px; 
+    border: 2px solid #a0a0a0; 
+    box-shadow: none; 
+    min-height: 150px; 
+    max-height: calc(100vh - 120px); /* ADJUST - Account for tiles-area padding */
+    overflow-y: auto; 
+    opacity: 0; 
+    visibility: hidden; 
+    transition: opacity 0.2s ease-out, visibility 0.2s ease-out; 
+    z-index: 2; 
+    
+    scrollbar-width: thin;
+    scrollbar-color: #5850ae #cccccc;
+    &::-webkit-scrollbar { width: 8px; }
+    &::-webkit-scrollbar-track { background: #cccccc; }
+    &::-webkit-scrollbar-thumb { background-color: #5850ae; border-radius: 0; }
+}
+
+.tiles-container.tiles-visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Remove highlight band and highlighted state */
+/*
+#highlight-band {
+    ...
+}
+.tiles-container.highlighted {
+    ...
+}
+*/
+
+/* Remove .menu-container styles */
+/*
+.menu-container {
+    width: 225px; 
+    flex-shrink: 0; 
+    box-sizing: border-box;
+    position: relative;
+    background-color: #a0a0a0; 
+    z-index: 1; 
+}
+*/
+
+#hamburger-btn {
+    position: static; /* Ensure it's in flex flow */
+    margin-left: 20px; /* Add some space */
+    background: none;
+    border: none;
+    font-size: 1.8em; 
+    cursor: pointer;
+    padding: 5px;
+    line-height: 1;
+    color: #222222; /* UPDATED: Dark Charcoal */
+}
+
+#hamburger-btn:hover {
+    color: #5850ae; /* UPDATED: Purple */
+}
+
+#filter-panel { 
+    position: absolute;
+    top: 100%; /* Below header */
+    right: 15px; /* Near right edge */
+    left: auto; /* Ensure right positioning takes precedence */
+    width: 180px; 
+    background-color: #a0a0a0; /* UPDATED: Dark Grey */
+    border: 2px solid #444444; /* UPDATED: Darker Border */
+    border-radius: 0;
+    box-shadow: none;
+    padding: 15px;
+    z-index: 20; 
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    color: #222222; /* ADD: Default text color */
+}
+
+/* Style Controls container */
+#filter-container .controls {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 5px; /* Spacing between buttons */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+}
+
+#filter-panel button {
+    font-family: Arial, Helvetica, sans-serif; /* Keep readable */
+    background-color: #d1d1d1; /* UPDATED: Light Grey */
+    color: #222222;
+    border: 2px solid #444444; /* UPDATED: Thicker border */
+    border-radius: 0; /* ADD: Explicitly square */
+    padding: 5px 10px; /* Adjust padding */
+    cursor: pointer;
+    font-size: 0.8em; /* Slightly smaller text */
+}
+#filter-panel button:hover {
+    background-color: #eeeeee; /* UPDATED: Lighter Grey */
+    color: #5850ae; /* UPDATED: Purple text */
+    border-color: #222222; /* Optional: Darker border on hover? */
+}
+#filter-panel label {
+     display: block; 
+     margin-bottom: 6px; /* Adjust spacing */
+     font-size: 0.9em; /* Slightly smaller label */
+     font-family: Arial, Helvetica, sans-serif; /* Keep readable */
+}
+
+/* Style Checkboxes */
+#filter-panel input[type="checkbox"] {
+    margin-right: 5px; /* Space between box and label */
+    accent-color: #5850ae; /* UPDATED: Purple checkmark */
+    /* Basic attempt to make it look blockier, browser support varies */
+    appearance: none; 
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #444444;
+    background-color: #eeeeee;
+    vertical-align: middle; /* Align with text */
+    position: relative;
+    cursor: pointer;
+}
+
+#filter-panel input[type="checkbox"]::before {
+    content: "";
+    display: block;
+    width: 6px; /* Inner check size */
+    height: 6px;
+    background-color: #5850ae; /* Purple check */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.1s ease-in-out;
+}
+
+#filter-panel input[type="checkbox"]:checked::before {
+    transform: translate(-50%, -50%) scale(1); 
+}
+
+/* Remove .menu-container styles */
+/*
+.menu-container {
+    ...
+}
+*/
+
+/* Remove the old speech bubble pointer */
+.tiles-container::before {
+    /* content: ''; */
+    /* ... removed properties ... */
+    display: none; /* Hide it */
+}
+
+/* Restore SVG styles */
+#connector-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 3; /* On top */
+    display: block; /* Ensure SVG is displayed */
+}
+#connector-line {
+     stroke: #5850ae;  /* UPDATED: SNES Purple */
+     stroke-width: 4; /* Thicker? */
+     display: block; /* Ensure line is displayed */
+}
+
+.tiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.tile {
+    border: 2px solid #a0a0a0; /* UPDATED: Dark Grey */
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background-color: #d1d1d1; /* UPDATED: Light Grey */
+    border-radius: 0px; /* Remove rounding */
+    box-sizing: border-box; /* ADDED - Include padding/border in width */
+}
+
+.tile img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.tile .caption {
+    font-size: 0.9em;
+    color: #222222; /* UPDATED: Dark Charcoal */
+}
+
+.tile .category {
+    font-size: 0.8em;
+    color: #666666; /* UPDATED: Medium Grey */
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.filter-panel-hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.filter-panel-visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+#filter-panel #filter-container {
+    margin-bottom: 0; /* Remove original spacing */
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+/* ADD Floating Credits Rules */
+#credits {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 50; /* Ensure it's above other content */
+}
+
+#credits span {
+    font-size: 0.8em; /* Smaller font size */
+    color: #444444; /* Slightly lighter text? */
+}
+
+#credits a {
+    line-height: 0;
+}
+
+#credits .github-icon { /* Use class from SVG */
+    width: 18px; /* Smaller icon */
+    height: 18px;
+    fill: #444444; /* Match text */
+    transition: fill 0.2s ease;
+}
+
+#credits .github-icon:hover {
+    fill: #5850ae; /* Highlight purple */
+}
+
+/* REMOVE Mobile Responsiveness section */
+/*
+@media (max-width: 768px) {
+    .container {
+        //...
+    }
+
+    .timeline-container {
+        //...
+    }
+
+    .tiles-container {
+        //...
+    }
+
+    .timeline {
+        //...
+    }
+    .timeline-container h2 {
+        //...
+    }
+    .timeline::before { 
+        //...
+    }
+     .timeline li::before { 
+        //...
+    }
+     .timeline li {
+         //...
+     }
+    
+    #filter-panel {
+        //...
+    }
+} 
+*/ 
