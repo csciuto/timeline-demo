@@ -1,3 +1,5 @@
+**Live:** [corey.sciu.to/timeline-demo](https://corey.sciu.to/timeline-demo/)
+
 Timeline Demo
 
 This project is an interactive, filterable timeline displaying cultural milestones, styled with a retro theme. Primarily a project to explore the abilities of Cursor.
@@ -65,4 +67,12 @@ Simply open the `index.html` file in your web browser. For best results (especia
 *   If you have Python 3: `python -m http.server`
 *   Using Node.js `http-server`: `npx http-server`
 
-Then navigate to the provided local address (e.g., `http://localhost:8000`). 
+Then navigate to the provided local address (e.g., `http://localhost:8000`).
+
+## Smoke test and preview image
+
+```bash
+npm install && npx playwright install chromium   # first time only
+npm test                                          # the app loads without JavaScript errors
+npm run screenshot                                # refreshes preview.png, used for link previews
+```
