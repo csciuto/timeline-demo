@@ -2,7 +2,7 @@
   "name": "timeline-demo",
   "private": true,
   "scripts": {
-    "test": "node --test tests/ && python3 -I -m unittest discover -s tests -p 'test_*.py'",
+    "test": "node --test 'tests/*.test.js' && python3 -I -m unittest discover -s tests -p 'test_*.py'",
     "test:e2e": "playwright test",
     "build": "python3 scripts/build_data.py",
     "screenshot": "UPDATE_PREVIEW=1 playwright test e2e/smoke.spec.js"

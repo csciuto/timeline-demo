@@ -27,7 +27,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Check the data
-        run: node --test tests/ && python3 -I -m unittest discover -s tests -p 'test_*.py'
+        run: node --test 'tests/*.test.js' && python3 -I -m unittest discover -s tests -p 'test_*.py'
       - name: Stamp version
         run: |
           VERSION="v1.$(git rev-list --count HEAD)"

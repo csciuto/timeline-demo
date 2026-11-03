@@ -11,5 +11,5 @@ Static site, no build step for the page. Served at corey.sciu.to/timeline-demo/ 
   `data/checked.txt` without actually confirming the fact.
 - Images are hotlinked from Wikimedia: free ones credited (author · license), non-free shown small with a © note.
   Nothing is downloaded into the repo.
-- Tests: `npm test` (node --test + python unittest), `npm run test:e2e` (Playwright, Wikimedia and fonts blocked),
+- Tests: `npm test` (node --test tests/*.test.js + python unittest), `npm run test:e2e` (Playwright, Wikimedia and fonts blocked),
   `npm run screenshot` for preview.png. Needs PATH=/opt/homebrew/bin for node.
