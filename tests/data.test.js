@@ -1,61 +1,57 @@
-import test from 'node:test';
-import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+// Checks data.json, the timeline's only data file. Run: npm test
+const test = require('node:test');
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
 
-const data = JSON.parse(readFileSync(new URL('../data/years.json', import.meta.url)));
-const lines = readFileSync(new URL('../data/items.txt', import.meta.url), 'utf8')
-  .split('\n').filter((l) => l.trim() && !l.startsWith('#'));
-const years = [];
-for (let y = data.first; y <= data.last; y++) years.push(y);
+const root = path.join(__dirname, '..');
+const data = JSON.parse(fs.readFileSync(path.join(root, 'data.json'), 'utf8'));
+const CATEGORIES = new Set(['Music', 'Television', 'Film', 'Automobiles', 'Toys & Gadgets', 'World Events', 'Tech',
+  'Gaming', 'Electronics', 'Space', 'Sports', 'Science', 'Culture', 'Home Appliances']);
+const all = Object.entries(data).flatMap(([y, items]) => items.map((i) => ({ y, ...i })));
 
-test('years.json is up to date with items.txt', () => {
-  const n = Object.values(data.years).reduce((a, v) => a + v.length, 0);
-  assert.equal(n, lines.length, 'run python3 scripts/build_data.py');
+test('every year from 1950 to 2025 has at least five items', () => {
+  for (let y = 1950; y <= 2025; y++) {
+    assert.ok((data[y] || []).length >= 5, `${y} has ${(data[y] || []).length} items`);
+  }
+  for (const y of Object.keys(data)) assert.match(y, /^(19[5-9]\d|20[0-2]\d)$/, `odd year key ${y}`);
 });
 
-test('every year is furnished', () => {
-  for (const y of years) {
-    const kinds = new Set((data.years[y] || []).map((i) => i.kind));
-    for (const k of ['tv', 'film', 'car', 'shelf', 'news']) assert.ok(kinds.has(k), `${y} has no ${k}`);
-    assert.ok(kinds.has('hit') || kinds.has('radio'), `${y} has no music`);
-    if (y < data.last) assert.ok(kinds.has('hit'), `${y} has no No. 1 song`);
-    assert.equal([...kinds].filter((k) => k === 'hit').length <= 1, true);
+test('items have a caption and a known category, filed under the right year', () => {
+  for (const i of all) {
+    assert.ok(i.caption && i.caption.trim().length > 2, `${i.y}: empty caption`);
+    assert.ok(CATEGORIES.has(i.category), `${i.y}: unknown category ${i.category} (${i.caption})`);
+    if (i.year !== undefined) assert.equal(String(i.year), i.y, i.caption);
   }
 });
 
-test('one No. 1 song per year at most', () => {
-  for (const y of years) assert.ok((data.years[y] || []).filter((i) => i.kind === 'hit').length <= 1, String(y));
-});
-
-test('items carry what the page needs', () => {
-  for (const [y, items] of Object.entries(data.years)) {
+test('no duplicate captions within a year', () => {
+  for (const [y, items] of Object.entries(data)) {
+    const seen = new Set();
     for (const i of items) {
-      assert.ok(i.text && i.title, `${y}: ${JSON.stringify(i)}`);
-      if (i.img) {
-        assert.match(i.img.src, /^https:\/\/(upload|thumb)\.wikimedia\.org\//, i.img.src);
-        assert.ok(i.img.w > 0 && i.img.h > 0);
-        assert.match(i.img.page, /^https:\/\//);
-        assert.equal(typeof i.img.nonfree, 'boolean');
-      }
+      const k = i.caption.toLowerCase();
+      assert.ok(!seen.has(k), `${y}: duplicate "${i.caption}"`);
+      seen.add(k);
     }
   }
 });
 
-test('prices cover every year and match known values', () => {
-  for (const y of years) assert.ok(data.prices[y], `${y} has no prices`);
-  assert.equal(data.prices[1969].stamp, 6);
-  assert.equal(data.prices[1985].stamp, 22);
-  assert.equal(data.prices[1969].min_wage, 1.6);
-  assert.equal(data.prices[1985].min_wage, 3.35);
-  assert.equal(data.prices[2025].min_wage, 7.25);
-  assert.equal(data.prices[data.dollar_year].dollar, 1);
-  let prev = 0;
-  for (const y of years) {
-    assert.ok(data.prices[y].min_wage >= prev, `minimum wage fell in ${y}`);
-    prev = data.prices[y].min_wage;
+test('photos exist locally or come from Wikimedia with a credit', () => {
+  for (const i of all) {
+    if (!i.photo) continue;
+    if (i.photo.startsWith('images/')) {
+      assert.ok(fs.existsSync(path.join(root, i.photo)), `${i.y}: missing file ${i.photo}`);
+    } else {
+      assert.match(i.photo, /^https:\/\/(upload|thumb)\.wikimedia\.org\//, `${i.y}: ${i.photo}`);
+      assert.ok(i.credit && i.credit.text && /^https:\/\//.test(i.credit.url), `${i.y}: no credit for ${i.photo}`);
+    }
   }
-  for (let k = 1; k < years.length; k++) {
-    assert.ok(data.prices[years[k]].dollar <= data.prices[years[k - 1]].dollar + 0.05, `prices fell a lot in ${years[k]}`);
+});
+
+test('each year has music, TV, film and news', () => {
+  for (let y = 1950; y <= 2025; y++) {
+    const cats = new Set((data[y] || []).map((i) => i.category));
+    for (const c of ['Music', 'Television', 'Film']) assert.ok(cats.has(c), `${y} has no ${c}`);
+    assert.ok(['World Events', 'Science', 'Space', 'Sports'].some((c) => cats.has(c)), `${y} has no news`);
   }
-  assert.ok(data.prices[1950].dollar > 12 && data.prices[1950].dollar < 15);
 });

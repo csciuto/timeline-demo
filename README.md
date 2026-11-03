@@ -1,60 +1,110 @@
-# The Year Room
+**Live:** [corey.sciu.to/timeline-demo](https://corey.sciu.to/timeline-demo/)
 
-Walk into any year from 1950 to 2025 and see what's in the room: what's on the radio, on TV and at the movies,
-what's new in the driveway and on the shelf, what's in the paper, and what a stamp, an hour at minimum wage and a
-dollar were worth. Each decade restyles the room.
+Timeline Demo
 
-**Live:** [corey.sciu.to/timeline-demo](https://corey.sciu.to/timeline-demo/) (link straight to a year with
-`#1969`; ← → change the year, R picks one at random).
+This project is an interactive, filterable timeline displaying cultural milestones, styled with a retro theme. Primarily a project to explore the abilities of Cursor.
 
-It's an American room, picked for what people had in front of them that year: Billboard's year-end No. 1 song,
-the year's big TV, films and headlines, the cars in showrooms (a model year often goes on sale the fall before).
 
-## How it works
+## How It Was Made
 
+*   **Development:** Pair-programmed with an AI assistant.
+*   **Frontend:** Built with standard HTML, CSS, and vanilla JavaScript.
+    *   HTML structures the content (header, timeline list, tile display area).
+    *   CSS handles all styling, including the NES color palette, layout (using Flexbox), animations, and mobile responsiveness (`style.css`). The 'Press Start 2P' font is used for the retro feel.
+    *   JavaScript (`script.js`) fetches data, builds the timeline and tile views dynamically, handles user interactions (hover/click), category filtering, connector line drawing, and mobile adjustments.
+*   **Data:** Timeline events are stored in `data.json`.
+
+## Adding Timeline Items
+
+To add new items to the timeline:
+
+1.  Open the `data.json` file.
+2.  Find the desired year key (e.g., `"1996"`). If the year doesn't exist, add it as a new key with an empty array `[]` as its value.
+3.  Add a new JSON object `{...}` to the array for that year.
+4.  Each object *must* have a `year` (number) and `category` (string).
+5.  Include a `caption` (string) to describe the event.
+6.  Include a `photo` (string) which can be:
+    *   A **web URL** (e.g., `"https://upload.wikimedia.org/wikipedia/en/0/05/MarioKart64BoxArt.jpg"`). The `download_images.py` script can fetch these.
+    *   A **local path** relative to the project root (e.g., `"images/1996/game_mk64.jpg"`). You'll need to place the image file there manually *before* loading the page.
+
+**Example Entry in `data.json`:**
+
+```json
+  "1996": [
+    {
+      "year": 1996,
+      "category": "game",
+      "caption": "Mario Kart 64 released (Japan)",
+      "photo": "https://upload.wikimedia.org/wikipedia/en/0/05/MarioKart64BoxArt.jpg"
+    },
+    {
+      "year": 1996,
+      "category": "film",
+      "caption": "Space Jam released",
+      "photo": "images/1996/film_spacejam.jpg" // Assumes you added this file manually
+    }
+    // ... more items for 1996
+  ],
 ```
-data/items.txt        the content, one line per item: year | kind | text | Wikipedia article | note
-data/checked.txt      items checked by hand whose Wikipedia intro doesn't mention the year
-data/cpi.csv          BLS consumer price index (FRED series CPIAUCNS), for "what $1 was worth"
-scripts/build_data.py items.txt + Wikipedia + price tables -> data/years.json
-index.html, css/, js/ the page (no build step, no framework); js/lib.js holds the testable logic
+
+You can have multiple items for the same year, and multiple items with the same category within a year.
+
+## Scripts
+
+### `download_images.py`
+
+*   **Purpose:** Reads `data.json`, finds items with web URLs in the `photo` field, downloads the images, and saves them locally into the `images/YYYY/` directory structure (where `YYYY` is the year). It then **updates** `data.json` to replace the original web URLs with the new local file paths.
+*   **Usage:**
+    1.  Make sure you have Python installed.
+    2.  Install the necessary library: `pip install requests`
+    3.  Run the script from the project's root directory: `python download_images.py`
+*   **Note:** The script automatically decodes URL-encoded characters (like `%28` for `(`) in filenames to prevent issues with file serving. It will skip downloading files that already exist locally or entries that already use a local `images/...` path.
+
+## Running Locally
+
+Simply open the `index.html` file in your web browser. For best results (especially avoiding potential CORS issues if you ever load data differently), using a simple local web server is recommended:
+
+*   If you have Python 3: `python -m http.server`
+*   Using Node.js `http-server`: `npx http-server`
+
+Then navigate to the provided local address (e.g., `http://localhost:8000`).
+
+## What's in the data
+
+Every year from 1950 to 2025, about a dozen items each (984 in all): the year's Billboard No. 1 song and other big
+music, TV, films, new cars, toys and gadgets, and the news. It's an American timeline of what people had in front
+of them that year, so a car whose model year went on sale the previous fall counts.
+
+Categories in use: Music, Television, Film, Automobiles, Toys & Gadgets, World Events, Tech, Gaming, Electronics,
+Space, Sports, Science, Culture, Home Appliances. Adding a new one means adding it to `tests/data.test.js` too.
+
+## Images and credits
+
+`photo` is either a file under `images/` or a Wikimedia image URL (loaded from Wikimedia, not copied here).
+Wikimedia photos need a `credit`, shown under the image:
+
+```json
+"credit": { "text": "Alexander Migl · CC BY-SA 4.0", "url": "https://commons.wikimedia.org/wiki/File:..." }
 ```
 
-`build_data.py` looks up every item's Wikipedia article, keeps the first sentence of its intro and its main image
-with license and author, and checks that the intro mentions the item's year (or the year either side). It stops
-on missing articles, disambiguation pages, years missing a station, and duplicates. Wikipedia answers are cached
-in `data/.cache/`; `--refresh` asks again.
-
-### Adding or fixing items
-
-1. Edit `data/items.txt`. Kinds: `hit` (the year's No. 1 song, at most one a year), `radio`, `tv`, `film`, `car`,
-   `shelf`, `news`. Leave the article blank if it's the same as the text.
-2. `npm run build`. If an item fails the year check and you've confirmed it, add `year|Article title  # why` to
-   `data/checked.txt`.
-3. `npm test`, commit `data/items.txt` and `data/years.json`, push.
-
-### Images
-
-Pictures load from Wikimedia, not from this repo. Free-licensed ones are credited with author and license.
-Copyrighted ones (album covers, posters, logos) are the low-resolution copies Wikipedia keeps under fair use,
-shown small with a © note and a link to their file page, for reference and commentary. A card whose image fails
-to load shows as text.
+Free-licensed images name the author and license, as their licenses require. Copyrighted ones (album covers,
+posters, logos) are the low-resolution copies Wikipedia keeps under fair use, credited "© rights holder, low
+resolution"; they're shown small in a historical timeline, for reference.
 
 ## Tests
 
 ```bash
 npm install && npx playwright install chromium   # first time only
-npm test            # helpers, the built data (every year furnished, known prices), the build script
-npm run test:e2e    # the page: navigation, keys, URL, every year renders, phone width, error state
-npm run screenshot  # refresh preview.png
+npm test                 # data checks: every year 1950-2025 filled, known categories, no duplicates,
+                         # local images exist, Wikimedia images credited
+npm run test:e2e         # Playwright on desktop and a phone: years list, pin/unpin, filters, menu, flow view,
+                         # broken images hidden, every year opens, no sideways scrolling, axe accessibility scan
+npm run screenshot       # refreshes preview.png, used for link previews
 ```
+
+Browser tests block Wikimedia and Google Fonts so they don't depend on the network.
 
 ## Deploying
 
-Pushing to `main` runs the data tests and publishes through `.github/workflows/deploy.yml`, which stamps
-`v1.<commit count>` into the footer.
-
-## History
-
-Started in 2025 as a Cursor experiment ("Timeline Demo"); rebuilt in November 2026 with complete data for every
-year from 1950. The old version is in the git history.
+`.github/workflows/deploy.yml` runs both test suites on every push and pull request. Pushes to `main` that pass
+are published to GitHub Pages with `v1.<commit count>` shown next to the name in the corner.
