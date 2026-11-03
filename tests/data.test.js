@@ -55,3 +55,33 @@ test('each year has music, TV, film and news', () => {
     assert.ok(['World Events', 'Science', 'Space', 'Sports'].some((c) => cats.has(c)), `${y} has no news`);
   }
 });
+
+// Width and height from a PNG or JPEG header, without dependencies.
+function imageSize(buf) {
+  if (buf.readUInt32BE(0) === 0x89504e47) return [buf.readUInt32BE(16), buf.readUInt32BE(20)];
+  if (buf[0] === 0xff && buf[1] === 0xd8) {
+    let i = 2;
+    while (i < buf.length) {
+      const marker = buf[i + 1];
+      const len = buf.readUInt16BE(i + 2);
+      if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) {
+        return [buf.readUInt16BE(i + 7), buf.readUInt16BE(i + 5)];
+      }
+      i += 2 + len;
+    }
+  }
+  return null;
+}
+
+test('local images are real and no bigger than 0.1 megapixels (fair-use size)', () => {
+  const dir = path.join(root, 'images');
+  for (const year of fs.readdirSync(dir)) {
+    for (const name of fs.readdirSync(path.join(dir, year))) {
+      if (name.startsWith('.') || name.endsWith('.svg')) continue;
+      const file = path.join(dir, year, name);
+      const size = imageSize(fs.readFileSync(file));
+      assert.ok(size, `${year}/${name} isn't a PNG or JPEG`);
+      assert.ok(size[0] * size[1] <= 100000, `${year}/${name} is ${size[0]}x${size[1]}; shrink it (see README)`);
+    }
+  }
+});

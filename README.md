@@ -87,6 +87,10 @@ Wikimedia photos need a `credit`, shown under the image:
 "credit": { "text": "Alexander Migl · CC BY-SA 4.0", "url": "https://commons.wikimedia.org/wiki/File:..." }
 ```
 
+Images in `images/` are kept at 0.1 megapixels or less (about 316×316), the size Wikipedia uses for copyrighted
+images; a test enforces it. To shrink one on a Mac: `sips -Z 316 images/YYYY/file.jpg` (keeps the aspect ratio
+within 316×316).
+
 Free-licensed images name the author and license, as their licenses require. Copyrighted ones (album covers,
 posters, logos) are the low-resolution copies Wikipedia keeps under fair use, credited "© rights holder, low
 resolution"; they're shown small in a historical timeline, for reference.
