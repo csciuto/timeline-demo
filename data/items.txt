@@ -1,0 +1,941 @@
+# One item per line: year | kind | text | Wikipedia article (blank = same as text) | note (optional)
+# kinds: hit (the year's No. 1 song, Billboard year-end), radio, tv, film, car, shelf, news
+# Scope: an American room. "In the room that year": big that year, even if it came out a few months earlier.
+
+1950|hit|"Goodnight Irene" · Gordon Jenkins & The Weavers|Goodnight, Irene
+1950|radio|"Tennessee Waltz" · Patti Page|Tennessee Waltz
+1950|tv|What's My Line?
+1950|tv|Your Show of Shows
+1950|film|Cinderella|Cinderella (1950 film)
+1950|film|All About Eve
+1950|car|Nash Rambler||America's first successful compact car
+1950|shelf|Silly Putty
+1950|shelf|Diners Club card|Diners Club International|The first multipurpose charge card
+1950|news|The Korean War begins|Korean War
+1950|news|Peanuts debuts in the funny pages|Peanuts
+
+1951|hit|"Too Young" · Nat King Cole|Too Young (Sidney Lippman and Sylvia Dee song)
+1951|radio|"Rocket 88" · Jackie Brenston and his Delta Cats|Rocket 88|Often called the first rock and roll record
+1951|tv|I Love Lucy
+1951|film|Quo Vadis|Quo Vadis (1951 film)
+1951|film|A Streetcar Named Desire|A Streetcar Named Desire (1951 film)
+1951|car|Hudson Hornet
+1951|shelf|UNIVAC I||The first commercial computer made in the US. Not for your living room
+1951|news|The Rosenbergs are convicted of spying for the Soviets|Julius and Ethel Rosenberg
+1951|news|Presidents limited to two terms|Twenty-second Amendment to the United States Constitution
+
+1952|hit|"Blue Tango" · Leroy Anderson|Blue Tango
+1952|radio|"Jambalaya (On the Bayou)" · Hank Williams|Jambalaya (On the Bayou)
+1952|tv|Today|Today (American TV program)
+1952|film|The Greatest Show on Earth|The Greatest Show on Earth (film)
+1952|film|Singin' in the Rain
+1952|car|Willys Aero
+1952|shelf|Mr. Potato Head||The first toy advertised on television
+1952|news|Elizabeth II becomes queen|Elizabeth II
+1952|news|The first hydrogen bomb is tested|Ivy Mike
+
+1953|hit|"The Song from Moulin Rouge" · Percy Faith|The Song from Moulin Rouge
+1953|radio|"Your Cheatin' Heart" · Hank Williams|Your Cheatin' Heart
+1953|tv|Romper Room
+1953|film|Peter Pan|Peter Pan (1953 film)
+1953|film|From Here to Eternity
+1953|car|Chevrolet Corvette|Chevrolet Corvette (C1)|The first Corvette: 300 built, all Polo White
+1953|shelf|TV Guide||First issue: April 1953, 15 cents
+1953|shelf|TV dinner||Swanson's frozen turkey dinner in an aluminum tray
+1953|news|The double helix: the structure of DNA|Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid
+1953|news|Hillary and Tenzing reach the top of Everest|1953 British Mount Everest expedition
+
+1954|hit|"Little Things Mean a Lot" · Kitty Kallen|Little Things Mean a Lot
+1954|radio|"That's All Right" · Elvis Presley|That's All Right|Elvis's first single
+1954|tv|The Tonight Show|The Tonight Show Starring Steve Allen
+1954|tv|Lassie|Lassie (1954 TV series)
+1954|film|White Christmas|White Christmas (film)
+1954|film|Rear Window
+1954|car|Mercedes-Benz 300 SL||Gullwing doors
+1954|shelf|Regency TR-1 transistor radio|Regency TR-1|The first transistor radio you could buy, $49.95
+1954|news|Brown v. Board of Education|Brown v. Board of Education|The Supreme Court ends legal school segregation
+1954|news|The first polio vaccine trials|Polio vaccine
+
+1955|hit|"Cherry Pink and Apple Blossom White" · Pérez Prado|Cherry Pink (and Apple Blossom White)
+1955|radio|"Rock Around the Clock" · Bill Haley & His Comets|Rock Around the Clock
+1955|radio|"Maybellene" · Chuck Berry|Maybellene
+1955|tv|The Mickey Mouse Club
+1955|tv|Gunsmoke
+1955|film|Lady and the Tramp
+1955|film|Rebel Without a Cause
+1955|car|Ford Thunderbird|Ford Thunderbird (first generation)
+1955|shelf|Home microwave oven|Microwave oven|Tappan's first home model cost about $1,300
+1955|news|Disneyland opens|Disneyland
+1955|news|Rosa Parks and the Montgomery bus boycott|Montgomery bus boycott
+
+1956|hit|"Heartbreak Hotel" · Elvis Presley|Heartbreak Hotel
+1956|radio|"Hound Dog" · Elvis Presley|Hound Dog (song)
+1956|radio|"Blue Suede Shoes" · Carl Perkins|Blue Suede Shoes
+1956|tv|The Price Is Right|The Price Is Right (1956 American game show)
+1956|tv|As the World Turns
+1956|film|The Ten Commandments|The Ten Commandments (1956 film)
+1956|film|The King and I|The King and I (1956 film)
+1956|car|Continental Mark II
+1956|shelf|Play-Doh
+1956|shelf|Zenith Space Command remote|Remote control|The first practical TV remote, using ultrasound
+1956|news|The Interstate Highway System is approved|Federal-Aid Highway Act of 1956
+
+1957|hit|"All Shook Up" · Elvis Presley|All Shook Up
+1957|radio|"That'll Be the Day" · Buddy Holly and the Crickets|That'll Be the Day
+1957|radio|"Jailhouse Rock" · Elvis Presley|Jailhouse Rock (song)
+1957|tv|Leave It to Beaver
+1957|tv|American Bandstand||Goes national on ABC
+1957|film|The Bridge on the River Kwai
+1957|film|12 Angry Men|12 Angry Men (1957 film)
+1957|car|1957 Chevrolet Bel Air|Chevrolet Bel Air
+1957|shelf|Frisbee
+1957|news|Sputnik 1: the first satellite|Sputnik 1
+1957|news|The Little Rock Nine|Little Rock Nine
+
+1958|hit|"Volare" · Domenico Modugno|Nel blu, dipinto di blu
+1958|radio|"Johnny B. Goode" · Chuck Berry|Johnny B. Goode
+1958|tv|The Donna Reed Show
+1958|film|South Pacific|South Pacific (1958 film)
+1958|film|Vertigo|Vertigo (film)
+1958|car|Edsel
+1958|shelf|Hula hoop|Hula hoop|Wham-O sells 25 million in four months
+1958|shelf|Lego brick|Lego|The modern interlocking brick is patented
+1958|news|NASA is founded|NASA
+1958|news|Explorer 1, America's first satellite|Explorer 1
+
+1959|hit|"The Battle of New Orleans" · Johnny Horton|The Battle of New Orleans
+1959|radio|"What'd I Say" · Ray Charles|What'd I Say
+1959|radio|Kind of Blue · Miles Davis|Kind of Blue
+1959|tv|The Twilight Zone|The Twilight Zone (1959 TV series)
+1959|tv|Bonanza
+1959|film|Ben-Hur|Ben-Hur (1959 film)
+1959|film|Some Like It Hot
+1959|car|Chevrolet El Camino
+1959|shelf|Barbie
+1959|news|Alaska and Hawaii become states|Hawaii Admission Act
+1959|news|"The Day the Music Died"|The Day the Music Died|Buddy Holly, Ritchie Valens and the Big Bopper die in a plane crash
+
+1960|hit|"Theme from A Summer Place" · Percy Faith|Theme from A Summer Place
+1960|radio|"The Twist" · Chubby Checker|The Twist (song)
+1960|tv|The Andy Griffith Show
+1960|tv|The Flintstones
+1960|film|Psycho|Psycho (1960 film)
+1960|film|Spartacus|Spartacus (film)
+1960|car|Chevrolet Corvair
+1960|car|Ford Falcon|Ford Falcon (North America)
+1960|shelf|Etch A Sketch
+1960|news|Kennedy and Nixon debate on TV|Kennedy–Nixon debates
+1960|news|The birth control pill is approved|Combined oral contraceptive pill
+
+1961|hit|"Tossin' and Turnin'" · Bobby Lewis|Tossin' and Turnin'
+1961|radio|"Stand by Me" · Ben E. King|Stand by Me (Ben E. King song)
+1961|tv|The Dick Van Dyke Show
+1961|film|West Side Story|West Side Story (1961 film)
+1961|film|One Hundred and One Dalmatians
+1961|car|Jaguar E-Type
+1961|car|Lincoln Continental|Lincoln Continental|The slab-sided one with suicide doors
+1961|shelf|IBM Selectric typewriter||The golf-ball typewriter
+1961|news|Yuri Gagarin: the first person in space|Vostok 1
+1961|news|The Berlin Wall goes up|Berlin Wall
+
+1962|hit|"Stranger on the Shore" · Acker Bilk|Stranger on the Shore
+1962|radio|"Surfin' Safari" · The Beach Boys|Surfin' Safari (song)
+1962|tv|The Beverly Hillbillies
+1962|tv|The Jetsons
+1962|tv|The Tonight Show Starring Johnny Carson||Carson begins a 30-year run
+1962|film|Lawrence of Arabia|Lawrence of Arabia (film)
+1962|film|Dr. No|Dr. No (film)|The first James Bond film
+1962|car|Shelby Cobra|AC Cobra
+1962|shelf|Spacewar!||One of the first video games, on a room-sized computer at MIT
+1962|news|The Cuban Missile Crisis|Cuban Missile Crisis
+1962|news|John Glenn orbits the Earth|Mercury-Atlas 6
+
+1963|hit|"Sugar Shack" · Jimmy Gilmer and the Fireballs|Sugar Shack
+1963|radio|"Be My Baby" · The Ronettes|Be My Baby
+1963|radio|The Freewheelin' Bob Dylan
+1963|tv|General Hospital
+1963|film|Cleopatra|Cleopatra (1963 film)
+1963|film|The Great Escape|The Great Escape (film)
+1963|car|Corvette Sting Ray|Chevrolet Corvette (C2)
+1963|car|Studebaker Avanti
+1963|shelf|Push-button telephone||Touch-Tone dialing arrives
+1963|shelf|Easy-Bake Oven
+1963|news|"I Have a Dream": the March on Washington|March on Washington for Jobs and Freedom
+1963|news|President Kennedy is assassinated|Assassination of John F. Kennedy
+
+1964|hit|"I Want to Hold Your Hand" · The Beatles|I Want to Hold Your Hand
+1964|radio|"Where Did Our Love Go" · The Supremes|Where Did Our Love Go
+1964|tv|The Beatles on The Ed Sullivan Show|The Beatles on The Ed Sullivan Show|73 million viewers
+1964|tv|Bewitched
+1964|tv|Gilligan's Island
+1964|film|Mary Poppins|Mary Poppins (film)
+1964|film|Goldfinger|Goldfinger (film)
+1964|film|A Hard Day's Night|A Hard Day's Night (film)
+1964|car|Ford Mustang|Ford Mustang (first generation)|Introduced at the World's Fair in April as a "1964½"
+1964|car|Pontiac GTO
+1964|shelf|G.I. Joe
+1964|shelf|Pop-Tarts
+1964|news|The Civil Rights Act|Civil Rights Act of 1964
+
+1965|hit|"Wooly Bully" · Sam the Sham and the Pharaohs|Wooly Bully
+1965|radio|"(I Can't Get No) Satisfaction" · The Rolling Stones|(I Can't Get No) Satisfaction
+1965|radio|"Like a Rolling Stone" · Bob Dylan|Like a Rolling Stone
+1965|tv|I Dream of Jeannie
+1965|tv|Get Smart
+1965|film|The Sound of Music|The Sound of Music (film)
+1965|film|Doctor Zhivago|Doctor Zhivago (film)
+1965|car|Shelby Mustang GT350|Shelby Mustang
+1965|shelf|8-track tape|8-track cartridge
+1965|shelf|Super Ball
+1965|news|The Voting Rights Act|Voting Rights Act of 1965
+1965|news|Medicare and Medicaid are created|Social Security Amendments of 1965
+
+1966|hit|"The Ballad of the Green Berets" · SSgt. Barry Sadler|The Ballad of the Green Berets
+1966|radio|"Good Vibrations" · The Beach Boys|Good Vibrations
+1966|radio|Pet Sounds · The Beach Boys|Pet Sounds
+1966|tv|Star Trek|Star Trek: The Original Series
+1966|tv|Batman|Batman (TV series)
+1966|film|Who's Afraid of Virginia Woolf?|Who's Afraid of Virginia Woolf? (film)
+1966|film|The Good, the Bad and the Ugly
+1966|car|Oldsmobile Toronado
+1966|car|Dodge Charger|Dodge Charger (1966)
+1966|shelf|Twister|Twister (game)
+1966|news|Miranda rights|Miranda v. Arizona|"You have the right to remain silent"
+
+1967|hit|"To Sir with Love" · Lulu|To Sir with Love (song)
+1967|radio|Sgt. Pepper's Lonely Hearts Club Band · The Beatles|Sgt. Pepper's Lonely Hearts Club Band
+1967|radio|"Respect" · Aretha Franklin|Respect (song)
+1967|tv|The Carol Burnett Show
+1967|film|The Graduate
+1967|film|The Jungle Book|The Jungle Book (1967 film)
+1967|car|Chevrolet Camaro|Chevrolet Camaro (first generation)
+1967|shelf|Lite-Brite
+1967|news|The Summer of Love|Summer of Love
+1967|news|The first Super Bowl|Super Bowl I
+
+1968|hit|"Hey Jude" · The Beatles|Hey Jude
+1968|radio|The White Album · The Beatles|The Beatles (album)
+1968|tv|60 Minutes
+1968|tv|Rowan & Martin's Laugh-In
+1968|tv|Mister Rogers' Neighborhood
+1968|film|2001: A Space Odyssey
+1968|film|Planet of the Apes|Planet of the Apes (1968 film)
+1968|car|Plymouth Road Runner
+1968|shelf|Hot Wheels
+1968|shelf|The computer mouse is demonstrated|The Mother of All Demos
+1968|news|Martin Luther King Jr. is assassinated|Assassination of Martin Luther King Jr.
+1968|news|Apollo 8 orbits the Moon|Apollo 8|The "Earthrise" photo
+
+1969|hit|"Sugar, Sugar" · The Archies|Sugar, Sugar
+1969|radio|Abbey Road · The Beatles|Abbey Road
+1969|tv|Sesame Street
+1969|tv|The Brady Bunch
+1969|tv|Scooby-Doo, Where Are You!
+1969|film|Butch Cassidy and the Sundance Kid
+1969|film|Midnight Cowboy
+1969|film|Easy Rider
+1969|car|Corvette Stingray|Chevrolet Corvette (C3)|The "Stingray" name returns to the Corvette
+1969|car|Datsun 240Z|Nissan S30
+1969|shelf|Big Wheel|Big Wheel (tricycle)
+1969|news|Apollo 11: people walk on the Moon|Apollo 11
+1969|news|Woodstock
+1969|news|ARPANET sends its first message|ARPANET|The internet's ancestor
+
+1970|hit|"Bridge over Troubled Water" · Simon & Garfunkel|Bridge over Troubled Water (song)
+1970|radio|"ABC" · The Jackson 5|ABC (The Jackson 5 song)
+1970|radio|"Let It Be" · The Beatles|Let It Be (song)
+1970|tv|The Mary Tyler Moore Show
+1970|tv|Monday Night Football
+1970|film|Love Story|Love Story (1970 film)
+1970|film|Patton|Patton (film)
+1970|car|AMC Gremlin
+1970|car|Chevrolet Camaro|Chevrolet Camaro (second generation)
+1970|shelf|Nerf ball|Nerf
+1970|news|The first Earth Day|Earth Day
+1970|news|Kent State shootings|Kent State shootings
+
+1971|hit|"Joy to the World" · Three Dog Night|Joy to the World (Three Dog Night song)
+1971|radio|"Imagine" · John Lennon|Imagine (John Lennon song)
+1971|radio|What's Going On · Marvin Gaye|What's Going On (album)
+1971|tv|All in the Family
+1971|film|Fiddler on the Roof|Fiddler on the Roof (film)
+1971|film|Willy Wonka & the Chocolate Factory
+1971|film|The French Connection|The French Connection (film)
+1971|car|Ford Pinto
+1971|shelf|Uno|Uno (card game)
+1971|shelf|Intel 4004 microprocessor|Intel 4004|A computer on a chip
+1971|news|The voting age drops to 18|Twenty-sixth Amendment to the United States Constitution
+1971|news|Walt Disney World opens|Walt Disney World
+
+1972|hit|"The First Time Ever I Saw Your Face" · Roberta Flack|The First Time Ever I Saw Your Face
+1972|radio|"American Pie" · Don McLean|American Pie (song)
+1972|tv|M*A*S*H|M*A*S*H (TV series)
+1972|tv|The Price Is Right|The Price Is Right (American game show)|The Bob Barker version
+1972|film|The Godfather
+1972|film|The Poseidon Adventure|The Poseidon Adventure (1972 film)
+1972|car|Honda Civic|Honda Civic (first generation)
+1972|shelf|Pong
+1972|shelf|Magnavox Odyssey||The first home video game console
+1972|news|The Watergate break-in|Watergate scandal
+1972|news|Nixon visits China|1972 visit by Richard Nixon to China
+
+1973|hit|"Tie a Yellow Ribbon Round the Ole Oak Tree" · Tony Orlando and Dawn|Tie a Yellow Ribbon Round the Ole Oak Tree
+1973|radio|The Dark Side of the Moon · Pink Floyd|The Dark Side of the Moon
+1973|tv|Schoolhouse Rock!
+1973|tv|The Young and the Restless
+1973|film|The Exorcist
+1973|film|The Sting
+1973|film|American Graffiti
+1973|car|Pontiac Grand Am
+1973|shelf|The first handheld cell phone call|Motorola DynaTAC|A prototype; you can't buy one for ten years
+1973|news|Roe v. Wade
+1973|news|The oil embargo: lines at the gas station|1973 oil crisis
+
+1974|hit|"The Way We Were" · Barbra Streisand|The Way We Were (song)
+1974|radio|"Waterloo" · ABBA|Waterloo (ABBA song)
+1974|tv|Happy Days
+1974|tv|Little House on the Prairie|Little House on the Prairie (1974 TV series)
+1974|film|The Towering Inferno
+1974|film|Blazing Saddles
+1974|film|The Godfather Part II
+1974|car|Volkswagen Golf (Rabbit)|Volkswagen Golf Mk1
+1974|shelf|Dungeons & Dragons
+1974|shelf|The first barcode scan|Universal Product Code|A pack of Wrigley's gum in Troy, Ohio
+1974|news|Nixon resigns|Resignation of Richard Nixon
+1974|news|Hank Aaron hits home run 715|Hank Aaron
+
+1975|hit|"Love Will Keep Us Together" · Captain & Tennille|Love Will Keep Us Together
+1975|radio|"Bohemian Rhapsody" · Queen|Bohemian Rhapsody
+1975|radio|Born to Run · Bruce Springsteen|Born to Run
+1975|tv|Saturday Night Live
+1975|tv|Wheel of Fortune|Wheel of Fortune (American game show)
+1975|film|Jaws|Jaws (film)|The first summer blockbuster
+1975|film|One Flew Over the Cuckoo's Nest|One Flew Over the Cuckoo's Nest (film)
+1975|car|AMC Pacer
+1975|shelf|Pet Rock
+1975|shelf|Betamax
+1975|shelf|Altair 8800||The kit computer that started Microsoft
+1975|news|The fall of Saigon|Fall of Saigon
+
+1976|hit|"Silly Love Songs" · Wings|Silly Love Songs
+1976|radio|Hotel California · Eagles|Hotel California (album)
+1976|radio|"Dancing Queen" · ABBA|Dancing Queen
+1976|tv|Charlie's Angels
+1976|tv|Laverne & Shirley
+1976|film|Rocky
+1976|film|Taxi Driver
+1976|car|Honda Accord|Honda Accord
+1976|shelf|Apple I
+1976|shelf|VHS
+1976|news|America turns 200|United States Bicentennial
+
+1977|hit|"Tonight's the Night (Gonna Be Alright)" · Rod Stewart|Tonight's the Night (Gonna Be Alright)
+1977|radio|Rumours · Fleetwood Mac|Rumours (album)
+1977|radio|Saturday Night Fever soundtrack · Bee Gees and others|Saturday Night Fever (soundtrack)
+1977|tv|Roots|Roots (1977 miniseries)
+1977|tv|The Love Boat
+1977|film|Star Wars|Star Wars (film)
+1977|film|Close Encounters of the Third Kind
+1977|film|Smokey and the Bandit
+1977|car|Pontiac Trans Am|Pontiac Firebird (second generation)|The black-and-gold Smokey and the Bandit car
+1977|shelf|Atari 2600
+1977|shelf|Apple II
+1977|news|Elvis Presley dies|Death of Elvis Presley
+1977|news|New York City blackout|New York City blackout of 1977
+
+1978|hit|"Shadow Dancing" · Andy Gibb|Shadow Dancing (song)
+1978|radio|"Stayin' Alive" · Bee Gees|Stayin' Alive
+1978|radio|"Y.M.C.A." · Village People|Y.M.C.A. (song)
+1978|tv|Dallas|Dallas (1978 TV series)
+1978|tv|Taxi|Taxi (TV series)
+1978|film|Grease|Grease (film)
+1978|film|Superman|Superman (1978 film)
+1978|film|Halloween|Halloween (1978 film)
+1978|car|Mazda RX-7
+1978|shelf|Space Invaders
+1978|shelf|Speak & Spell|Speak & Spell (toy)
+1978|news|The first "test-tube baby"|Louise Brown
+1978|news|The Camp David Accords|Camp David Accords
+
+1979|hit|"My Sharona" · The Knack|My Sharona
+1979|radio|"Rapper's Delight" · The Sugarhill Gang|Rapper's Delight
+1979|radio|Off the Wall · Michael Jackson|Off the Wall
+1979|tv|The Dukes of Hazzard
+1979|tv|ESPN launches|ESPN
+1979|film|Alien|Alien (film)
+1979|film|Apocalypse Now
+1979|car|Ford Mustang (Fox body)|Ford Mustang (third generation)
+1979|shelf|Sony Walkman|Walkman
+1979|news|Three Mile Island|Three Mile Island accident
+1979|news|The Iran hostage crisis|Iran hostage crisis
+
+1980|hit|"Call Me" · Blondie|Call Me (Blondie song)
+1980|radio|"Another One Bites the Dust" · Queen|Another One Bites the Dust
+1980|radio|Back in Black · AC/DC|Back in Black
+1980|tv|CNN launches|CNN|The first 24-hour news channel
+1980|tv|"Who shot J.R.?"|Who shot J.R.?
+1980|film|The Empire Strikes Back
+1980|film|Airplane!
+1980|film|The Blues Brothers|The Blues Brothers (film)
+1980|car|Audi Quattro
+1980|shelf|Pac-Man
+1980|shelf|Rubik's Cube||The world release; invented in 1974
+1980|shelf|Post-it Note
+1980|news|The Miracle on Ice|Miracle on Ice
+1980|news|Mount St. Helens erupts|1980 eruption of Mount St. Helens
+
+1981|hit|"Bette Davis Eyes" · Kim Carnes|Bette Davis Eyes
+1981|radio|"Tainted Love" · Soft Cell|Tainted Love
+1981|tv|MTV launches|MTV|The first video: "Video Killed the Radio Star"
+1981|tv|Hill Street Blues
+1981|film|Raiders of the Lost Ark
+1981|film|On Golden Pond|On Golden Pond (1981 film)
+1981|car|DeLorean DMC-12
+1981|shelf|IBM PC|IBM Personal Computer
+1981|shelf|Donkey Kong|Donkey Kong (1981 video game)
+1981|news|The first Space Shuttle flight|STS-1
+1981|news|Sandra Day O'Connor joins the Supreme Court|Sandra Day O'Connor
+
+1982|hit|"Physical" · Olivia Newton-John|Physical (Olivia Newton-John song)
+1982|radio|Thriller · Michael Jackson|Thriller (album)
+1982|radio|"Eye of the Tiger" · Survivor|Eye of the Tiger
+1982|tv|Cheers
+1982|tv|Late Night with David Letterman
+1982|film|E.T. the Extra-Terrestrial
+1982|film|Tron
+1982|film|Blade Runner
+1982|car|Chevrolet Camaro|Chevrolet Camaro (third generation)
+1982|shelf|Commodore 64
+1982|shelf|Compact disc||The first CD player goes on sale in Japan
+1982|news|EPCOT opens|Epcot
+1982|news|The Vietnam Veterans Memorial|Vietnam Veterans Memorial
+
+1983|hit|"Every Breath You Take" · The Police|Every Breath You Take
+1983|radio|"Billie Jean" · Michael Jackson|Billie Jean
+1983|tv|The A-Team
+1983|tv|M*A*S*H finale|Goodbye, Farewell and Amen|The most-watched episode of American TV
+1983|film|Return of the Jedi
+1983|film|Flashdance
+1983|film|A Christmas Story
+1983|car|Chevrolet Corvette|Chevrolet Corvette (C4)
+1983|shelf|Cabbage Patch Kids||The holiday toy riots
+1983|shelf|Motorola DynaTAC 8000X|Motorola DynaTAC|The first cell phone for sale: $3,995
+1983|news|Sally Ride: first American woman in space|STS-7
+
+1984|hit|"When Doves Cry" · Prince|When Doves Cry
+1984|radio|Purple Rain · Prince|Purple Rain (album)
+1984|radio|Born in the U.S.A. · Bruce Springsteen|Born in the U.S.A.
+1984|radio|"Like a Virgin" · Madonna|Like a Virgin (song)
+1984|tv|The Cosby Show
+1984|tv|Miami Vice
+1984|tv|Jeopardy! with Alex Trebek|Jeopardy!
+1984|film|Ghostbusters
+1984|film|Beverly Hills Cop
+1984|film|The Terminator
+1984|car|The minivan: Dodge Caravan and Plymouth Voyager|Chrysler minivans (S)
+1984|shelf|Apple Macintosh|Macintosh 128K
+1984|shelf|Transformers
+1984|news|The Olympics in Los Angeles|1984 Summer Olympics
+
+1985|hit|"Careless Whisper" · Wham! featuring George Michael|Careless Whisper
+1985|radio|"We Are the World" · USA for Africa|We Are the World
+1985|tv|The Golden Girls
+1985|film|Back to the Future
+1985|film|The Goonies
+1985|film|The Breakfast Club
+1985|car|Ford Taurus|Ford Taurus (first generation)
+1985|shelf|Nintendo Entertainment System
+1985|shelf|Windows 1.0
+1985|news|Live Aid
+1985|news|New Coke|New Coke
+
+1986|hit|"That's What Friends Are For" · Dionne Warwick and Friends|That's What Friends Are For
+1986|radio|Graceland · Paul Simon|Graceland (album)
+1986|radio|Slippery When Wet · Bon Jovi|Slippery When Wet
+1986|tv|The Oprah Winfrey Show
+1986|film|Top Gun
+1986|film|Aliens|Aliens (film)
+1986|film|Ferris Bueller's Day Off
+1986|car|Acura Legend
+1986|shelf|The Legend of Zelda|The Legend of Zelda (video game)
+1986|shelf|Disposable camera
+1986|news|The Challenger disaster|Space Shuttle Challenger disaster
+1986|news|Chernobyl|Chernobyl disaster
+
+1987|hit|"Walk Like an Egyptian" · The Bangles|Walk Like an Egyptian
+1987|radio|The Joshua Tree · U2|The Joshua Tree
+1987|radio|Appetite for Destruction · Guns N' Roses|Appetite for Destruction
+1987|tv|Star Trek: The Next Generation
+1987|tv|The Simpsons shorts on The Tracey Ullman Show|The Simpsons shorts
+1987|film|Three Men and a Baby
+1987|film|Dirty Dancing
+1987|film|The Princess Bride|The Princess Bride (film)
+1987|car|Ferrari F40||On every bedroom wall
+1987|shelf|Final Fantasy|Final Fantasy (video game)
+1987|news|Black Monday: the stock market drops 22% in a day|Black Monday (1987)
+1987|news|"Tear down this wall!"|Tear down this wall!
+
+1988|hit|"Faith" · George Michael|Faith (George Michael song)
+1988|radio|"Sweet Child o' Mine" · Guns N' Roses|Sweet Child o' Mine
+1988|radio|Straight Outta Compton · N.W.A|Straight Outta Compton
+1988|tv|Roseanne|Roseanne (TV series)
+1988|tv|Murphy Brown
+1988|film|Rain Man
+1988|film|Who Framed Roger Rabbit
+1988|film|Die Hard
+1988|car|Ford Probe
+1988|shelf|Teenage Mutant Ninja Turtles toys|Teenage Mutant Ninja Turtles
+1988|news|Yellowstone burns|Yellowstone fires of 1988
+
+1989|hit|"Look Away" · Chicago|Look Away
+1989|radio|"Like a Prayer" · Madonna|Like a Prayer (song)
+1989|tv|Seinfeld
+1989|tv|The Simpsons
+1989|film|Batman|Batman (1989 film)
+1989|film|The Little Mermaid|The Little Mermaid (1989 film)
+1989|film|Indiana Jones and the Last Crusade
+1989|car|Mazda Miata|Mazda MX-5 (NA)
+1989|car|Lexus LS 400|Lexus LS (XF10)
+1989|shelf|Game Boy, with Tetris|Game Boy
+1989|news|The Berlin Wall falls|Fall of the Berlin Wall
+1989|news|The Exxon Valdez oil spill|Exxon Valdez oil spill
+
+1990|hit|"Hold On" · Wilson Phillips|Hold On (Wilson Phillips song)
+1990|radio|"Ice Ice Baby" · Vanilla Ice|Ice Ice Baby
+1990|radio|"Vogue" · Madonna|Vogue (Madonna song)
+1990|tv|The Fresh Prince of Bel-Air
+1990|tv|Twin Peaks
+1990|film|Home Alone
+1990|film|Ghost|Ghost (1990 film)
+1990|car|Ford Explorer|Ford Explorer
+1990|car|Acura NSX|Honda NSX (first generation)
+1990|shelf|Super Soaker
+1990|shelf|Photoshop 1.0|Adobe Photoshop
+1990|news|The Hubble Space Telescope launches|Hubble Space Telescope
+1990|news|Germany reunites|German reunification
+
+1991|hit|"(Everything I Do) I Do It for You" · Bryan Adams|(Everything I Do) I Do It for You
+1991|radio|"Smells Like Teen Spirit" · Nirvana|Smells Like Teen Spirit
+1991|tv|Home Improvement|Home Improvement (TV series)
+1991|film|Terminator 2: Judgment Day
+1991|film|Beauty and the Beast|Beauty and the Beast (1991 film)
+1991|film|The Silence of the Lambs|The Silence of the Lambs (film)
+1991|car|Saturn SL|Saturn S-Series
+1991|shelf|Super Nintendo|Super Nintendo Entertainment System
+1991|shelf|Sonic the Hedgehog|Sonic the Hedgehog (1991 video game)
+1991|news|The Gulf War|Gulf War
+1991|news|The Soviet Union dissolves|Dissolution of the Soviet Union
+
+1992|hit|"End of the Road" · Boyz II Men|End of the Road (Boyz II Men song)
+1992|radio|"Achy Breaky Heart" · Billy Ray Cyrus|Achy Breaky Heart
+1992|radio|"Jump" · Kris Kross|Jump (Kris Kross song)
+1992|tv|The Real World|The Real World (TV series)
+1992|film|Aladdin|Aladdin (1992 Disney film)
+1992|film|Wayne's World|Wayne's World (film)
+1992|car|Dodge Viper
+1992|shelf|Mortal Kombat|Mortal Kombat (1992 video game)
+1992|shelf|The first text message|SMS|"Merry Christmas"
+1992|news|The Los Angeles riots|1992 Los Angeles riots
+1992|news|Bill Clinton is elected|1992 United States presidential election
+
+1993|hit|"I Will Always Love You" · Whitney Houston|I Will Always Love You
+1993|radio|"Whoomp! (There It Is)" · Tag Team|Whoomp! (There It Is)
+1993|tv|The X-Files
+1993|tv|Mighty Morphin Power Rangers
+1993|film|Jurassic Park|Jurassic Park (film)
+1993|film|Mrs. Doubtfire
+1993|film|Groundhog Day|Groundhog Day (film)
+1993|car|Toyota Supra|Toyota Supra (A80)
+1993|shelf|Doom|Doom (1993 video game)
+1993|shelf|Mosaic web browser|Mosaic (web browser)
+1993|news|The World Trade Center bombing|1993 World Trade Center bombing
+
+1994|hit|"The Sign" · Ace of Base|The Sign (song)
+1994|radio|Dookie · Green Day|Dookie
+1994|radio|"I'll Make Love to You" · Boyz II Men|I'll Make Love to You
+1994|tv|Friends
+1994|tv|ER|ER (TV series)
+1994|film|The Lion King
+1994|film|Forrest Gump
+1994|film|Pulp Fiction
+1994|car|Ford Mustang|Ford Mustang (fourth generation)
+1994|shelf|PlayStation|PlayStation (console)|Japan in 1994, America in 1995
+1994|shelf|Amazon starts selling books|Amazon (company)
+1994|news|The O. J. Simpson chase and trial|O. J. Simpson murder case
+1994|news|Nelson Mandela is elected president|1994 South African general election
+
+1995|hit|"Gangsta's Paradise" · Coolio featuring L.V.|Gangsta's Paradise
+1995|radio|Jagged Little Pill · Alanis Morissette|Jagged Little Pill
+1995|tv|Xena: Warrior Princess
+1995|film|Toy Story
+1995|film|Apollo 13|Apollo 13 (film)
+1995|film|Clueless
+1995|car|BMW Z3||James Bond's car in GoldenEye
+1995|shelf|Windows 95
+1995|shelf|eBay
+1995|news|The Oklahoma City bombing|Oklahoma City bombing
+
+1996|hit|"Macarena (Bayside Boys Mix)" · Los del Río|Macarena (song)
+1996|radio|"Wannabe" · Spice Girls|Wannabe (song)
+1996|tv|Everybody Loves Raymond
+1996|tv|Fox News Channel launches|Fox News
+1996|film|Independence Day|Independence Day (1996 film)
+1996|film|Twister|Twister (1996 film)
+1996|film|Jerry Maguire
+1996|car|Porsche Boxster|Porsche Boxster (986)
+1996|shelf|Tamagotchi
+1996|shelf|Nintendo 64
+1996|shelf|Tickle Me Elmo
+1996|news|Dolly the sheep is cloned|Dolly (sheep)
+
+1997|hit|"Candle in the Wind 1997" · Elton John|Candle in the Wind 1997
+1997|radio|"MMMBop" · Hanson|MMMBop
+1997|radio|"Barbie Girl" · Aqua|Barbie Girl
+1997|tv|South Park
+1997|tv|Buffy the Vampire Slayer|Buffy the Vampire Slayer (TV series)
+1997|film|Titanic|Titanic (1997 film)
+1997|film|Men in Black|Men in Black (1997 film)
+1997|car|Toyota Prius|Toyota Prius (XW10)|Japan only, for now
+1997|shelf|DVD
+1997|shelf|Pokémon Red and Blue||Japan in 1996, America in 1998
+1997|news|Princess Diana dies|Death of Diana, Princess of Wales
+1997|news|Pathfinder lands on Mars|Mars Pathfinder
+
+1998|hit|"Too Close" · Next|Too Close (Next song)
+1998|radio|"...Baby One More Time" · Britney Spears|...Baby One More Time (song)
+1998|radio|"My Heart Will Go On" · Celine Dion|My Heart Will Go On
+1998|tv|Sex and the City
+1998|tv|That '70s Show
+1998|tv|Will & Grace
+1998|film|Saving Private Ryan
+1998|film|Armageddon|Armageddon (1998 film)
+1998|car|Volkswagen New Beetle
+1998|shelf|Furby
+1998|shelf|iMac G3
+1998|shelf|Google is founded|Google
+1998|news|McGwire and Sosa chase the home run record|1998 Major League Baseball home run record chase
+
+1999|hit|"Believe" · Cher|Believe (Cher song)
+1999|radio|"Livin' la Vida Loca" · Ricky Martin|Livin' la Vida Loca
+1999|radio|"Smooth" · Santana featuring Rob Thomas|Smooth (Santana song)
+1999|tv|The Sopranos
+1999|tv|SpongeBob SquarePants
+1999|tv|Who Wants to Be a Millionaire|Who Wants to Be a Millionaire (American game show)
+1999|film|Star Wars: Episode I – The Phantom Menace
+1999|film|The Matrix
+1999|film|The Sixth Sense
+1999|car|Honda Insight|Honda Insight|The first hybrid sold in America
+1999|shelf|Napster
+1999|shelf|TiVo
+1999|shelf|Dreamcast
+1999|news|Y2K: will the computers survive midnight?|Year 2000 problem
+
+2000|hit|"Breathe" · Faith Hill|Breathe (Faith Hill song)
+2000|radio|"Oops!... I Did It Again" · Britney Spears|Oops!... I Did It Again (song)
+2000|radio|The Marshall Mathers LP · Eminem|The Marshall Mathers LP
+2000|tv|Survivor|Survivor (American TV series)
+2000|tv|Gilmore Girls
+2000|film|How the Grinch Stole Christmas|How the Grinch Stole Christmas (2000 film)
+2000|film|Gladiator|Gladiator (2000 film)
+2000|car|Chrysler PT Cruiser
+2000|car|Toyota Prius arrives in America|Toyota Prius (XW10)
+2000|shelf|PlayStation 2
+2000|shelf|The Sims|The Sims (video game)
+2000|news|Bush v. Gore: the Florida recount|2000 United States presidential election
+
+2001|hit|"Hanging by a Moment" · Lifehouse|Hanging by a Moment
+2001|radio|"Fallin'" · Alicia Keys|Fallin' (Alicia Keys song)
+2001|tv|24|24 (TV series)
+2001|tv|The Amazing Race|The Amazing Race (American TV series)
+2001|film|Harry Potter and the Sorcerer's Stone|Harry Potter and the Philosopher's Stone (film)
+2001|film|The Lord of the Rings: The Fellowship of the Ring
+2001|film|Shrek
+2001|car|Mini Cooper|Mini Hatch (R50)
+2001|shelf|iPod|iPod Classic
+2001|shelf|Xbox|Xbox (console)
+2001|shelf|Wikipedia
+2001|news|September 11|September 11 attacks
+
+2002|hit|"How You Remind Me" · Nickelback|How You Remind Me
+2002|radio|"Lose Yourself" · Eminem|Lose Yourself
+2002|radio|"Complicated" · Avril Lavigne|Complicated (Avril Lavigne song)
+2002|tv|American Idol
+2002|tv|The Wire
+2002|film|Spider-Man|Spider-Man (2002 film)
+2002|film|The Lord of the Rings: The Two Towers
+2002|car|Hummer H2
+2002|shelf|Roomba
+2002|news|The euro goes into people's pockets|Euro|Euro coins and notes replace 12 currencies
+
+2003|hit|"In da Club" · 50 Cent|In da Club
+2003|radio|"Crazy in Love" · Beyoncé featuring Jay-Z|Crazy in Love
+2003|radio|"Hey Ya!" · Outkast|Hey Ya!
+2003|tv|Arrested Development
+2003|tv|The O.C.
+2003|film|Finding Nemo
+2003|film|The Lord of the Rings: The Return of the King
+2003|film|Elf|Elf (film)
+2003|car|Toyota Prius|Toyota Prius (XW20)|The hatchback that made hybrids normal
+2003|shelf|iTunes Store
+2003|shelf|Skype
+2003|news|The Iraq War begins|Iraq War
+2003|news|The Columbia disaster|Space Shuttle Columbia disaster
+
+2004|hit|"Yeah!" · Usher featuring Lil Jon and Ludacris|Yeah! (Usher song)
+2004|radio|"Mr. Brightside" · The Killers|Mr. Brightside
+2004|radio|"Since U Been Gone" · Kelly Clarkson|Since U Been Gone
+2004|tv|Lost|Lost (TV series)
+2004|tv|Desperate Housewives
+2004|film|Shrek 2
+2004|film|The Passion of the Christ
+2004|film|Mean Girls
+2004|car|Chrysler 300|Chrysler 300
+2004|shelf|Facebook
+2004|shelf|Motorola Razr
+2004|shelf|Nintendo DS
+2004|news|The Red Sox win the World Series|2004 World Series|Their first title since 1918
+2004|news|The Indian Ocean tsunami|2004 Indian Ocean earthquake and tsunami
+
+2005|hit|"We Belong Together" · Mariah Carey|We Belong Together
+2005|radio|"Gold Digger" · Kanye West featuring Jamie Foxx|Gold Digger (Kanye West song)
+2005|radio|"Hollaback Girl" · Gwen Stefani|Hollaback Girl
+2005|tv|The Office|The Office (American TV series)
+2005|tv|Grey's Anatomy
+2005|film|Star Wars: Episode III – Revenge of the Sith
+2005|film|The Chronicles of Narnia: The Lion, the Witch and the Wardrobe
+2005|car|Ford Mustang|Ford Mustang (fifth generation)
+2005|shelf|YouTube
+2005|shelf|Xbox 360
+2005|news|Hurricane Katrina
+
+2006|hit|"Bad Day" · Daniel Powter|Bad Day (Daniel Powter song)
+2006|radio|"Crazy" · Gnarls Barkley|Crazy (Gnarls Barkley song)
+2006|radio|"SexyBack" · Justin Timberlake|SexyBack
+2006|tv|30 Rock
+2006|tv|Dexter|Dexter (TV series)
+2006|film|Pirates of the Caribbean: Dead Man's Chest
+2006|film|Cars|Cars (film)
+2006|car|Toyota FJ Cruiser
+2006|shelf|Wii
+2006|shelf|Twitter
+2006|news|Pluto is no longer a planet|IAU definition of planet
+
+2007|hit|"Irreplaceable" · Beyoncé|Irreplaceable
+2007|radio|"Umbrella" · Rihanna featuring Jay-Z|Umbrella (song)
+2007|radio|"Crank That (Soulja Boy)" · Soulja Boy Tell 'Em|Crank That (Soulja Boy)
+2007|tv|Mad Men
+2007|tv|The Big Bang Theory
+2007|film|Spider-Man 3
+2007|film|Transformers|Transformers (film)
+2007|film|Ratatouille|Ratatouille (film)
+2007|car|Nissan GT-R
+2007|shelf|iPhone|iPhone (1st generation)
+2007|shelf|Amazon Kindle
+2007|news|The last Harry Potter book|Harry Potter and the Deathly Hallows|Midnight release parties
+
+2008|hit|"Low" · Flo Rida featuring T-Pain|Low (Flo Rida song)
+2008|radio|"I Kissed a Girl" · Katy Perry|I Kissed a Girl
+2008|radio|"Single Ladies (Put a Ring on It)" · Beyoncé|Single Ladies (Put a Ring on It)
+2008|tv|Breaking Bad
+2008|film|The Dark Knight|The Dark Knight (film)
+2008|film|Iron Man|Iron Man (2008 film)
+2008|car|Tesla Roadster|Tesla Roadster (first generation)
+2008|shelf|The App Store|App Store (Apple)
+2008|news|Barack Obama is elected|2008 United States presidential election
+2008|news|The financial crisis|2007–2008 financial crisis
+
+2009|hit|"Boom Boom Pow" · The Black Eyed Peas|Boom Boom Pow
+2009|radio|"Poker Face" · Lady Gaga|Poker Face (Lady Gaga song)
+2009|radio|"I Gotta Feeling" · The Black Eyed Peas|I Gotta Feeling
+2009|tv|Parks and Recreation
+2009|tv|Glee|Glee (TV series)
+2009|tv|Modern Family
+2009|film|Avatar|Avatar (2009 film)
+2009|film|Up|Up (2009 film)
+2009|car|Chevrolet Camaro|Chevrolet Camaro (fifth generation)
+2009|shelf|Minecraft
+2009|shelf|Bitcoin
+2009|news|The Miracle on the Hudson|US Airways Flight 1549
+
+2010|hit|"Tik Tok" · Kesha|Tik Tok (song)
+2010|radio|"Teenage Dream" · Katy Perry|Teenage Dream (Katy Perry song)
+2010|radio|"Baby" · Justin Bieber featuring Ludacris|Baby (Justin Bieber song)
+2010|tv|The Walking Dead|The Walking Dead (TV series)
+2010|film|Toy Story 3
+2010|film|Inception
+2010|car|Nissan Leaf
+2010|car|Chevrolet Volt
+2010|shelf|iPad|iPad (1st generation)
+2010|shelf|Instagram
+2010|news|The Deepwater Horizon oil spill|Deepwater Horizon oil spill
+
+2011|hit|"Rolling in the Deep" · Adele|Rolling in the Deep
+2011|radio|"Party Rock Anthem" · LMFAO|Party Rock Anthem
+2011|radio|"Someone like You" · Adele|Someone like You (Adele song)
+2011|tv|Game of Thrones
+2011|film|Harry Potter and the Deathly Hallows – Part 2
+2011|film|Bridesmaids|Bridesmaids (2011 film)
+2011|car|Fiat 500 returns to America|Fiat 500 (2007)
+2011|shelf|Siri
+2011|news|Osama bin Laden is killed|Killing of Osama bin Laden
+2011|news|The Fukushima disaster|Fukushima nuclear accident
+
+2012|hit|"Somebody That I Used to Know" · Gotye featuring Kimbra|Somebody That I Used to Know
+2012|radio|"Call Me Maybe" · Carly Rae Jepsen|Call Me Maybe
+2012|radio|"Gangnam Style" · Psy|Gangnam Style
+2012|tv|Girls|Girls (TV series)
+2012|film|The Avengers|The Avengers (2012 film)
+2012|film|The Hunger Games|The Hunger Games (film)
+2012|car|Tesla Model S
+2012|shelf|Candy Crush Saga
+2012|shelf|Raspberry Pi
+2012|news|Curiosity lands on Mars|Curiosity (rover)
+
+2013|hit|"Thrift Shop" · Macklemore & Ryan Lewis featuring Wanz|Thrift Shop
+2013|radio|"Get Lucky" · Daft Punk featuring Pharrell Williams|Get Lucky (Daft Punk song)
+2013|radio|"Royals" · Lorde|Royals (song)
+2013|tv|House of Cards|House of Cards (American TV series)
+2013|tv|Orange Is the New Black
+2013|film|Frozen|Frozen (2013 film)
+2013|film|The Hunger Games: Catching Fire
+2013|car|BMW i3|BMW i3 (hatchback)
+2013|shelf|PlayStation 4
+2013|news|The Boston Marathon bombing|Boston Marathon bombing
+
+2014|hit|"Happy" · Pharrell Williams|Happy (Pharrell Williams song)
+2014|radio|"Shake It Off" · Taylor Swift|Shake It Off
+2014|radio|"All About That Bass" · Meghan Trainor|All About That Bass
+2014|tv|True Detective
+2014|tv|Last Week Tonight with John Oliver
+2014|film|American Sniper
+2014|film|Guardians of the Galaxy|Guardians of the Galaxy (film)
+2014|car|Aluminum Ford F-150|Ford F-Series (thirteenth generation)
+2014|shelf|Amazon Echo
+2014|news|The Ice Bucket Challenge|Ice Bucket Challenge
+
+2015|hit|"Uptown Funk" · Mark Ronson featuring Bruno Mars|Uptown Funk
+2015|radio|"Hello" · Adele|Hello (Adele song)
+2015|radio|"Hotline Bling" · Drake|Hotline Bling
+2015|tv|Better Call Saul
+2015|film|Star Wars: The Force Awakens
+2015|film|Jurassic World
+2015|film|Inside Out|Inside Out (2015 film)
+2015|car|Tesla Model X
+2015|shelf|Apple Watch
+2015|news|Same-sex marriage nationwide|Obergefell v. Hodges
+2015|news|Hamilton opens on Broadway|Hamilton (musical)
+
+2016|hit|"Love Yourself" · Justin Bieber|Love Yourself
+2016|radio|"Closer" · The Chainsmokers featuring Halsey|Closer (The Chainsmokers song)
+2016|radio|Lemonade · Beyoncé|Lemonade (Beyoncé album)
+2016|tv|Stranger Things
+2016|tv|This Is Us
+2016|film|Rogue One
+2016|film|Finding Dory
+2016|film|Moana|Moana (2016 film)
+2016|car|Chevrolet Bolt
+2016|shelf|Pokémon Go
+2016|news|The Cubs win the World Series|2016 World Series|Their first title since 1908
+2016|news|Donald Trump is elected|2016 United States presidential election
+
+2017|hit|"Shape of You" · Ed Sheeran|Shape of You
+2017|radio|"Despacito" · Luis Fonsi and Daddy Yankee featuring Justin Bieber|Despacito
+2017|tv|The Handmaid's Tale|The Handmaid's Tale (TV series)
+2017|film|Star Wars: The Last Jedi
+2017|film|Get Out
+2017|film|Wonder Woman|Wonder Woman (2017 film)
+2017|car|Tesla Model 3
+2017|shelf|Nintendo Switch
+2017|shelf|Fidget spinner
+2017|news|The Great American Eclipse|Solar eclipse of August 21, 2017
+2017|news|#MeToo|MeToo movement
+
+2018|hit|"God's Plan" · Drake|God's Plan (song)
+2018|radio|"This Is America" · Childish Gambino|This Is America (song)
+2018|radio|"Shallow" · Lady Gaga and Bradley Cooper|Shallow (Lady Gaga and Bradley Cooper song)
+2018|tv|Succession|Succession (TV series)
+2018|tv|Killing Eve
+2018|film|Black Panther|Black Panther (film)
+2018|film|Avengers: Infinity War
+2018|car|Jeep Wrangler|Jeep Wrangler (JL)
+2018|shelf|Fortnite
+2018|news|The Thai cave rescue|Tham Luang cave rescue
+
+2019|hit|"Old Town Road" · Lil Nas X featuring Billy Ray Cyrus|Old Town Road
+2019|radio|"Bad Guy" · Billie Eilish|Bad Guy (Billie Eilish song)
+2019|tv|The Mandalorian
+2019|film|Avengers: Endgame
+2019|film|Frozen II
+2019|film|Parasite|Parasite (2019 film)
+2019|car|Mid-engine Corvette|Chevrolet Corvette (C8)
+2019|shelf|Disney+
+2019|news|The first picture of a black hole|Messier 87|The Event Horizon Telescope's image
+
+2020|hit|"Blinding Lights" · The Weeknd|Blinding Lights
+2020|radio|"Dynamite" · BTS|Dynamite (BTS song)
+2020|radio|"WAP" · Cardi B featuring Megan Thee Stallion|WAP (song)
+2020|tv|Tiger King
+2020|tv|Ted Lasso
+2020|film|Bad Boys for Life||The top film of a year when theaters closed
+2020|film|Soul|Soul (2020 film)
+2020|car|Ford Bronco returns|Ford Bronco (sixth generation)
+2020|shelf|PlayStation 5
+2020|shelf|Animal Crossing: New Horizons
+2020|news|The COVID-19 pandemic|COVID-19 pandemic
+
+2021|hit|"Levitating" · Dua Lipa|Levitating (song)
+2021|radio|"Drivers License" · Olivia Rodrigo|Drivers License (song)
+2021|tv|Squid Game
+2021|film|Spider-Man: No Way Home
+2021|film|Encanto
+2021|car|Ford Mustang Mach-E
+2021|car|Rivian R1T
+2021|shelf|Wordle
+2021|news|The January 6 Capitol attack|January 6 United States Capitol attack
+2021|news|COVID-19 vaccines roll out|COVID-19 vaccine
+
+2022|hit|"Heat Waves" · Glass Animals|Heat Waves (Glass Animals song)
+2022|radio|"As It Was" · Harry Styles|As It Was
+2022|radio|"Anti-Hero" · Taylor Swift|Anti-Hero (song)
+2022|tv|The Bear|The Bear (TV series)
+2022|tv|Wednesday|Wednesday (TV series)
+2022|film|Top Gun: Maverick
+2022|film|Avatar: The Way of Water
+2022|car|Ford F-150 Lightning
+2022|shelf|ChatGPT
+2022|news|Russia invades Ukraine|Russian invasion of Ukraine
+2022|news|The first James Webb telescope images|James Webb Space Telescope
+
+2023|hit|"Last Night" · Morgan Wallen|Last Night (Morgan Wallen song)
+2023|radio|"Flowers" · Miley Cyrus|Flowers (Miley Cyrus song)
+2023|radio|"Vampire" · Olivia Rodrigo|Vampire (Olivia Rodrigo song)
+2023|tv|The Last of Us|The Last of Us (TV series)
+2023|film|Barbie|Barbie (film)
+2023|film|Oppenheimer|Oppenheimer (film)
+2023|car|Tesla Cybertruck
+2023|shelf|The Legend of Zelda: Tears of the Kingdom
+2023|news|Wildfire smoke turns the sky orange|2023 Canadian wildfires
+2023|news|The Eras Tour|The Eras Tour
+
+2024|hit|"Lose Control" · Teddy Swims|Lose Control (Teddy Swims song)
+2024|radio|"Espresso" · Sabrina Carpenter|Espresso (Sabrina Carpenter song)
+2024|radio|"Not Like Us" · Kendrick Lamar|Not Like Us
+2024|tv|Shōgun|Shōgun (2024 TV series)
+2024|tv|Fallout|Fallout (American TV series)
+2024|film|Inside Out 2
+2024|film|Deadpool & Wolverine
+2024|film|Wicked|Wicked (2024 film)
+2024|car|Ford Mustang|Ford Mustang (seventh generation)
+2024|shelf|Apple Vision Pro
+2024|news|A total solar eclipse crosses America|Solar eclipse of April 8, 2024
+2024|news|Donald Trump is elected again|2024 United States presidential election
+
+2025|radio|"Luther" · Kendrick Lamar and SZA|Luther (song)
+2025|radio|"Ordinary" · Alex Warren|Ordinary (Alex Warren song)
+2025|tv|The Pitt
+2025|film|A Minecraft Movie
+2025|film|KPop Demon Hunters
+2025|film|Sinners|Sinners (2025 film)
+2025|car|Tesla Model Y, redesigned|Tesla Model Y
+2025|shelf|Nintendo Switch 2
+2025|news|The first American pope|Pope Leo XIV

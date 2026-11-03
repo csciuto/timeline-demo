@@ -1,65 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timeline</title>
-    <meta name="description" content="A retro-styled, filterable timeline of pop culture milestones. An early experiment with Cursor.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://corey.sciu.to/timeline-demo/">
-    <meta property="og:title" content="Timeline Demo">
-    <meta property="og:description" content="A retro-styled, filterable timeline of pop culture milestones. An early experiment with Cursor.">
-    <meta property="og:image" content="https://corey.sciu.to/timeline-demo/preview.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta name="twitter:card" content="summary_large_image">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Year Room</title>
+  <meta name="description" content="Walk into any year from 1950 to 2025: what's on the radio, on TV, at the movies, in the driveway, on the shelf and in the paper, and what things cost.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://corey.sciu.to/timeline-demo/">
+  <meta property="og:title" content="The Year Room">
+  <meta property="og:description" content="Walk into any year from 1950 to 2025 and see what's in the room.">
+  <meta property="og:image" content="https://corey.sciu.to/timeline-demo/preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Old+Standard+TT:wght@400;700&family=Pacifico&family=Righteous&family=Shrikhand&family=Monoton&family=Bungee&family=Exo+2:wght@600;800&family=Poppins:wght@600;700&family=Bricolage+Grotesque:opsz,wght@12..96,700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <div class="header">
-        <h1 class="header-title">Timeline-Demo</h1>
-        <button id="hamburger-btn" aria-label="Toggle Filters" aria-expanded="false">&#9776;</button>
-        <div id="filter-panel" class="filter-panel-hidden">
-           <div id="filter-container">
-                <!-- <h4>Filter by Category:</h4> -->
-                <!-- Checkboxes will be loaded here by JavaScript -->
-           </div>
-        </div>
+<body data-decade="1960">
+  <header class="bar">
+    <div class="bar-inner">
+      <div class="brand">
+        <span class="brand-name">The Year Room</span>
+        <span class="brand-tag">Walk into a year. See what's in the room.</span>
+      </div>
+      <nav class="nav" aria-label="Choose a year">
+        <button id="prev" class="step" aria-label="Previous year" title="Previous year (←)">‹</button>
+        <label class="year-field">
+          <span class="visually-hidden">Year</span>
+          <input id="year-input" type="number" inputmode="numeric" min="1950" max="2025" value="1969">
+        </label>
+        <button id="next" class="step" aria-label="Next year" title="Next year (→)">›</button>
+        <button id="random" class="pill">Surprise me</button>
+      </nav>
     </div>
-    <div class="container">
-        <div class="timeline-container">
-            <h2>Timeline</h2>
-            <ul class="timeline">
-                <!-- Years will be loaded here by JavaScript -->
-            </ul>
-        </div>
-        <div class="tiles-area">
-            <div class="tiles-container">
-                <h2 id="selected-year-title">Select a Year</h2>
-                <div class="tiles">
-                    <!-- Tiles for the selected year will be loaded here -->
-                </div>
-            </div>
-            <svg id="connector-svg" aria-hidden="true">
-                <polyline id="connector-line" fill="none" stroke="#bfb8a6" stroke-width="3"/>
-            </svg>
-        </div>
+    <div class="slider-row bar-inner">
+      <input id="year-slider" type="range" min="1950" max="2025" step="1" value="1969" aria-label="Year">
+      <div id="decades" class="decades"></div>
     </div>
+  </header>
 
-    <script src="script.js"></script>
+  <main id="room" class="room" aria-live="polite">
+    <section class="calendar" aria-label="The year">
+      <div class="calendar-year" id="big-year">1969</div>
+      <p class="calendar-line" id="year-line"></p>
+    </section>
 
-    <!-- Floating Credits -->
-    <div id="credits">
-        <span>Corey Sciuto</span>
-        <a href="https://github.com/csciuto" target="_blank" rel="noopener noreferrer" aria-label="Corey Sciuto's GitHub Profile">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="github-icon">
-                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-            </svg>
-        </a>
-    </div>
+    <section class="station st-radio" data-station="radio">
+      <h2 class="station-title">On the radio</h2>
+      <div class="cards"></div>
+    </section>
+    <section class="station st-tv" data-station="tv">
+      <h2 class="station-title">On TV</h2>
+      <div class="cards"></div>
+    </section>
+    <section class="station st-film" data-station="film">
+      <h2 class="station-title">At the movies</h2>
+      <div class="cards"></div>
+    </section>
+    <section class="station st-car" data-station="car">
+      <h2 class="station-title">In the driveway</h2>
+      <div class="cards"></div>
+    </section>
+    <section class="station st-shelf" data-station="shelf">
+      <h2 class="station-title">On the shelf</h2>
+      <div class="cards"></div>
+    </section>
+    <section class="station st-news" data-station="news">
+      <h2 class="station-title">In the paper</h2>
+      <div class="cards"></div>
+    </section>
+    <section class="station st-prices" data-station="prices">
+      <h2 class="station-title">What things cost</h2>
+      <table class="receipt"><tbody id="prices"></tbody></table>
+      <p class="receipt-note" id="prices-note"></p>
+    </section>
+  </main>
 
+  <p id="error" class="error" hidden></p>
+
+  <footer class="foot">
+    <p>
+      An American room: Billboard's year-end No. 1 songs, US television, films, cars and headlines, chosen for what
+      people had in front of them that year. Descriptions and pictures come from
+      <a href="https://en.wikipedia.org/">Wikipedia</a> and Wikimedia Commons; free images are credited under each one,
+      and copyrighted covers, posters and logos (marked ©) are shown small, for reference and commentary; their rights belong to their owners. Prices: USPS, US Department of Labor, and the
+      BLS consumer price index via <a href="https://fred.stlouisfed.org/series/CPIAUCNS">FRED</a>.
+    </p>
+    <p>
+      Keys: ← → change the year, R picks a random one.
+      <a href="https://github.com/csciuto/timeline-demo">Source on GitHub</a> ·
+      <span id="version" title="Version">dev</span>
+    </p>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
 </body>
-</html> 
+</html>

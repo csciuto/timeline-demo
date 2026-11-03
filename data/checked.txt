@@ -1,0 +1,26 @@
+# Items whose Wikipedia intro doesn't mention the year, checked by hand: year|article  # why
+1950|Silly Putty  # first marketed as a toy in 1950
+1953|TV Guide  # first national issue April 3, 1953
+1955|Cherry Pink (and Apple Blossom White)  # Pérez Prado's version was No. 1 for 10 weeks in 1955
+1957|American Bandstand  # went national on ABC in August 1957
+1957|Chevrolet Bel Air  # the 1957 model, the best-known Bel Air
+1957|Frisbee  # Wham-O's Pluto Platter renamed Frisbee in 1957
+1958|Lego  # the interlocking brick was patented in January 1958
+1961|Lincoln Continental  # fourth generation introduced for 1961
+1966|Twister (game)  # released 1966 (Carson and Gabor played it on TV that year)
+1970|Nerf  # the Nerf ball went on sale in 1970
+1973|DynaTAC  # Martin Cooper's first handheld call, April 3, 1973
+1974|Universal Product Code  # first scan June 26, 1974, Troy, Ohio
+1976|Honda Accord  # first generation launched 1976
+1977|Pontiac Firebird (second generation)  # the Smokey and the Bandit Trans Am, 1977
+1980|Post-it note  # nationwide launch 1980
+1984|Transformers  # the toy line launched in 1984
+1986|Disposable camera  # Fujifilm QuickSnap, 1986
+1990|Adobe Photoshop  # version 1.0 released February 1990
+1990|Ford Explorer  # first generation went on sale in 1990
+1993|Toyota Supra  # the fourth-generation (A80) Supra, 1993
+1999|Who Wants to Be a Millionaire (American game show)  # premiered August 1999
+2001|IPod Classic  # the first iPod, October 2001
+2003|Toyota Prius (XW20)  # second generation launched 2003
+2012|Raspberry Pi  # first model sold in February 2012
+1951|Julius and Ethel Rosenberg  # convicted March 29, 1951

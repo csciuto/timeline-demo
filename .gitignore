@@ -1,5 +1,5 @@
 node_modules/
 test-results/
 playwright-report/
+data/.cache/
 .DS_Store
-.fuse_hidden*

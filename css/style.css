@@ -1,0 +1,266 @@
+/* The Year Room. Layout: a sticky year bar over a "room" grid of stations
+   (radio, TV, movies, driveway, shelf, paper, receipt). Each decade restyles the
+   room through the tokens below; the newspaper and receipt keep their own look. */
+
+:root {
+  --bg: #f3efe6;
+  --wall: #e9e2d2;
+  --surface: #fffdf8;
+  --ink: #23201b;
+  --muted: #6b6459;
+  --accent: #c2462e;
+  --accent-ink: #ffffff;
+  --line: #d9d0bd;
+  --display: "Righteous", "Trebuchet MS", sans-serif;
+  --body: "Libre Franklin", "Helvetica Neue", Arial, sans-serif;
+  --paper-face: "Old Standard TT", Georgia, "Times New Roman", serif;
+  --radius: 10px;
+  --shadow: 0 1px 0 rgba(0, 0, 0, 0.04), 0 6px 18px rgba(60, 40, 10, 0.08);
+  --year-size: clamp(4.5rem, 14vw, 9rem);
+  --pattern: none;
+  color-scheme: light;
+}
+
+/* 1950s: atomic-age diner. Mint, cherry, chrome cream, a script face. */
+body[data-decade="1950"] {
+  --bg: #e4f2ea; --wall: #cfe8dc; --surface: #fffdf6; --ink: #1f2b2a; --muted: #5a6b66;
+  --accent: #d2334c; --line: #b9d9cb; --display: "Pacifico", "Brush Script MT", cursive; --radius: 18px;
+  --pattern: radial-gradient(circle at 20% 30%, rgba(210, 51, 76, 0.07) 0 3px, transparent 4px),
+             radial-gradient(circle at 70% 60%, rgba(31, 43, 42, 0.06) 0 2px, transparent 3px);
+}
+/* 1960s: mod. Tangerine and olive on warm white, rounded display. */
+body[data-decade="1960"] {
+  --bg: #fbf3e4; --wall: #f6e2bf; --surface: #fffaf0; --ink: #2a2116; --muted: #6e5f49;
+  --accent: #e0621b; --line: #ecd2a4; --display: "Righteous", "Trebuchet MS", sans-serif; --radius: 22px;
+}
+/* 1970s: wood paneling, harvest gold, rust; fat soft serif. */
+body[data-decade="1970"] {
+  --bg: #efe0c2; --wall: #d9b77a; --surface: #fbf1dc; --ink: #3a2412; --muted: #7a5a3a;
+  --accent: #b5521b; --line: #d8bb87; --display: "Shrikhand", "Cooper Black", Georgia, serif; --radius: 14px;
+  --pattern: repeating-linear-gradient(90deg, rgba(90, 50, 20, 0.05) 0 2px, transparent 2px 46px);
+}
+/* 1980s: neon on midnight. */
+body[data-decade="1980"] {
+  --bg: #14122b; --wall: #1e1b40; --surface: #221f49; --ink: #f2efff; --muted: #b3acd9;
+  --accent: #ff3fa4; --accent-ink: #14122b; --line: #3b3670; --display: "Monoton", "Impact", sans-serif;
+  --radius: 4px; --shadow: 0 0 0 1px rgba(255, 63, 164, 0.25), 0 8px 24px rgba(0, 0, 0, 0.4);
+  --pattern: linear-gradient(rgba(46, 230, 255, 0.06) 1px, transparent 1px),
+             linear-gradient(90deg, rgba(46, 230, 255, 0.06) 1px, transparent 1px);
+  color-scheme: dark;
+}
+/* 1990s: teal, purple and a chunky sign face. */
+body[data-decade="1990"] {
+  --bg: #e6f4f3; --wall: #bfe5e2; --surface: #ffffff; --ink: #1c1736; --muted: #5a5675;
+  --accent: #6a2bbf; --line: #a9d8d4; --display: "Bungee", "Impact", sans-serif; --radius: 6px;
+  --pattern: repeating-linear-gradient(135deg, rgba(106, 43, 191, 0.05) 0 8px, transparent 8px 28px);
+}
+/* 2000s: brushed silver and aqua gloss. */
+body[data-decade="2000"] {
+  --bg: #e9eef2; --wall: #d4dde5; --surface: #fbfdff; --ink: #18232e; --muted: #5b6a78;
+  --accent: #0a8fc2; --line: #c3cfda; --display: "Exo 2", "Verdana", sans-serif; --radius: 16px;
+  --shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 6px 16px rgba(20, 50, 80, 0.12);
+}
+/* 2010s: flat design. White, one bright color, geometric sans. */
+body[data-decade="2010"] {
+  --bg: #f6f7f9; --wall: #eceff3; --surface: #ffffff; --ink: #1d2330; --muted: #646d7c;
+  --accent: #1fa67a; --line: #e0e4ea; --display: "Poppins", "Helvetica Neue", sans-serif; --radius: 8px;
+  --shadow: 0 1px 2px rgba(20, 30, 50, 0.08);
+}
+/* 2020s: muted sage, oversized grotesque. */
+body[data-decade="2020"] {
+  --bg: #eef0ea; --wall: #dde2d6; --surface: #fbfcf8; --ink: #1e231c; --muted: #646b5e;
+  --accent: #4b5d3a; --line: #cfd5c6; --display: "Bricolage Grotesque", "Helvetica Neue", sans-serif;
+  --radius: 20px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-padding-top: 9rem; }
+body {
+  margin: 0;
+  background-color: var(--bg);
+  background-image: var(--pattern);
+  background-size: 120px 120px;
+  color: var(--ink);
+  font: 400 16px/1.5 var(--body);
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+a { color: inherit; }
+button { font: inherit; color: inherit; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+/* Year bar */
+.bar {
+  position: sticky; top: 0; z-index: 5;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+  padding-block: 10px 8px;
+}
+.bar-inner {
+  max-width: 1180px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.bar-inner:first-child { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 20px; }
+.brand { display: grid; }
+.brand-name { font-weight: 700; letter-spacing: 0.02em; }
+.brand-tag { font-size: 13px; color: var(--muted); }
+.nav { display: flex; align-items: center; gap: 8px; }
+.step {
+  width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface);
+  font-size: 24px; line-height: 1; cursor: pointer;
+}
+.step:disabled { opacity: 0.35; cursor: default; }
+.year-field input {
+  width: 5.2em; height: 40px; text-align: center; font: 700 20px var(--body); font-variant-numeric: tabular-nums;
+  border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink);
+}
+.pill {
+  height: 40px; padding: 0 16px; border-radius: 999px; border: 0; cursor: pointer;
+  background: var(--accent); color: var(--accent-ink); font-weight: 600;
+}
+.slider-row { display: grid; gap: 4px; margin-top: 8px; }
+#year-slider { width: 100%; accent-color: var(--accent); }
+.decades { display: grid; grid-template-columns: repeat(8, 1fr); }
+.decade {
+  background: none; border: 0; padding: 2px 0; cursor: pointer; font-size: 13px; color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.decade[aria-pressed="true"] { color: var(--ink); font-weight: 700; text-decoration: underline; text-underline-offset: 4px; }
+
+/* Room */
+.room {
+  max-width: 1180px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 24px 40px;
+  display: grid; gap: 20px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    "cal cal cal cal cal cal cal radio radio radio radio radio"
+    "tv tv tv tv tv tv tv radio radio radio radio radio"
+    "film film film film film film film film film film film film"
+    "car car car car car car car shelf shelf shelf shelf shelf"
+    "news news news news news news news news prices prices prices prices";
+}
+.calendar { grid-area: cal; align-self: center; }
+.st-radio { grid-area: radio; }
+.st-tv { grid-area: tv; }
+.st-film { grid-area: film; }
+.st-car { grid-area: car; }
+.st-shelf { grid-area: shelf; }
+.st-news { grid-area: news; }
+.st-prices { grid-area: prices; }
+
+.calendar-year {
+  font: 400 var(--year-size)/1 var(--display); color: var(--accent);
+  letter-spacing: -0.01em; font-variant-numeric: tabular-nums;
+}
+body[data-decade="1980"] .calendar-year { text-shadow: 0 0 18px rgba(255, 63, 164, 0.55); }
+.calendar-line { margin: 10px 0 0; font-size: 18px; max-width: 46ch; text-wrap: pretty; }
+
+.station {
+  background: var(--wall); border-radius: calc(var(--radius) + 6px); padding: 16px;
+  display: grid; gap: 12px; align-content: start; min-width: 0;
+}
+.station-title {
+  margin: 0; font: 400 22px/1.2 var(--display); color: var(--ink); letter-spacing: 0.01em;
+}
+body[data-decade="1980"] .station:not(.st-news):not(.st-prices) .station-title { font-size: 26px; color: #2ee6ff; }
+.cards { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+.st-film .cards { grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); }
+.st-radio .cards, .st-car .cards { grid-template-columns: 1fr; }
+
+.card {
+  background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow);
+  overflow: hidden; display: flex; flex-direction: column; min-width: 0;
+}
+.card-body { padding: 12px 14px 14px; display: grid; gap: 6px; }
+.card-title { margin: 0; font-size: 17px; line-height: 1.3; font-weight: 600; text-wrap: balance; overflow-wrap: anywhere; }
+.note { margin: 0; color: var(--muted); font-size: 14px; }
+.badge {
+  justify-self: start; font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+  background: var(--accent); color: var(--accent-ink); padding: 2px 8px; border-radius: 999px;
+}
+.pic { margin: 0; background: color-mix(in srgb, var(--ink) 6%, var(--surface)); display: grid; }
+.pic img { width: 100%; height: 170px; object-fit: cover; display: block; }
+.pic-ref img { object-fit: contain; padding: 8px; }
+.pic figcaption { font-size: 11px; line-height: 1.3; color: var(--muted); padding: 4px 10px 0; }
+.pic figcaption a { text-decoration: none; }
+.pic figcaption a:hover { text-decoration: underline; }
+.more summary { cursor: pointer; font-size: 13px; color: var(--muted); }
+.more p { margin: 6px 0; font-size: 14px; }
+.more a { font-size: 13px; }
+
+/* Radio: song cards side by side with a small square cover */
+.st-radio .card { flex-direction: row; align-items: stretch; }
+.st-radio .pic { width: 108px; flex: none; grid-template-rows: 1fr; }
+.st-radio .pic img { height: 108px; }
+.st-radio .pic figcaption { display: none; }
+.st-radio .card-title { font-size: 16px; }
+/* Movies: poster-shaped */
+.st-film .pic img { height: 230px; }
+/* Driveway: wide photo */
+.st-car .pic img { height: 220px; }
+.st-car .card { flex-direction: column; }
+/* TV: a rounded "screen" in older decades */
+.st-tv .pic { padding: 10px 10px 0; }
+.st-tv .pic img { border-radius: calc(var(--radius) * 1.6); border: 6px solid color-mix(in srgb, var(--ink) 80%, transparent); }
+body[data-decade="2000"] .st-tv .pic img,
+body[data-decade="2010"] .st-tv .pic img,
+body[data-decade="2020"] .st-tv .pic img { border-radius: 4px; border-width: 4px; }
+
+/* The newspaper keeps its own look in every decade */
+.st-news { background: #f4f0e6; color: #1b1a17; }
+body .st-news .station-title {
+  font: 700 28px/1 var(--paper-face); color: #1b1a17; border-bottom: 3px double #1b1a17; padding-bottom: 8px;
+  text-transform: uppercase; letter-spacing: 0.04em;
+}
+.st-news .cards { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.st-news .card { background: transparent; box-shadow: none; border-radius: 0; border-top: 1px solid #b9b2a2; color: #1b1a17; }
+.st-news .card-title { font: 700 21px/1.2 var(--paper-face); }
+.st-news .note, .st-news .more summary, .st-news .pic figcaption { color: #5a554b; }
+.st-news .pic { background: transparent; }
+.st-news .pic img { filter: grayscale(1) contrast(1.05); height: 150px; }
+.st-news .card-body { padding: 10px 0 0; }
+
+/* The receipt */
+.st-prices { background: #fbfaf6; color: #222; font-family: "Courier New", Courier, monospace; }
+body .st-prices .station-title { font: 700 18px/1.2 "Courier New", Courier, monospace; color: #222; text-transform: uppercase; letter-spacing: 0.08em; }
+.receipt { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.receipt th, .receipt td { padding: 8px 4px; border-bottom: 1px dashed #bbb; text-align: right; vertical-align: top; }
+.receipt th[scope="row"] { text-align: left; font-weight: 400; }
+.receipt td:nth-child(2) { font-weight: 700; font-size: 18px; }
+.receipt td:nth-child(3) { color: #666; }
+.receipt-head th { font-size: 12px; color: #666; font-weight: 400; }
+.receipt-note { margin: 0; font-size: 12px; color: #666; }
+
+.error { max-width: 60ch; margin: 40px auto; padding: 16px; background: #fde8e4; color: #6d1a0e; border-radius: 8px; }
+.foot {
+  max-width: 1180px; margin: 0 auto; color: var(--muted); font-size: 13px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 8px 32px; display: grid; gap: 8px;
+}
+.foot p { margin: 0; max-width: 90ch; }
+
+@media (max-width: 900px) {
+  .room {
+    grid-template-columns: 1fr;
+    grid-template-areas: "cal" "radio" "tv" "film" "car" "shelf" "news" "prices";
+  }
+}
+@media (max-width: 520px) {
+  .brand-tag { display: none; }
+  .st-film .cards { grid-template-columns: repeat(2, 1fr); }
+  .st-film .pic img { height: 190px; }
+  .station-title { font-size: 20px; }
+  .pill { padding: 0 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body { transition: none; }
+}
+
+/* TV images are mostly title cards and logos: show them whole */
+.st-tv .pic img { object-fit: contain; background: #111; }
