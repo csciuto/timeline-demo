@@ -113,3 +113,11 @@ test('no serious accessibility problems @desktop', async ({ page }) => {
   const serious = violations.filter((v) => ['serious', 'critical'].includes(v.impact));
   expect(serious.map((v) => `${v.id}: ${v.nodes.length}`)).toEqual([]);
 });
+
+test('footer shows a contact and the version', async ({ page }) => {
+  for (const path of ['/', '/flow.html']) {
+    await page.goto(path);
+    await expect(page.locator('#credits')).toContainText('corey.sciuto+timeline@gmail.com');
+    await expect(page.locator('.version').first()).toHaveText(/^(dev|v1\.\d+)$/);
+  }
+});
