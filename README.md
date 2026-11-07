@@ -1,5 +1,7 @@
 **Live:** [corey.sciu.to/timeline-demo](https://corey.sciu.to/timeline-demo/)
 
+Built with Cursor and [Claude Code](https://claude.com/claude-code).
+
 Timeline Demo
 
 This project is an interactive, filterable timeline displaying cultural milestones, styled with a retro theme. Primarily a project to explore the abilities of Cursor.
