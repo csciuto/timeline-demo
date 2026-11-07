@@ -1,19 +1,14 @@
-// JavaScript code will go here
 let timelineData = {}; // To store data from data.json
 let allCategories = new Set(); // To store all unique categories
 let currentSelectedYear = null; // To keep track of the currently displayed year
 let isMouseOverTimeline = false; // Track mouse over timeline area
 let isMouseOverTiles = false;    // Track mouse over tiles area
-let pinnedYear = null; // ADDED: Track the pinned year for desktop
+let pinnedYear = null; // the pinned year, if any
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('Timeline page loaded.');
     setupHamburgerMenu(); // Setup menu toggle
     setupInteractionListeners(); // Setup hover listeners
     loadTimelineData();
-
-    // COMMENT OUT Mobile outside click listener for now
-    // document.addEventListener('click', handleOutsideClickMobile);
 });
 
 function setupHamburgerMenu() {
@@ -75,7 +70,6 @@ async function loadTimelineData() {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         timelineData = await response.json();
-        console.log('Timeline data loaded:', timelineData);
         findAllCategories();
         buildTimeline();
         buildCategoryFilters();
@@ -99,7 +93,7 @@ function buildCategoryFilters() {
     const filterContainer = document.getElementById('filter-container');
     if (!filterContainer) return;
 
-    // --- Create Filter Controls --- 
+    // --- Create Filter Controls ---
     let controlsDiv = filterContainer.querySelector('.filter-controls');
     if (!controlsDiv) {
         controlsDiv = document.createElement('div');
@@ -121,17 +115,17 @@ function buildCategoryFilters() {
         controlsDiv.appendChild(selectNoneBtn);
 
         // Add controls before the checkboxes container/heading
-        filterContainer.prepend(controlsDiv); 
+        filterContainer.prepend(controlsDiv);
     }
 
-    // --- Create Checkboxes --- 
+    // --- Create Checkboxes ---
     let checkboxesDiv = filterContainer.querySelector('.filter-checkboxes');
     if (!checkboxesDiv) {
          checkboxesDiv = document.createElement('div');
          checkboxesDiv.className = 'filter-checkboxes';
          filterContainer.appendChild(checkboxesDiv);
     }
-    
+
     checkboxesDiv.innerHTML = '<h4>Filter by Category:</h4>'; // Clear existing checkboxes
     const categories = Array.from(allCategories).sort();
 
@@ -150,24 +144,23 @@ function buildCategoryFilters() {
     });
 }
 
-// ADDED: Function to handle selecting all categories
+// Function to handle selecting all categories
 function selectAllCategories() {
     const checkboxes = document.querySelectorAll('#filter-container .filter-checkboxes input[type="checkbox"]');
     checkboxes.forEach(cb => cb.checked = true);
     updateDisplayedTiles(); // Update display after changing filters
 }
 
-// ADDED: Function to handle selecting no categories
+// Function to handle selecting no categories
 function selectNoneCategories() {
     const checkboxes = document.querySelectorAll('#filter-container .filter-checkboxes input[type="checkbox"]');
     checkboxes.forEach(cb => cb.checked = false);
     updateDisplayedTiles(); // Update display after changing filters
 }
 
-// ADDED: Wrapper function to update tiles based on current year and filters
+// Wrapper function to update tiles based on current year and filters
 function updateDisplayedTiles() {
     if (currentSelectedYear) {
-        console.log("Filters changed, updating tiles for:", currentSelectedYear);
         displayTiles(currentSelectedYear);
     }
 }
@@ -176,14 +169,14 @@ function buildTimeline() {
     const timelineUl = document.querySelector('.timeline');
     if (!timelineUl) return;
     const years = Object.keys(timelineData).sort((a, b) => parseInt(a) - parseInt(b));
-    
+
     timelineUl.innerHTML = '';
     years.forEach(year => {
         const li = document.createElement('li');
         li.textContent = year;
         li.dataset.year = year;
         li.addEventListener('mouseover', handleYearHover);
-        li.addEventListener('click', handleYearClick); // UPDATED: Use unified click handler
+        li.addEventListener('click', handleYearClick);
         timelineUl.appendChild(li);
     });
 }
@@ -209,36 +202,28 @@ function handleMouseLeaveTiles() {
 }
 
 function checkAndHideTiles() {
-    // REMOVED: window.matchMedia check - Always check pinnedYear
-    if (pinnedYear !== null /* && window.matchMedia("(min-width: 769px)").matches */) {
+    if (pinnedYear !== null) {
         return; // Don't hide if a year is pinned
     }
     setTimeout(() => {
-        // Keep original logic, but maybe add a check for pinnedYear again just in case?
-        // Ensure pinnedYear check remains consistent
-        if (pinnedYear === null && !isMouseOverTimeline && !isMouseOverTiles) { 
-            console.log("Mouse outside, hiding tiles."); // Simplified log
+        if (pinnedYear === null && !isMouseOverTimeline && !isMouseOverTiles) {
             hideTilesAndDeselect();
         }
     }, 100);
 }
 
 function handleYearHover(event) {
-    // REMOVED: window.matchMedia check - Always check pinnedYear
-    if (pinnedYear !== null /* && window.matchMedia("(min-width: 769px)").matches */) {
+    if (pinnedYear !== null) {
         return; // Do nothing on hover if a year is pinned
     }
-    
-    // Original hover logic (assumed to be just showing tiles)
+
     const targetLi = event.target;
     if (targetLi && targetLi.tagName === 'LI') {
-        console.log("Hover detected, showing year", targetLi.dataset.year); // Simplified log
-        showTilesForYear(targetLi); 
+        showTilesForYear(targetLi);
     }
 }
 
 function hideTilesAndDeselect() {
-    console.log("Hiding tiles and deselecting year.");
     const tilesContainer = document.querySelector('.tiles-container');
     const svgLine = document.getElementById('connector-line');
     if (tilesContainer) {
@@ -297,7 +282,7 @@ function displayTiles(year) {
         const tileElement = document.createElement('div');
         tileElement.classList.add('tile');
 
-        // --- ADD Conditional Image --- 
+        // Image, if there is one
         if (tileInfo.photo) {
             const img = document.createElement('img');
             img.src = tileInfo.photo;
@@ -306,14 +291,12 @@ function displayTiles(year) {
             // Add alt text - use caption or a default
             img.alt = tileInfo.caption || `Image for ${tileInfo.year}`;
             // Optional: Add error handling for the image itself
-            img.onerror = function() { 
+            img.onerror = function() {
                 this.style.display='none'; // Hide img if it fails to load
                 console.warn(`Image failed to load: ${this.src}`);
             };
             tileElement.appendChild(img);
         }
-        // --- END Conditional Image ---
-
         const caption = document.createElement('div');
         caption.classList.add('caption');
         caption.textContent = tileInfo.caption || 'No caption';
@@ -343,7 +326,7 @@ function getCheckedCategories() {
     return Array.from(checkedBoxes).map(cb => cb.value);
 }
 
-// UNIFIED click handler - Use pinning logic for all sizes
+// Click a year to pin it; click it again to unpin
 function handleYearClick(event) {
     const selectedLi = event.target;
     if (!selectedLi || selectedLi.tagName !== 'LI') return;
@@ -351,44 +334,16 @@ function handleYearClick(event) {
     const tilesContainer = document.querySelector('.tiles-container');
     if (!tilesContainer) return;
 
-    // --- UNIFIED Pinning Logic --- 
-    // REMOVED: if (window.matchMedia("(min-width: 769px)").matches) { ... } else { ... }
     if (clickedYear === pinnedYear) {
         // Clicked the already pinned year: unpin it
-        console.log("Clicked pinned year, unpinning."); // Simplified log
         pinnedYear = null;
-        hideTilesAndDeselect(); // Hide tiles when unpinning 
+        hideTilesAndDeselect(); // Hide tiles when unpinning
     } else {
         // Clicked a new year: pin it
-        console.log("Clicked new year, pinning."); // Simplified log
         pinnedYear = clickedYear;
         showTilesForYear(selectedLi); // Show and mark as selected
     }
-    // --- END UNIFIED Pinning Logic --- 
 }
-
-// COMMENT OUT Mobile outside click handler function body for now
-/*
-function handleOutsideClickMobile(event) {
-    // Only act on mobile
-    // if (window.matchMedia("(min-width: 769px)").matches) {
-    //     return;
-    // }
-    
-    const timelineContainer = document.querySelector('.timeline-container');
-    const tilesContainer = document.querySelector('.tiles-container');
-
-    // If tiles are visible and click is outside timeline/tiles
-    if (currentSelectedYear && 
-        tilesContainer && tilesContainer.classList.contains('tiles-visible') &&
-        (!timelineContainer || !timelineContainer.contains(event.target)) && 
-        (!tilesContainer || !tilesContainer.contains(event.target))) 
-    {
-        console.log("Mobile: Clicked outside, hiding.");
-        hideTilesAndDeselect();
-    }
-}
-*/
 
 // Function to show/update tiles (used by both hover and click)
 function showTilesForYear(selectedLi) {
@@ -399,7 +354,6 @@ function showTilesForYear(selectedLi) {
     const tilesContainer = document.querySelector('.tiles-container');
     if (!container || !tilesContainer) return;
 
-    console.log(`Showing year: ${selectedYear}`);
 
     // Deselect others first
     document.querySelectorAll('.timeline li').forEach(li => {
@@ -417,15 +371,15 @@ function showTilesForYear(selectedLi) {
 
     // Delay positioning slightly to allow rendering after content update
     requestAnimationFrame(() => {
-        // --- Vertical Alignment (Using Transform) - REMOVE DESKTOP ONLY CHECK --- 
+        // Vertical alignment
         const containerRect = container.getBoundingClientRect();
         const liRect = selectedLi.getBoundingClientRect();
         const liMidpointY_viewport = liRect.top + (liRect.height / 2);
         const liMidpointY_container = liMidpointY_viewport - containerRect.top;
-        
+
         // Use the *actual* height after content is added
         const currentTilesHeight = tilesContainer.offsetHeight;
-        
+
         let targetTop = liMidpointY_container - (currentTilesHeight / 3);
         const marginTop = 20; // From CSS
         const headerHeight = 50; // From CSS .header
@@ -441,8 +395,6 @@ function showTilesForYear(selectedLi) {
         }
 
         tilesContainer.style.transform = `translateY(${targetTop.toFixed(1)}px)`;
-        // --- END Vertical Alignment --- 
-
         // Draw connector line AFTER positioning is set
         drawConnectorLine(selectedLi);
     });

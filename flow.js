@@ -3,13 +3,12 @@ let allFlowData = {}; // Store all data fetched from data.json
 let allFlowCategories = new Set(); // Store unique categories for filtering
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('Flow view page loaded.');
-    setupFlowAccordionFilter(); // NEW: Setup accordion toggle listener
+    setupFlowAccordionFilter(); // Setup accordion toggle listener
     setupFlowTextFilter();
     loadAndDisplayAllTiles();
 });
 
-// NEW: Setup accordion toggle listener
+// Setup accordion toggle listener
 function setupFlowAccordionFilter() {
     const toggleBtn = document.getElementById('toggle-filters-btn');
     const filterContainer = document.getElementById('flow-category-filters');
@@ -25,7 +24,7 @@ function setupFlowAccordionFilter() {
     }
 }
 
-// NEW: Setup listener for the text filter input
+// Setup listener for the text filter input
 function setupFlowTextFilter() {
     const textFilterInput = document.getElementById('flow-text-filter');
     if (textFilterInput) {
@@ -41,11 +40,10 @@ async function loadAndDisplayAllTiles() {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         allFlowData = await response.json(); // Store data globally
-        console.log('Timeline data loaded for flow view:', allFlowData);
 
-        findAllFlowCategories(); // NEW: Find categories
-        buildFlowCategoryFilters(); // NEW: Build filters in panel
-        redisplayFlowTiles(); // NEW: Initial display using filter logic
+        findAllFlowCategories(); // Find categories
+        buildFlowCategoryFilters(); // Build filters in panel
+        redisplayFlowTiles(); // Initial display using filter logic
 
     } catch (error) {
         console.error('Error loading timeline data for flow view:', error);
@@ -56,7 +54,7 @@ async function loadAndDisplayAllTiles() {
     }
 }
 
-// NEW: Find all unique categories (similar to main script)
+// Find all unique categories (similar to main script)
 function findAllFlowCategories() {
     allFlowCategories.clear();
     for (const year in allFlowData) {
@@ -68,14 +66,14 @@ function findAllFlowCategories() {
     }
 }
 
-// NEW: Build category filters in the main page container
+// Build category filters in the main page container
 function buildFlowCategoryFilters() {
     const filterContainer = document.getElementById('flow-category-filters');
     if (!filterContainer) return;
 
     filterContainer.innerHTML = ''; // Clear previous content ('Loading filters...')
 
-    // --- Create Filter Controls (All/None) --- 
+    // --- Create Filter Controls (All/None) ---
     const controlsDiv = document.createElement('div');
     controlsDiv.className = 'flow-controls'; // Use class defined in flow.css
 
@@ -91,7 +89,7 @@ function buildFlowCategoryFilters() {
     controlsDiv.appendChild(selectNoneBtn);
     filterContainer.appendChild(controlsDiv);
 
-    // --- Create Checkboxes --- 
+    // --- Create Checkboxes ---
     const checkboxesDiv = document.createElement('div');
     checkboxesDiv.className = 'flow-checkboxes';
     const categories = Array.from(allFlowCategories).sort();
@@ -112,61 +110,59 @@ function buildFlowCategoryFilters() {
     filterContainer.appendChild(checkboxesDiv);
 }
 
-// NEW: Helper to check all flow categories
+// Helper to check all flow categories
 function selectAllFlowCategories() {
     document.querySelectorAll('#flow-category-filters input[type="checkbox"]').forEach(cb => cb.checked = true);
     redisplayFlowTiles();
 }
 
-// NEW: Helper to uncheck all flow categories
+// Helper to uncheck all flow categories
 function selectNoneFlowCategories() {
     document.querySelectorAll('#flow-category-filters input[type="checkbox"]').forEach(cb => cb.checked = false);
     redisplayFlowTiles();
 }
 
-// NEW: Get currently checked categories from the main page container
+// Get currently checked categories from the main page container
 function getCheckedFlowCategories() {
     const checkedBoxes = document.querySelectorAll('#flow-category-filters input[type="checkbox"]:checked');
     return Array.from(checkedBoxes).map(cb => cb.value);
 }
 
-// MODIFIED: Function to clear and redisplay tiles based on filters (Category AND Text)
+// Function to clear and redisplay tiles based on filters (Category AND Text)
 function redisplayFlowTiles() {
     const flowContainer = document.getElementById('flow-tiles-container');
     const textFilterInput = document.getElementById('flow-text-filter');
     if (!flowContainer || !textFilterInput) return;
-    
+
     flowContainer.innerHTML = ''; // Clear existing tiles
     const checkedCategories = getCheckedFlowCategories();
     const searchText = textFilterInput.value.toLowerCase().trim(); // Get search text
 
-    console.log("Filtering flow view by Categories:", checkedCategories);
-    console.log("Filtering flow view by Text:", searchText);
 
     const years = Object.keys(allFlowData).sort((a, b) => parseInt(a) - parseInt(b));
     let tilesDisplayed = 0;
 
     years.forEach(year => {
         const events = allFlowData[year] || [];
-        
+
         // Apply BOTH filters
-        const filteredEvents = events.filter(tileInfo => { 
+        const filteredEvents = events.filter(tileInfo => {
             // Category check
             const categoryMatch = !tileInfo.category || checkedCategories.includes(tileInfo.category);
             if (!categoryMatch) return false; // Exit early if category doesn't match
-            
+
             // Text search check (only if search text exists)
             if (searchText) {
                 const captionMatch = tileInfo.caption?.toLowerCase().includes(searchText);
                 const tagsMatch = tileInfo.tags?.some(tag => tag.toLowerCase().includes(searchText));
                 // Must match caption OR tags if searching
-                if (!captionMatch && !tagsMatch) return false; 
+                if (!captionMatch && !tagsMatch) return false;
             }
-            
+
             // If we get here, all filters passed
-            return true; 
+            return true;
         });
-        
+
         filteredEvents.forEach(tileInfo => {
             const tileElement = createFlowTileElement(tileInfo);
             flowContainer.appendChild(tileElement);
@@ -196,7 +192,7 @@ function createFlowTileElement(tileInfo) {
         img.loading = 'lazy';
         img.referrerPolicy = 'no-referrer';
         img.alt = tileInfo.caption || `Image for ${tileInfo.year}`;
-        img.onerror = function() { 
+        img.onerror = function() {
             this.style.display='none'; // Hide broken img
             console.warn(`Image failed to load: ${this.src}`);
         };
