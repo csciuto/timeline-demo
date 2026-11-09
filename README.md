@@ -1,5 +1,7 @@
 **Live:** [corey.sciu.to/timeline-demo](https://corey.sciu.to/timeline-demo/)
 
+How it's built: [ARCHITECTURE.md](ARCHITECTURE.md).
+
 Built with Cursor and [Claude Code](https://claude.com/claude-code).
 
 Timeline Demo
