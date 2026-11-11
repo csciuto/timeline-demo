@@ -75,12 +75,12 @@ Then navigate to the provided local address (e.g., `http://localhost:8000`).
 
 ## What's in the data
 
-Every year from 1950 to 2025, about a dozen items each (984 in all): the year's Billboard No. 1 song and other big
+Every year from 1950 to 2025, about a dozen items each (1,012 in all): the year's Billboard No. 1 song and other big
 music, TV, films, new cars, toys and gadgets, and the news. It's an American timeline of what people had in front
 of them that year, so a car whose model year went on sale the previous fall counts.
 
-Categories in use: Music, Television, Film, Automobiles, Toys & Gadgets, World Events, Tech, Gaming, Electronics,
-Space, Sports, Science, Culture, Home Appliances. Adding a new one means adding it to `tests/data.test.js` too.
+Categories in use: Music, Television, Film, Automobiles, Toys & Gadgets, World Events, Tech, Gaming,
+Science & Space, Sports. Each has at least 15 items (a test checks), so every filter is worth having. Adding a new one means adding it to `tests/data.test.js` too.
 
 ## Images and credits
 

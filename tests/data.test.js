@@ -7,7 +7,7 @@ const path = require('node:path');
 const root = path.join(__dirname, '..');
 const data = JSON.parse(fs.readFileSync(path.join(root, 'data.json'), 'utf8'));
 const CATEGORIES = new Set(['Music', 'Television', 'Film', 'Automobiles', 'Toys & Gadgets', 'World Events', 'Tech',
-  'Gaming', 'Electronics', 'Space', 'Sports', 'Science', 'Culture', 'Home Appliances']);
+  'Gaming', 'Science & Space', 'Sports']);
 const all = Object.entries(data).flatMap(([y, items]) => items.map((i) => ({ y, ...i })));
 
 test('every year from 1950 to 2025 has at least five items', () => {
@@ -52,7 +52,7 @@ test('each year has music, TV, film and news', () => {
   for (let y = 1950; y <= 2025; y++) {
     const cats = new Set((data[y] || []).map((i) => i.category));
     for (const c of ['Music', 'Television', 'Film']) assert.ok(cats.has(c), `${y} has no ${c}`);
-    assert.ok(['World Events', 'Science', 'Space', 'Sports'].some((c) => cats.has(c)), `${y} has no news`);
+    assert.ok(['World Events', 'Science & Space', 'Sports'].some((c) => cats.has(c)), `${y} has no news`);
   }
 });
 
@@ -83,5 +83,19 @@ test('local images are real and no bigger than 0.1 megapixels (fair-use size)', 
       assert.ok(size, `${year}/${name} isn't a PNG or JPEG`);
       assert.ok(size[0] * size[1] <= 100000, `${year}/${name} is ${size[0]}x${size[1]}; shrink it (see README)`);
     }
+  }
+});
+
+test('every category is big enough to be worth a filter, and none is a placeholder', () => {
+  const count = {};
+  for (const i of all) count[i.category] = (count[i.category] || 0) + 1;
+  for (const c of CATEGORIES) assert.ok(count[c] >= 15, `${c} has only ${count[c] || 0} items`);
+  for (const i of all) assert.doesNotMatch(i.caption, /^(Continued|Potential) /, `${i.y}: not an event: ${i.caption}`);
+});
+
+test('sports run through the whole timeline, not just recent Olympics', () => {
+  const years = all.filter((i) => i.category === 'Sports').map((i) => +i.y);
+  for (let decade = 1950; decade <= 2020; decade += 10) {
+    assert.ok(years.filter((y) => y >= decade && y < decade + 10).length >= 3, `${decade}s have fewer than three sports items`);
   }
 });
