@@ -7,7 +7,7 @@ Follows the app standards in [csciuto/app-template STANDARDS.md](https://github.
 Commit and push freely once tests pass.
 
 - Local images stay ≤0.1 megapixels (fair-use size; tests enforce it).
-- Scope: American, 1950-2025, "what was in the room that year". Wikimedia photos need `credit {text, url}`.
+- Scope: American, 1950-2025, "what was in the room that year". Photos are local files (never hotlinked; `tools/localize_images.py` copies one from a URL); those from Wikimedia keep `credit {text, url}`.
 - Tests: `npm test` (node --test tests/*.test.js, data checks) and `npm run test:e2e` (Playwright, desktop + Pixel 7,
-  axe scan; Wikimedia and fonts blocked). CI runs both before deploying. Node needs PATH=/opt/homebrew/bin.
+  axe scan; fonts blocked). CI runs both before deploying. Node needs PATH=/opt/homebrew/bin.
 - Version: deploy stamps `>dev<` in the `.version` span of index.html and flow.html.

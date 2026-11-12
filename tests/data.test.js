@@ -36,15 +36,13 @@ test('no duplicate captions within a year', () => {
   }
 });
 
-test('photos exist locally or come from Wikimedia with a credit', () => {
+test('photos are local files, and credits link to their source', () => {
   for (const i of all) {
-    if (!i.photo) continue;
-    if (i.photo.startsWith('images/')) {
+    if (i.photo) {
+      assert.match(i.photo, /^images\//, `${i.y}: photo isn't a local file: ${i.photo}`);
       assert.ok(fs.existsSync(path.join(root, i.photo)), `${i.y}: missing file ${i.photo}`);
-    } else {
-      assert.match(i.photo, /^https:\/\/(upload|thumb)\.wikimedia\.org\//, `${i.y}: ${i.photo}`);
-      assert.ok(i.credit && i.credit.text && /^https:\/\//.test(i.credit.url), `${i.y}: no credit for ${i.photo}`);
     }
+    if (i.credit) assert.ok(i.credit.text && /^https:\/\//.test(i.credit.url), `${i.y}: bad credit (${i.caption})`);
   }
 });
 

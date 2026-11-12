@@ -1,9 +1,9 @@
 const { test, expect } = require('@playwright/test');
 const AxeBuilder = require('@axe-core/playwright').default;
 
-// Tests shouldn't depend on Wikimedia or Google Fonts being reachable.
+// Tests shouldn't depend on Google Fonts being reachable.
 test.beforeEach(async ({ page }) => {
-  await page.route(/wikimedia\.org|fonts\.(googleapis|gstatic)\.com/, (r) => r.abort());
+  await page.route(/fonts\.(googleapis|gstatic)\.com/, (r) => r.abort());
 });
 
 function trackErrors(page) {
@@ -72,10 +72,11 @@ test('the filter panel closes when you click elsewhere', async ({ page }) => {
 });
 
 test('images that fail to load are hidden, and credits link to the source', async ({ page }) => {
+  await page.route(/\/images\/1969\//, (r) => r.abort());
   await page.goto('/');
   await pickYear(page, 1969);
-  const img = page.locator('.tiles .tile img[src*="wikimedia"]').first();
-  await expect(img).toBeHidden();  // blocked in tests, so it must not show as broken
+  const img = page.locator('.tiles .tile img[src^="images/1969/"]').first();
+  await expect(img).toBeHidden();  // must not show as broken
   const credit = page.locator('.tiles .tile .credit').first();
   await expect(credit).toHaveAttribute('href', /^https:\/\//);
 });

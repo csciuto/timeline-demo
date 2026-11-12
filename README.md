@@ -28,8 +28,8 @@ To add new items to the timeline:
 4.  Each object *must* have a `year` (number) and `category` (string).
 5.  Include a `caption` (string) to describe the event.
 6.  Include a `photo` (string) which can be:
-    *   A **web URL** (e.g., `"https://upload.wikimedia.org/wikipedia/en/0/05/MarioKart64BoxArt.jpg"`). The `download_images.py` script can fetch these.
-    *   A **local path** relative to the project root (e.g., `"images/1996/game_mk64.jpg"`). You'll need to place the image file there manually *before* loading the page.
+    *   A **local path** relative to the project root (e.g., `"images/1996/game_mk64.jpg"`). Every photo is a file in this repo; a test fails on a web URL.
+    *   To add one from the web, put its URL in `photo` and run `python3 tools/localize_images.py` (needs Pillow): it downloads the image, shrinks it to the size cap, saves it under `images/<year>/` and rewrites `photo` to the local path.
 
 **Example Entry in `data.json`:**
 
@@ -39,7 +39,7 @@ To add new items to the timeline:
       "year": 1996,
       "category": "game",
       "caption": "Mario Kart 64 released (Japan)",
-      "photo": "https://upload.wikimedia.org/wikipedia/en/0/05/MarioKart64BoxArt.jpg"
+      "photo": "images/1996/MarioKart64BoxArt.jpg"
     },
     {
       "year": 1996,
@@ -55,14 +55,11 @@ You can have multiple items for the same year, and multiple items with the same 
 
 ## Scripts
 
-### `download_images.py`
+### `tools/localize_images.py`
 
-*   **Purpose:** Reads `data.json`, finds items with web URLs in the `photo` field, downloads the images, and saves them locally into the `images/YYYY/` directory structure (where `YYYY` is the year). It then **updates** `data.json` to replace the original web URLs with the new local file paths.
-*   **Usage:**
-    1.  Make sure you have Python installed.
-    2.  Install the necessary library: `pip install requests`
-    3.  Run the script from the project's root directory: `python download_images.py`
-*   **Note:** The script automatically decodes URL-encoded characters (like `%28` for `(`) in filenames to prevent issues with file serving. It will skip downloading files that already exist locally or entries that already use a local `images/...` path.
+*   **Purpose:** Finds items in `data.json` whose `photo` is a web URL, downloads each image, shrinks it to 0.1 megapixels or less, saves it in `images/YYYY/` and rewrites `photo` to the local path. `credit` is kept.
+*   **Usage:** `pip install pillow`, then from the project root: `python3 tools/localize_images.py` (`--dry-run` lists the URLs without fetching).
+*   **Note:** A photo that can't be fetched is left as a URL and listed at the end; `npm test` fails until it's fixed or removed. The older `download_images.py` and `fixed_dl_images.sh` don't shrink what they fetch.
 
 ## Running Locally
 
@@ -84,8 +81,8 @@ Science & Space, Sports. Each has at least 15 items (a test checks), so every fi
 
 ## Images and credits
 
-`photo` is either a file under `images/` or a Wikimedia image URL (loaded from Wikimedia, not copied here).
-Wikimedia photos need a `credit`, shown under the image:
+`photo` is a file under `images/`; nothing is loaded from another site. Photos copied from Wikimedia keep a
+`credit`, shown under the image and linking to the file's page there:
 
 ```json
 "credit": { "text": "Alexander Migl · CC BY-SA 4.0", "url": "https://commons.wikimedia.org/wiki/File:..." }
@@ -104,13 +101,13 @@ resolution"; they're shown small in a historical timeline, for reference.
 ```bash
 npm install && npx playwright install chromium   # first time only
 npm test                 # data checks: every year 1950-2025 filled, known categories, no duplicates,
-                         # local images exist, Wikimedia images credited
+                         # every photo is a local file, credits link to a source
 npm run test:e2e         # Playwright on desktop and a phone: years list, pin/unpin, filters, menu, flow view,
                          # broken images hidden, every year opens, no sideways scrolling, axe accessibility scan
 npm run screenshot       # refreshes preview.png, used for link previews
 ```
 
-Browser tests block Wikimedia and Google Fonts so they don't depend on the network.
+Browser tests block Google Fonts so they don't depend on the network.
 
 ## Deploying
 
