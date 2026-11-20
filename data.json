@@ -4399,16 +4399,6 @@
     },
     {
       "year": 1982,
-      "category": "World Events",
-      "caption": "The Vietnam Veterans Memorial",
-      "photo": "images/1982/Vietnam_Veterans_Memorial_reflection_in_low_light.jpg",
-      "credit": {
-        "text": "National Park Service · CC BY 2.0",
-        "url": "https://commons.wikimedia.org/wiki/File:Vietnam_Veterans_Memorial_reflection_in_low_light.jpg"
-      }
-    },
-    {
-      "year": 1982,
       "category": "Art",
       "caption": "Vietnam Veterans Memorial (Maya Lin)",
       "photo": "images/1982/Vietnam_Veterans_Memorial_reflection.jpg",
@@ -5391,23 +5381,6 @@
       "credit": {
         "text": "© rights holder, low resolution",
         "url": "https://en.wikipedia.org/wiki/File:Batman_(1989)_theatrical_poster.jpg"
-      }
-    },
-    {
-      "year": 1989,
-      "category": "World Events",
-      "caption": "Berlin Wall falls",
-      "photo": "images/1989/West_and_East_Germans_at_the_Brandenburg_Gate_in_1989-2.jpg",
-      "tags": [
-        "germany",
-        "cold war",
-        "politics",
-        "history",
-        "reunification"
-      ],
-      "credit": {
-        "text": "Lear 21 · CC BY-SA 3.0",
-        "url": "https://commons.wikimedia.org/wiki/File:West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg"
       }
     },
     {
@@ -7498,23 +7471,6 @@
     },
     {
       "year": 2001,
-      "category": "Film",
-      "caption": "Lord of the Rings: Fellowship of the Ring released",
-      "photo": "images/2001/Lord_Rings_Fellowship_Ring-2.jpg",
-      "tags": [
-        "fantasy",
-        "movie",
-        "tolkien",
-        "peter jackson",
-        "epic"
-      ],
-      "credit": {
-        "text": "© rights holder, low resolution",
-        "url": "https://en.wikipedia.org/wiki/File:Lord_Rings_Fellowship_Ring.jpg"
-      }
-    },
-    {
-      "year": 2001,
       "category": "Music",
       "caption": "\"Hanging by a Moment\" by Lifehouse is the year's No. 1 song",
       "photo": "images/2001/Lifehousehangingbyamoment.jpg",
@@ -8005,23 +7961,6 @@
     },
     {
       "year": 2004,
-      "category": "World Events",
-      "caption": "Indian Ocean earthquake/tsunami",
-      "photo": "images/2004/US_Navy_050102-N-9593M-040_A_village_near_the_coast_of_Sumatra_lays_in_ruin_afte-2.jpg",
-      "tags": [
-        "disaster",
-        "natural disaster",
-        "tsunami",
-        "earthquake",
-        "asia"
-      ],
-      "credit": {
-        "text": "U.S. Navy photo by Photographer's Mate 2nd Class Philip A. McDaniel · Public domain",
-        "url": "https://commons.wikimedia.org/wiki/File:US_Navy_050102-N-9593M-040_A_village_near_the_coast_of_Sumatra_lays_in_ruin_after_the_Tsunami_that_struck_South_East_Asia.jpg"
-      }
-    },
-    {
-      "year": 2004,
       "category": "Science & Space",
       "caption": "Mars Exploration Rovers (Spirit/Opportunity) land",
       "photo": "images/2004/NASA_Mars_Rover.jpg",
@@ -8381,23 +8320,6 @@
     },
     {
       "year": 2006,
-      "category": "Science & Space",
-      "caption": "Pluto demoted to dwarf planet status",
-      "photo": "images/2006/Pluto_in_True_Color_-_High-Res.jpg",
-      "tags": [
-        "astronomy",
-        "space",
-        "planet",
-        "iau",
-        "solar system"
-      ],
-      "credit": {
-        "text": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Inst · Public domain",
-        "url": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png"
-      }
-    },
-    {
-      "year": 2006,
       "category": "Film",
       "caption": "Borat film released",
       "photo": "images/2006/Borat_ver2.jpg",
@@ -8500,7 +8422,7 @@
     },
     {
       "year": 2006,
-      "category": "World Events",
+      "category": "Science & Space",
       "caption": "Pluto is no longer a planet",
       "photo": "images/2006/Euler_diagram_of_solar_system_bodies.png",
       "credit": {
@@ -8585,19 +8507,6 @@
         "text": "© rights holder, low resolution",
         "url": "https://en.wikipedia.org/wiki/File:BioShock_cover.jpg"
       }
-    },
-    {
-      "year": 2007,
-      "category": "World Events",
-      "caption": "Last Harry Potter book published",
-      "photo": "images/2007/Harry_Potter_and_the_Deathly_Hallows.jpg",
-      "tags": [
-        "books",
-        "literature",
-        "fantasy",
-        "harry potter",
-        "jk rowling"
-      ]
     },
     {
       "year": 2007,
@@ -8701,7 +8610,7 @@
     },
     {
       "year": 2007,
-      "category": "World Events",
+      "category": "Books",
       "caption": "The last Harry Potter book (Midnight release parties)",
       "photo": "images/2007/Harry_Potter_and_the_Deathly_Hallows-2.jpg",
       "credit": {
@@ -8737,24 +8646,6 @@
       "credit": {
         "text": "Akela NDE · CC BY-SA 3.0",
         "url": "https://commons.wikimedia.org/wiki/File:HTC_Dream_Orange_FR.jpeg"
-      }
-    },
-    {
-      "year": 2008,
-      "category": "World Events",
-      "caption": "Global Financial Crisis intensifies",
-      "photo": "images/2008/Lehman_Brothers_Times_Square_by_David_Shankbone-2.jpg",
-      "tags": [
-        "finance",
-        "economics",
-        "recession",
-        "stock market",
-        "banking",
-        "lehman brothers"
-      ],
-      "credit": {
-        "text": "David Shankbone · CC BY-SA 3.0",
-        "url": "https://commons.wikimedia.org/wiki/File:Lehman_Brothers_Times_Square_by_David_Shankbone.jpg"
       }
     },
     {
@@ -8889,16 +8780,6 @@
       "credit": {
         "text": "Incase from California, USA · CC BY 2.0",
         "url": "https://commons.wikimedia.org/wiki/File:Incase_app_for_iPhone_%284973847949%29.jpg"
-      }
-    },
-    {
-      "year": 2008,
-      "category": "World Events",
-      "caption": "Barack Obama is elected",
-      "photo": "images/2008/ElectoralCollege2008.png",
-      "credit": {
-        "text": "Gage · Public domain",
-        "url": "https://commons.wikimedia.org/wiki/File:ElectoralCollege2008.svg"
       }
     },
     {
@@ -9294,23 +9175,6 @@
     },
     {
       "year": 2011,
-      "category": "World Events",
-      "caption": "Osama bin Laden killed",
-      "photo": "images/2011/Osama_bin_Laden_compound1-2.jpg",
-      "tags": [
-        "terrorism",
-        "al-qaeda",
-        "us",
-        "military",
-        "pakistan"
-      ],
-      "credit": {
-        "text": "Sajjad Ali Qureshi · CC BY-SA 2.0",
-        "url": "https://commons.wikimedia.org/wiki/File:Osama_bin_Laden_compound1.jpg"
-      }
-    },
-    {
-      "year": 2011,
       "category": "Television",
       "caption": "Game of Thrones premieres on HBO",
       "photo": "images/2011/Game_of_Thrones_title_card.jpg",
@@ -9321,23 +9185,6 @@
         "hbo",
         "george r r martin"
       ]
-    },
-    {
-      "year": 2011,
-      "category": "World Events",
-      "caption": "Fukushima Daiichi nuclear disaster",
-      "photo": "images/2011/Fukushima_I_by_Digital_Globe-2.jpg",
-      "tags": [
-        "japan",
-        "nuclear",
-        "disaster",
-        "earthquake",
-        "tsunami"
-      ],
-      "credit": {
-        "text": "Digital Globe · CC BY-SA 3.0",
-        "url": "https://commons.wikimedia.org/wiki/File:Fukushima_I_by_Digital_Globe.jpg"
-      }
     },
     {
       "year": 2011,
@@ -10306,16 +10153,6 @@
         "text": "Unknown authorUnknown author · Public domain",
         "url": "https://commons.wikimedia.org/wiki/File:2016_World_Series.svg"
       }
-    },
-    {
-      "year": 2016,
-      "category": "World Events",
-      "caption": "Donald Trump is elected",
-      "photo": "images/2016/ElectoralCollege2016.png",
-      "credit": {
-        "text": "Gage · CC BY-SA 4.0",
-        "url": "https://commons.wikimedia.org/wiki/File:ElectoralCollege2016.svg"
-      }
     }
   ],
   "2017": [
@@ -10348,24 +10185,6 @@
         "hybrid",
         "electronics"
       ]
-    },
-    {
-      "year": 2017,
-      "category": "Science & Space",
-      "caption": "Great American Eclipse visible across the US",
-      "photo": "images/2017/Total_Solar_Eclipse_8-21-17-2.jpg",
-      "tags": [
-        "astronomy",
-        "eclipse",
-        "sun",
-        "moon",
-        "usa",
-        "science"
-      ],
-      "credit": {
-        "text": "Michael S Adler · CC BY-SA 4.0",
-        "url": "https://commons.wikimedia.org/wiki/File:Total_Solar_Eclipse_8-21-17.jpg"
-      }
     },
     {
       "year": 2017,
@@ -10482,7 +10301,7 @@
     },
     {
       "year": 2017,
-      "category": "World Events",
+      "category": "Science & Space",
       "caption": "The Great American Eclipse",
       "photo": "images/2017/Total_Solar_Eclipse_8-21-17.jpg",
       "credit": {
@@ -10684,20 +10503,6 @@
     },
     {
       "year": 2019,
-      "category": "Science & Space",
-      "caption": "First image of a black hole unveiled (EHT)",
-      "photo": "images/2019/1024px-Black_hole_-_Messier_87_crop_max_res.jpg",
-      "tags": [
-        "astronomy",
-        "space",
-        "black hole",
-        "science",
-        "eht",
-        "physics"
-      ]
-    },
-    {
-      "year": 2019,
       "category": "Tech",
       "caption": "Disney+ streaming service launched",
       "photo": "images/2019/1280px-Disney+_logo.svg.png",
@@ -10811,7 +10616,7 @@
     },
     {
       "year": 2019,
-      "category": "World Events",
+      "category": "Science & Space",
       "caption": "The first picture of a black hole (The Event Horizon Telescope's image)",
       "photo": "images/2019/Messier_87_Hubble_WikiSky.jpg",
       "credit": {
@@ -11025,22 +10830,6 @@
     }
   ],
   "2021": [
-    {
-      "year": 2021,
-      "category": "World Events",
-      "caption": "January 6th United States Capitol attack",
-      "photo": "images/2021/2021_storming_of_the_United_States_Capitol_DSC09254-2_50820534063_retouched.jpg",
-      "tags": [
-        "usa",
-        "politics",
-        "capitol attack",
-        "election"
-      ],
-      "credit": {
-        "text": "Tyler Merbler from USA · CC BY 2.0",
-        "url": "https://commons.wikimedia.org/wiki/File:2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg"
-      }
-    },
     {
       "year": 2021,
       "category": "Science & Space",

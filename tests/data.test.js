@@ -97,3 +97,34 @@ test('sports run through the whole timeline, not just recent Olympics', () => {
     assert.ok(years.filter((y) => y >= decade && y < decade + 10).length >= 3, `${decade}s have fewer than three sports items`);
   }
 });
+
+// Two captions in one year that share most of their words are usually the same event entered twice
+// ("Osama bin Laden killed" / "Osama bin Laden is killed"). Pairs that only look alike go in DISTINCT.
+const FILLER = new Set(('a an the is are was of on in at to by for and with its it\'s year\'s no 1 tv theaters released ' +
+  'release launched launches launch first new car opens debuts premieres becomes begins').split(' '));
+const DISTINCT = [
+  ['Nintendo Game Boy launched', 'Tetris released on Game Boy'],
+  ['"Boom Boom Pow" by The Black Eyed Peas', '"I Gotta Feeling" by The Black Eyed Peas'],
+];
+function words(caption) {
+  const text = caption.toLowerCase().replace(/\(.*?\)/g, '');
+  return new Set((text.match(/[a-z0-9']+/g) || []).filter((w) => w.length > 1 && !FILLER.has(w)));
+}
+test('no event appears twice in a year under different wording', () => {
+  const ok = (a, b) => DISTINCT.some(([x, y]) => (a.startsWith(x) && b.startsWith(y)) || (a.startsWith(y) && b.startsWith(x)));
+  const found = [];
+  for (const [y, items] of Object.entries(data)) {
+    for (let i = 0; i < items.length; i++) {
+      for (let j = i + 1; j < items.length; j++) {
+        const a = words(items[i].caption);
+        const b = words(items[j].caption);
+        if (!a.size || !b.size) continue;
+        const shared = [...a].filter((w) => b.has(w)).length;
+        if (shared / Math.min(a.size, b.size) >= 0.6 && !ok(items[i].caption, items[j].caption)) {
+          found.push(`${y}: "${items[i].caption}" / "${items[j].caption}"`);
+        }
+      }
+    }
+  }
+  assert.deepEqual(found, [], 'likely duplicates (add real pairs to DISTINCT)');
+});
