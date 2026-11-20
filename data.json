@@ -715,16 +715,6 @@
     {
       "year": 1956,
       "category": "Music",
-      "caption": "\"Hound Dog\" by Elvis Presley",
-      "photo": "images/1956/Big-mama-thornton-hound-dog.jpg",
-      "credit": {
-        "text": "© rights holder, low resolution",
-        "url": "https://en.wikipedia.org/wiki/File:Big-mama-thornton-hound-dog.jpg"
-      }
-    },
-    {
-      "year": 1956,
-      "category": "Music",
       "caption": "\"Blue Suede Shoes\" by Carl Perkins",
       "photo": "images/1956/Blue_Suede_Shoes_Carl_Perkins.png",
       "credit": {
@@ -872,16 +862,6 @@
       "credit": {
         "text": "Brunswick Records · Public domain",
         "url": "https://commons.wikimedia.org/wiki/File:Thatll_Be_the_Day_by_the_Crickets_US_single_45-RPM_side-A_variant_A.png"
-      }
-    },
-    {
-      "year": 1957,
-      "category": "Music",
-      "caption": "\"Jailhouse Rock\" by Elvis Presley",
-      "photo": "images/1957/Elvis_Presley_Jailhouse_Rock_Single_Cover.jpg",
-      "credit": {
-        "text": "© rights holder, low resolution",
-        "url": "https://en.wikipedia.org/wiki/File:Elvis_Presley_Jailhouse_Rock_Single_Cover.jpeg"
       }
     },
     {
@@ -2164,16 +2144,6 @@
     },
     {
       "year": 1966,
-      "category": "Music",
-      "caption": "Pet Sounds by The Beach Boys",
-      "photo": "images/1966/Pet_Sounds__color_corrected.jpg",
-      "credit": {
-        "text": "The Beach Boys · Public domain",
-        "url": "https://commons.wikimedia.org/wiki/File:Pet_Sounds_(color_corrected).jpg"
-      }
-    },
-    {
-      "year": 1966,
       "category": "Television",
       "caption": "Star Trek on TV",
       "photo": "images/1966/Leonard_Nimoy_William_Shatner_Star_Trek_1968.jpg",
@@ -2761,7 +2731,7 @@
     {
       "year": 1970,
       "category": "Automobiles",
-      "caption": "New car: Chevrolet Camaro",
+      "caption": "New car: second-generation Chevrolet Camaro",
       "photo": "images/1970/1970_Chevrolet_Camaro__27755093943___cropped.jpg",
       "credit": {
         "text": "Greg Gjerdingen from Willmar, USA · CC BY 2.0",
@@ -4411,13 +4381,6 @@
   "1983": [
     {
       "year": 1983,
-      "category": "Music",
-      "caption": "Michael Jackson - Thriller dominates charts",
-      "photo": "images/1983/Michael_Jackson_-_Thriller.png",
-      "tags": []
-    },
-    {
-      "year": 1983,
       "category": "Tech",
       "caption": "Motorola DynaTAC 8000X - First commercial mobile phone",
       "photo": "images/1973/2007Computex_e21Forum-MartinCooper.jpg",
@@ -4566,19 +4529,6 @@
         "text": "© rights holder, low resolution",
         "url": "https://en.wikipedia.org/wiki/File:Ghostbusters_(1984)_theatrical_poster.png"
       }
-    },
-    {
-      "year": 1984,
-      "category": "Music",
-      "caption": "Prince releases influential album and film 'Purple Rain'",
-      "photo": "images/1984/Princepurplerain.jpg",
-      "tags": [
-        "prince",
-        "pop",
-        "rock",
-        "soundtrack",
-        "80s music"
-      ]
     },
     {
       "year": 1984,
@@ -5055,23 +5005,6 @@
       "caption": "Guns N' Roses - Appetite for Destruction",
       "photo": "images/1987/GunsnRosesAppetiteforDestructionalbumcover.jpg",
       "tags": []
-    },
-    {
-      "year": 1987,
-      "category": "Television",
-      "caption": "The Simpsons first appear as shorts",
-      "photo": "images/1987/Simpsons_on_Tracey_Ullman-2.png",
-      "tags": [
-        "animation",
-        "comedy",
-        "fox",
-        "simpsons",
-        "80s"
-      ],
-      "credit": {
-        "text": "© rights holder, low resolution",
-        "url": "https://en.wikipedia.org/wiki/File:Simpsons_on_Tracey_Ullman.png"
-      }
     },
     {
       "year": 1987,
@@ -5684,19 +5617,6 @@
     }
   ],
   "1991": [
-    {
-      "year": 1991,
-      "category": "Music",
-      "caption": "Nirvana's Nevermind brings grunge mainstream",
-      "photo": "images/1991/NirvanaNevermindalbumcover.jpg",
-      "tags": [
-        "grunge",
-        "rock",
-        "90s",
-        "alternative",
-        "nirvana"
-      ]
-    },
     {
       "year": 1991,
       "category": "Toys & Games",
@@ -8462,23 +8382,6 @@
     },
     {
       "year": 2007,
-      "category": "World Events",
-      "caption": "Global Financial Crisis begins to unfold",
-      "photo": "images/2007/Lehman_Brothers_Times_Square_by_David_Shankbone.jpg",
-      "tags": [
-        "finance",
-        "economics",
-        "recession",
-        "stock market",
-        "banking"
-      ],
-      "credit": {
-        "text": "David Shankbone · CC BY-SA 3.0",
-        "url": "https://commons.wikimedia.org/wiki/File:Lehman_Brothers_Times_Square_by_David_Shankbone.jpg"
-      }
-    },
-    {
-      "year": 2007,
       "category": "Tech",
       "caption": "Netflix begins streaming service",
       "photo": "images/2007/1200px-Netflix_2015_logo.svg.png",
@@ -8896,16 +8799,6 @@
     },
     {
       "year": 2009,
-      "category": "Music",
-      "caption": "\"I Gotta Feeling\" by The Black Eyed Peas",
-      "photo": "images/2009/I_Gotta_Feeling.jpg",
-      "credit": {
-        "text": "© rights holder, low resolution",
-        "url": "https://en.wikipedia.org/wiki/File:I_Gotta_Feeling.png"
-      }
-    },
-    {
-      "year": 2009,
       "category": "Television",
       "caption": "Parks and Recreation on TV",
       "photo": "images/2009/Amy_Poehler_53671989427_cropped.jpg",
@@ -9237,16 +9130,6 @@
       "credit": {
         "text": "© rights holder, low resolution",
         "url": "https://en.wikipedia.org/wiki/File:Party_Rock_Anthem_(feat._Lauren_Bennet_%26_GoonRock)_-_Single.jpeg"
-      }
-    },
-    {
-      "year": 2011,
-      "category": "Music",
-      "caption": "\"Someone like You\" by Adele",
-      "photo": "images/2011/Adele_-_Someone_Like_You.jpg",
-      "credit": {
-        "text": "© rights holder, low resolution",
-        "url": "https://en.wikipedia.org/wiki/File:Adele_-_Someone_Like_You.png"
       }
     },
     {
@@ -11004,20 +10887,6 @@
     }
   ],
   "2022": [
-    {
-      "year": 2022,
-      "category": "World Events",
-      "caption": "Russian invasion of Ukraine begins",
-      "photo": "images/2022/1280px-Flag_of_Ukraine.svg.png",
-      "tags": [
-        "russia",
-        "ukraine",
-        "war",
-        "invasion",
-        "politics",
-        "europe"
-      ]
-    },
     {
       "year": 2022,
       "category": "World Events",

@@ -76,7 +76,7 @@ Then navigate to the provided local address (e.g., `http://localhost:8000`).
 
 ## What's in the data
 
-Every year from 1950 to 2025, about a dozen items each (1,053 in all): the year's Billboard No. 1 song and other big
+Every year from 1950 to 2025, about a dozen items each (1,042 in all): the year's Billboard No. 1 song and other big
 music, TV, films, books, art, buildings, things for the home, new cars, toys and games, and the news. It's an American timeline of what people had in front
 of them that year, so a car whose model year went on sale the previous fall counts.
 

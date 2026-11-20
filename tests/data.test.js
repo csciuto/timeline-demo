@@ -98,33 +98,77 @@ test('sports run through the whole timeline, not just recent Olympics', () => {
   }
 });
 
-// Two captions in one year that share most of their words are usually the same event entered twice
-// ("Osama bin Laden killed" / "Osama bin Laden is killed"). Pairs that only look alike go in DISTINCT.
-const FILLER = new Set(('a an the is are was of on in at to by for and with its it\'s year\'s no 1 tv theaters released ' +
-  'release launched launches launch first new car opens debuts premieres becomes begins').split(' '));
+// The same event entered twice under different wording ("Osama bin Laden killed" / "Osama bin Laden is killed"),
+// in one year or filed again a year or three later (the SNES in 1990 and 1991). Pairs that only look alike go in
+// DISTINCT.
+const FILLER = new Set(('a an the is are was of on in at to by for and with as its it\'s year\'s no 1 tv theaters ' +
+  'released release launched launches launch first new car opens debuts premieres becomes begins').split(' '));
 const DISTINCT = [
   ['Nintendo Game Boy launched', 'Tetris released on Game Boy'],
-  ['"Boom Boom Pow" by The Black Eyed Peas', '"I Gotta Feeling" by The Black Eyed Peas'],
+  ["Harry Potter and the Sorcerer's Stone (U.S. edition)", "Harry Potter and the Sorcerer's Stone in theaters"],
+  ['James Webb Space Telescope launched', 'The first James Webb telescope images'],
 ];
-function words(caption) {
+// Where or in what form something came out, which differs between two listings of one release
+const QUALIFIERS = new Set('japan north america american us europe worldwide format sony full public alpha beta version edition'.split(' '));
+function words(caption, min = 2, skip = new Set()) {
   const text = caption.toLowerCase().replace(/\(.*?\)/g, '');
-  return new Set((text.match(/[a-z0-9']+/g) || []).filter((w) => w.length > 1 && !FILLER.has(w)));
+  return new Set((text.match(/[a-z0-9']+/g) || []).filter((w) => w.length >= min && !FILLER.has(w) && !skip.has(w))
+    .map((w) => (w.length > 6 ? w.slice(0, 6) : w)));   // a rough stem: Russia / Russian
 }
+const distinct = (a, b) => DISTINCT.some(([x, y]) => (a.startsWith(x) && b.startsWith(y)) || (a.startsWith(y) && b.startsWith(x)));
+const shared = (a, b) => [...a].filter((w) => b.has(w)).length;
+
 test('no event appears twice in a year under different wording', () => {
-  const ok = (a, b) => DISTINCT.some(([x, y]) => (a.startsWith(x) && b.startsWith(y)) || (a.startsWith(y) && b.startsWith(x)));
   const found = [];
   for (const [y, items] of Object.entries(data)) {
     for (let i = 0; i < items.length; i++) {
       for (let j = i + 1; j < items.length; j++) {
         const a = words(items[i].caption);
         const b = words(items[j].caption);
-        if (!a.size || !b.size) continue;
-        const shared = [...a].filter((w) => b.has(w)).length;
-        if (shared / Math.min(a.size, b.size) >= 0.6 && !ok(items[i].caption, items[j].caption)) {
+        if (a.size && b.size && shared(a, b) / Math.min(a.size, b.size) >= 0.6 && !distinct(items[i].caption, items[j].caption)) {
           found.push(`${y}: "${items[i].caption}" / "${items[j].caption}"`);
         }
       }
     }
   }
   assert.deepEqual(found, [], 'likely duplicates (add real pairs to DISTINCT)');
+});
+
+test('no event is filed again within three years', () => {
+  // Nearly the same words, in any category (the SNES was once filed under both Gaming and Toys); sequels and an
+  // artist's next hit differ enough to pass.
+  const found = [];
+  for (const i of all) {
+    for (const j of all) {
+      const gap = +j.y - +i.y;
+      if (gap < 1 || gap > 3) continue;
+      const a = words(i.caption, 1, QUALIFIERS);
+      const b = words(j.caption, 1, QUALIFIERS);
+      const union = new Set([...a, ...b]).size;
+      if (union && shared(a, b) / union >= 0.6 && !distinct(i.caption, j.caption)) found.push(`${i.y} "${i.caption}" / ${j.y} "${j.caption}"`);
+    }
+  }
+  assert.deepEqual(found, [], 'likely the same event in two years (add real pairs to DISTINCT)');
+});
+
+// An album and its single, or two hits by one artist, crowd a year: one Music tile per artist per year.
+function artist(caption) {
+  const c = caption.replace(/\(.*?\)/g, '').replace(" is the year's No. 1 song", '').trim();
+  const m = c.match(/^["“].*?["”]\s+by\s+(.+)$/) || c.match(/^(.+?)['’]s\s/) || c.match(/^.+?\s+by\s+(.+)$/) ||
+    c.match(/^(.+?)\s+[-–]\s+.+$/) || c.match(/^(.+?)\s+releases?\b/);
+  if (!m) return null;
+  return m[1].toLowerCase().split(/\s+(?:featuring|feat\.|and|&|with)\s+/)[0].replace(/[^a-z0-9 ]/g, '').trim();
+}
+test('one music tile per artist per year', () => {
+  const found = [];
+  for (const [y, items] of Object.entries(data)) {
+    const seen = {};
+    for (const i of items.filter((x) => x.category === 'Music')) {
+      const a = artist(i.caption);
+      if (!a) continue;
+      if (seen[a] && !distinct(seen[a], i.caption)) found.push(`${y} ${a}: "${seen[a]}" / "${i.caption}"`);
+      seen[a] = seen[a] || i.caption;
+    }
+  }
+  assert.deepEqual(found, []);
 });

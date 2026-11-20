@@ -8,8 +8,8 @@ later extended with Claude Code. The look (NES/SNES grays and purple, Press Star
 
 | Piece | What it uses |
 |---|---|
-| Data | `data.json`, fetched once: 1,053 items across 1950–2025, in 14 categories |
-| Photos | 1,053 local files kept small (988 copied from Wikimedia, each with a credit); every item has one |
+| Data | `data.json`, fetched once: 1,042 items across 1950–2025, in 14 categories |
+| Photos | 1,042 local files kept small (981 copied from Wikimedia, each with a credit); every item has one |
 | Fonts | Press Start 2P from Google Fonts |
 | Libraries | None at runtime |
 
@@ -61,7 +61,7 @@ flowchart LR
 ## Testing and deploy
 
 - `npm test` (Node's test runner) checks the data: every year 1950–2025 has at least five items, including
-  music, TV, film and news; known categories; no event twice in a year, even reworded; every photo is a local file that
+  music, TV, film and news; known categories; no event listed twice (reworded in one year, or again within three years); one music tile per artist per year; every photo is a local file that
   exists and is under the size cap; credits link to a source.
 - `npm run test:e2e`: Playwright at desktop and phone size (fonts blocked so tests don't depend on the
   network), with axe accessibility checks.
