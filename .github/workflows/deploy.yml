@@ -21,4 +21,4 @@ jobs:
   app:
     uses: csciuto/app-template/.github/workflows/app.yml@v3
     with:
-      stamp: index.html flow.html
+      stamp: index.html

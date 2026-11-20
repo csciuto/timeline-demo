@@ -5,7 +5,7 @@ const { test, expect } = require('@playwright/test');
 // and on https://corey.sciu.to/projects/.
 const APP = '/';
 const PREVIEW = 'preview.png';
-const READY = 'li';
+const READY = '.tile';
 
 test('app loads without errors', async ({ page }) => {
   const errors = [];
@@ -15,9 +15,8 @@ test('app loads without errors', async ({ page }) => {
   await expect(page.locator(READY).first()).toBeVisible();
   expect(errors).toEqual([]);
   if (process.env.UPDATE_PREVIEW) {
-    // Show one year's tiles so the preview isn't an empty panel
-    await page.locator('li', { hasText: '1985' }).first().click();
-    await page.waitForTimeout(1500);
+    await page.goto(APP + '#1983');
+    await page.waitForTimeout(2000);
     await page.screenshot({ path: PREVIEW });
   }
 });

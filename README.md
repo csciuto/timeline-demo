@@ -6,16 +6,20 @@ Built with Cursor and [Claude Code](https://claude.com/claude-code).
 
 Timeline Demo
 
-This project is an interactive, filterable timeline displaying cultural milestones, styled with a retro theme. Primarily a project to explore the abilities of Cursor.
+An interactive, filterable timeline of American pop culture and news, 1950–2025, styled after the NES/SNES. It began
+as a timeline of my own lifetime (from 1983) and a project to explore Cursor.
+
+Every item is on one page, grouped by year. Jump to a year from the rail (or the year picker on a phone), search,
+and pick categories; the address keeps your place and filters, so a link reopens the same view.
 
 
 ## How It Was Made
 
 *   **Development:** Pair-programmed with an AI assistant.
 *   **Frontend:** Built with standard HTML, CSS, and vanilla JavaScript.
-    *   HTML structures the content (header, timeline list, tile display area).
-    *   CSS handles all styling, including the NES color palette, layout (using Flexbox), animations, and mobile responsiveness (`style.css`). The 'Press Start 2P' font is used for the retro feel.
-    *   JavaScript (`script.js`) fetches data, builds the timeline and tile views dynamically, handles user interactions (hover/click), category filtering, connector line drawing, and mobile adjustments.
+    *   `index.html`: header with search and category chips, the year rail, the wall of tiles.
+    *   `style.css`: the NES/SNES palette and 'Press Start 2P' pixel font, grid layout, phone layout.
+    *   `app.js`: builds the wall from the data, filters it, tracks the year in view, keeps state in the URL.
 *   **Data:** Timeline events are stored in `data.json`.
 
 ## Adding Timeline Items

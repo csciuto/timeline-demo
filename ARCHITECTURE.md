@@ -1,8 +1,8 @@
 # How the timeline is built
 
-A static site: two HTML pages, two stylesheets, two scripts and one JSON data file. No framework, no bundler, no
-runtime dependencies. It began as a project to try Cursor and was later extended with Claude Code; the code is
-deliberately simple and the look (NES palette, Press Start 2P) is kept as it was.
+A static site: one page, one stylesheet, one script and one JSON data file. No framework, no bundler, no runtime
+dependencies. It began as a project to try Cursor, as a timeline of the author's own lifetime (from 1983), and was
+later extended with Claude Code. The look (NES/SNES grays and purple, Press Start 2P) is deliberate and kept.
 
 ## Runtime
 
@@ -10,7 +10,6 @@ deliberately simple and the look (NES palette, Press Start 2P) is kept as it was
 |---|---|
 | Data | `data.json`, fetched once: 1,067 items across 1950–2025, in 14 categories |
 | Photos | 1,067 local files kept small (1,000 copied from Wikimedia, each with a credit); every item has one |
-| Connector line | An SVG polyline from the selected year's bullet to its tiles, recomputed from element positions |
 | Fonts | Press Start 2P from Google Fonts |
 | Libraries | None at runtime |
 
@@ -20,8 +19,8 @@ Python with Pillow (`tools/localize_images.py`) copies and shrinks photos into `
 ## Files
 
 ```
-index.html, script.js, style.css   the timeline: years down the side, that year's tiles beside them
-flow.html, flow.js, flow.css       the flow view: every tile in one scrolling wall, with text and category filters
+index.html, app.js, style.css     the timeline: every tile in one wall, grouped by year
+flow.html                          redirect from the old flow view's address
 data.json                          { "YYYY": [ { year, category, caption, photo, credit? } ] }
 images/<year>/                     local photos (≤ 0.1 megapixels, fair-use size)
 tools/localize_images.py           copies a photo given as a URL into images/, shrunk
@@ -34,22 +33,27 @@ e2e/                               Playwright: timeline flows, smoke, axe
 
 ```mermaid
 flowchart LR
-  D[data.json] -->|fetch| T[script.js]
-  D -->|fetch| F[flow.js]
-  T --> Y[year list] -->|hover / click to pin| TI[tiles for that year]
-  Y --> C[SVG connector line] --> TI
-  T --> CF[category filters]
-  F --> W[all tiles] --> FF[text + category filters]
+  D[data.json] -->|fetch| A[app.js]
+  A --> W[wall: a section per year]
+  A --> R[year rail / year picker] -->|jump| W
+  A --> F[search + category chips] -->|hide tiles and empty years| W
+  W -->|scroll position| R
+  F --> U[URL: ?cat=…&q=…#year]
 ```
 
 ## Core techniques
 
-- **Data-driven, rebuilt on change.** Both pages fetch `data.json` and build the DOM from it; filters rebuild the
-  visible tiles rather than hiding nodes.
-- **Hover with a pinned year.** Hovering a year previews its tiles; clicking pins it. The script tracks whether the
-  pointer is over the list or the tiles so moving between them doesn't flicker.
-- **Connector.** The line between a year and its tiles is an SVG polyline computed from `getBoundingClientRect`
-  of the bullet and the tile area, redrawn each time a year is shown.
+- **Built once, filtered by hiding.** The page builds every tile from `data.json` once; filters set `hidden` on
+  tiles and on years left empty, so images already loaded stay loaded. Images load lazily as they scroll near.
+- **Years.** Each year is a `<section id="YYYY">` with a sticky heading. A rail of years by decade (wide screens) or
+  a year picker (under 760px) jumps to a year; the year at the top of the wall is highlighted in both, from the
+  scroll position. A jump near the end of a filtered wall keeps the chosen year highlighted until you scroll.
+- **Filters.** Search matches captions. Category chips: none chosen shows everything; each chip adds its category.
+  When filters change, the wall stays on the year you were reading (or the next year with matches).
+- **State in the URL.** `?cat=Art,Books&q=moon#1983`, written with `history.replaceState`, so a link reopens the
+  same view. The old `flow.html` address redirects here, keeping its hash.
+- **Sticky offsets.** The header's height (it wraps differently by width) is measured into `--top-h`, which the
+  rail, the year headings and `scroll-padding-top` use.
 - **Images are local and within fair use.** Every photo is a file in `images/`, capped at 0.1 megapixels; those
   copied from Wikimedia keep a credit and a link to the source page. `tools/localize_images.py` copies and
   shrinks a photo given as a URL.
@@ -62,11 +66,9 @@ flowchart LR
 - `npm run test:e2e`: Playwright at desktop and phone size (fonts blocked so tests don't depend on the
   network), with axe accessibility checks.
 - Pushing to `main` runs both in GitHub Actions (the shared workflow in
-  [csciuto/app-template](https://github.com/csciuto/app-template)); only if they pass are both pages stamped with
+  [csciuto/app-template](https://github.com/csciuto/app-template)); only if they pass is the page stamped with
   a version and published to GitHub Pages.
 
 ## Known limits
 
-- The view isn't in the URL, so a pinned year can't be shared as a link.
-- The connector isn't redrawn when the window is resized until another year is shown.
 - Scope is American pop culture and news; the selection is editorial.
