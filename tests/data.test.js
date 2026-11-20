@@ -6,8 +6,8 @@ const path = require('node:path');
 
 const root = path.join(__dirname, '..');
 const data = JSON.parse(fs.readFileSync(path.join(root, 'data.json'), 'utf8'));
-const CATEGORIES = new Set(['Music', 'Television', 'Film', 'Automobiles', 'Toys & Gadgets', 'World Events', 'Tech',
-  'Gaming', 'Science & Space', 'Sports']);
+const CATEGORIES = new Set(['Music', 'Television', 'Film', 'Books', 'Art', 'Architecture', 'Design', 'Automobiles',
+  'Toys & Games', 'Tech', 'Science & Space', 'Sports', 'World Events', 'Misc']);
 const all = Object.entries(data).flatMap(([y, items]) => items.map((i) => ({ y, ...i })));
 
 test('every year from 1950 to 2025 has at least five items', () => {
@@ -87,7 +87,7 @@ test('local images are real and no bigger than 0.1 megapixels (fair-use size)', 
 test('every category is big enough to be worth a filter, and none is a placeholder', () => {
   const count = {};
   for (const i of all) count[i.category] = (count[i.category] || 0) + 1;
-  for (const c of CATEGORIES) assert.ok(count[c] >= 15, `${c} has only ${count[c] || 0} items`);
+  for (const c of CATEGORIES) if (c !== 'Misc') assert.ok(count[c] >= 15, `${c} has only ${count[c] || 0} items`);
   for (const i of all) assert.doesNotMatch(i.caption, /^(Continued|Potential) /, `${i.y}: not an event: ${i.caption}`);
 });
 

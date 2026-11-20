@@ -8,8 +8,8 @@ deliberately simple and the look (NES palette, Press Start 2P) is kept as it was
 
 | Piece | What it uses |
 |---|---|
-| Data | `data.json`, fetched once: 1,012 items across 1950–2025, in ten categories |
-| Photos | 826 local files kept small (759 copied from Wikimedia, each with a credit); 186 items have none |
+| Data | `data.json`, fetched once: 1,067 items across 1950–2025, in 14 categories |
+| Photos | 1,067 local files kept small (1,000 copied from Wikimedia, each with a credit); every item has one |
 | Connector line | An SVG polyline from the selected year's bullet to its tiles, recomputed from element positions |
 | Fonts | Press Start 2P from Google Fonts |
 | Libraries | None at runtime |

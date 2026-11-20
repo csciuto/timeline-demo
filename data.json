@@ -13,7 +13,12 @@
     {
       "year": 1950,
       "category": "Music",
-      "caption": "\"Tennessee Waltz\" by Patti Page"
+      "caption": "\"Tennessee Waltz\" by Patti Page",
+      "photo": "images/1950/Patti_Page.jpg",
+      "credit": {
+        "text": "General Artists Corporation (management) · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Patti_Page.JPG"
+      }
     },
     {
       "year": 1950,
@@ -67,7 +72,7 @@
     },
     {
       "year": 1950,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Silly Putty",
       "photo": "images/1950/Big_dsc05433.jpg",
       "credit": {
@@ -77,8 +82,13 @@
     },
     {
       "year": 1950,
-      "category": "Toys & Gadgets",
-      "caption": "Diners Club card (The first multipurpose charge card)"
+      "category": "Misc",
+      "caption": "Diners Club card (The first multipurpose charge card)",
+      "photo": "images/1950/ICBC_Dinners_Club_Card.jpg",
+      "credit": {
+        "text": "Lhzss8 · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:ICBC_Dinners_Club_Card.jpg"
+      }
     },
     {
       "year": 1950,
@@ -99,13 +109,28 @@
         "text": "© rights holder, low resolution",
         "url": "https://en.wikipedia.org/wiki/File:Peanuts_gang.png"
       }
+    },
+    {
+      "year": 1950,
+      "category": "Art",
+      "caption": "Jackson Pollock paints Lavender Mist",
+      "photo": "images/1950/Regarding_Lavender_Mist.jpg",
+      "credit": {
+        "text": "Ned Hartley · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Regarding_Lavender_Mist.jpg"
+      }
     }
   ],
   "1951": [
     {
       "year": 1951,
       "category": "Music",
-      "caption": "\"Too Young\" by Nat King Cole is the year's No. 1 song"
+      "caption": "\"Too Young\" by Nat King Cole is the year's No. 1 song",
+      "photo": "images/1951/Nat_King_Cole_1947.jpg",
+      "credit": {
+        "text": "General Artists Corporation (management) · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Nat_King_Cole_1947.jpg"
+      }
     },
     {
       "year": 1951,
@@ -159,7 +184,7 @@
     },
     {
       "year": 1951,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "UNIVAC I (The first commercial computer made in the US. Not for your living room)",
       "photo": "images/1951/Univac_I_Census_dedication.jpg",
       "credit": {
@@ -190,19 +215,44 @@
     {
       "year": 1951,
       "category": "Sports",
-      "caption": "Bobby Thomson's \"Shot Heard 'Round the World\" wins the pennant for the Giants"
+      "caption": "Bobby Thomson's \"Shot Heard 'Round the World\" wins the pennant for the Giants",
+      "photo": "images/1951/Thomson_19511003.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Thomson_19511003.JPG"
+      }
+    },
+    {
+      "year": 1951,
+      "category": "Books",
+      "caption": "The Catcher in the Rye",
+      "photo": "images/1951/The_Catcher_in_the_Rye__1951__first_edition_cover.jpg",
+      "credit": {
+        "text": "Jacket design by Michael Mitchell · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:The_Catcher_in_the_Rye_%281951%2C_first_edition_cover%29.jpg"
+      }
     }
   ],
   "1952": [
     {
       "year": 1952,
       "category": "Music",
-      "caption": "\"Blue Tango\" by Leroy Anderson is the year's No. 1 song"
+      "caption": "\"Blue Tango\" by Leroy Anderson is the year's No. 1 song",
+      "photo": "images/1952/Leroy_Anderson_from_The_Best_of_Leroy_Anderson_cover_1997.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Leroy_Anderson%2C_from_The_Best_of_Leroy_Anderson_cover%2C_1997.jpg"
+      }
     },
     {
       "year": 1952,
       "category": "Music",
-      "caption": "\"Jambalaya (On the Bayou)\" by Hank Williams"
+      "caption": "\"Jambalaya (On the Bayou)\" by Hank Williams",
+      "photo": "images/1952/Hank_Williams_Promotional_Photo.jpg",
+      "credit": {
+        "text": "WSM radio · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Hank_Williams_Promotional_Photo.jpg"
+      }
     },
     {
       "year": 1952,
@@ -237,11 +287,16 @@
     {
       "year": 1952,
       "category": "Automobiles",
-      "caption": "New car: Willys Aero"
+      "caption": "New car: Willys Aero",
+      "photo": "images/1952/50s_Willys.jpg",
+      "credit": {
+        "text": "trekphiler · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:%2750s_Willys.JPG"
+      }
     },
     {
       "year": 1952,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Mr. Potato Head (The first toy advertised on television)",
       "photo": "images/1952/Santa_Claus_Parade__4107912568.jpg",
       "credit": {
@@ -268,13 +323,48 @@
         "text": "USDE · Public domain",
         "url": "https://commons.wikimedia.org/wiki/File:IvyMikeGIFColorCorrected.gif"
       }
+    },
+    {
+      "year": 1952,
+      "category": "Architecture",
+      "caption": "Lever House, New York",
+      "photo": "images/1952/Lever_House_390_Park_Avenue.jpg",
+      "credit": {
+        "text": "Beyond My Ken · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Lever_House_390_Park_Avenue.jpg"
+      }
+    },
+    {
+      "year": 1952,
+      "category": "Architecture",
+      "caption": "Levittown, Pennsylvania (Suburban tract houses, $9,990 and up)",
+      "photo": "images/1952/LevittownPA.jpg",
+      "credit": {
+        "text": "Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:LevittownPA.jpg"
+      }
+    },
+    {
+      "year": 1952,
+      "category": "Design",
+      "caption": "Weber kettle grill",
+      "photo": "images/1952/Weber_1951_Kettle_Replica.jpg",
+      "credit": {
+        "text": "Jauerback · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Weber_1951_Kettle_Replica.jpg"
+      }
     }
   ],
   "1953": [
     {
       "year": 1953,
       "category": "Music",
-      "caption": "\"The Song from Moulin Rouge\" by Percy Faith is the year's No. 1 song"
+      "caption": "\"The Song from Moulin Rouge\" by Percy Faith is the year's No. 1 song",
+      "photo": "images/1953/Percy_Faith_1908-1976_cropped.jpg",
+      "credit": {
+        "text": "Maurice ????/ Archival by La Presse · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Percy_Faith%2C_1908-1976_%28cropped%29.jpg"
+      }
     },
     {
       "year": 1953,
@@ -328,7 +418,7 @@
     },
     {
       "year": 1953,
-      "category": "Toys & Gadgets",
+      "category": "Misc",
       "caption": "TV Guide (First issue: April 1953, 15 cents)",
       "photo": "images/1953/TVGDigital_logo_2019.jpg",
       "credit": {
@@ -338,7 +428,7 @@
     },
     {
       "year": 1953,
-      "category": "Toys & Gadgets",
+      "category": "Misc",
       "caption": "TV dinner (Swanson's frozen turkey dinner in an aluminum tray)",
       "photo": "images/1953/Ready_to_eat_microwave_food__TV_dinner__Currywurst_with_French_fries.jpg",
       "credit": {
@@ -364,6 +454,16 @@
       "credit": {
         "text": "Jamling Tenzing Norgay · CC BY-SA 3.0",
         "url": "https://commons.wikimedia.org/wiki/File:Edmund_Hillary_and_Tenzing_Norgay.jpg"
+      }
+    },
+    {
+      "year": 1953,
+      "category": "Books",
+      "caption": "Fahrenheit 451",
+      "photo": "images/1953/Fahrenheit_451_1st_ed_cover.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Fahrenheit_451_1st_ed_cover.jpg"
       }
     }
   ],
@@ -440,7 +540,7 @@
     },
     {
       "year": 1954,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Regency TR-1 transistor radio (The first transistor radio you could buy, $49.95)",
       "photo": "images/1954/Regency_TR-1.jpg",
       "credit": {
@@ -451,7 +551,12 @@
     {
       "year": 1954,
       "category": "World Events",
-      "caption": "Brown v. Board of Education (The Supreme Court ends legal school segregation)"
+      "caption": "Brown v. Board of Education (The Supreme Court ends legal school segregation)",
+      "photo": "images/1954/Warren_Court_1953.jpg",
+      "credit": {
+        "text": "United Press International telephoto · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Warren_Court_1953.jpg"
+      }
     },
     {
       "year": 1954,
@@ -466,14 +571,24 @@
     {
       "year": 1954,
       "category": "Sports",
-      "caption": "Roger Bannister runs the first four-minute mile"
+      "caption": "Roger Bannister runs the first four-minute mile",
+      "photo": "images/1954/Roger_Bannister_2.jpg",
+      "credit": {
+        "text": "User:Pruneau · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Roger_Bannister_2.jpg"
+      }
     }
   ],
   "1955": [
     {
       "year": 1955,
       "category": "Music",
-      "caption": "\"Cherry Pink and Apple Blossom White\" by Pérez Prado is the year's No. 1 song"
+      "caption": "\"Cherry Pink and Apple Blossom White\" by Pérez Prado is the year's No. 1 song",
+      "photo": "images/1955/Perez_prado_cropped.jpg",
+      "credit": {
+        "text": "Unknown authorUnknown author · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Perez_prado_%28cropped%29.jpg"
+      }
     },
     {
       "year": 1955,
@@ -508,7 +623,12 @@
     {
       "year": 1955,
       "category": "Television",
-      "caption": "Gunsmoke on TV"
+      "caption": "Gunsmoke on TV",
+      "photo": "images/1955/Dennis_Weaver_Amanda_Blake_and_Milburn_Stone_in_Gunsmoke_1960_CBS_press_photo.jpg",
+      "credit": {
+        "text": "CBS Television · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Dennis_Weaver%2C_Amanda_Blake%2C_and_Milburn_Stone_in_%22Gunsmoke%22_%281960_CBS_press_photo%29.jpg"
+      }
     },
     {
       "year": 1955,
@@ -542,7 +662,7 @@
     },
     {
       "year": 1955,
-      "category": "Toys & Gadgets",
+      "category": "Design",
       "caption": "Home microwave oven (Tappan's first home model cost about $1,300)",
       "photo": "images/1955/Panasonic_NN-SD69LS_20220410.jpg",
       "credit": {
@@ -568,6 +688,16 @@
       "credit": {
         "text": "UPI · Public domain",
         "url": "https://commons.wikimedia.org/wiki/File:Rosa_Parks_1956.jpg"
+      }
+    },
+    {
+      "year": 1955,
+      "category": "Art",
+      "caption": "Jasper Johns, Flag",
+      "photo": "images/1955/Jasper_Johns_s__Flag__Encaustic__oil_and_collage_on_fabric_mounted_on_plywood_19.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Jasper_Johns%27s_%27Flag%27%2C_Encaustic%2C_oil_and_collage_on_fabric_mounted_on_plywood%2C1954-55.jpg"
       }
     }
   ],
@@ -654,7 +784,7 @@
     },
     {
       "year": 1956,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Play-Doh",
       "photo": "images/1956/Play_doh_craftbrand_logo.png",
       "credit": {
@@ -664,7 +794,7 @@
     },
     {
       "year": 1956,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Zenith Space Command remote (The first practical TV remote, using ultrasound)",
       "photo": "images/1956/Nuon-N2000-Remote-Control.jpg",
       "credit": {
@@ -685,7 +815,42 @@
     {
       "year": 1956,
       "category": "Sports",
-      "caption": "Don Larsen pitches a perfect game in the World Series"
+      "caption": "Don Larsen pitches a perfect game in the World Series",
+      "photo": "images/1956/PerfectLarsen.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:PerfectLarsen.jpg"
+      }
+    },
+    {
+      "year": 1956,
+      "category": "Architecture",
+      "caption": "Southdale Center (The first enclosed shopping mall)",
+      "photo": "images/1956/Southdale_Shopping_Center__Minneapolis__Minnesota_-_DPLA_-_1d965cd9bd4d4b638e447.jpg",
+      "credit": {
+        "text": "Colourpicture Publishers, Inc. (Boston, Mass.) · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Southdale_Shopping_Center%2C_Minneapolis%2C_Minnesota_-_DPLA_-_1d965cd9bd4d4b638e4477cd6ca10f3f.jpg"
+      }
+    },
+    {
+      "year": 1956,
+      "category": "Design",
+      "caption": "Eames Lounge Chair",
+      "photo": "images/1956/Eameslounch.jpg",
+      "credit": {
+        "text": "Sonett72 · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Eameslounch.jpg"
+      }
+    },
+    {
+      "year": 1956,
+      "category": "Design",
+      "caption": "Saarinen Tulip chair",
+      "photo": "images/1956/Tulip_med.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Tulip_med.jpg"
+      }
     }
   ],
   "1957": [
@@ -771,7 +936,7 @@
     },
     {
       "year": 1957,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Frisbee",
       "photo": "images/1957/Frisbee_090719.jpg",
       "credit": {
@@ -797,6 +962,26 @@
       "credit": {
         "text": "Ira Wilmer Counts Jr. · Public domain",
         "url": "https://commons.wikimedia.org/wiki/File:Elizabeth_Eckford.jpg"
+      }
+    },
+    {
+      "year": 1957,
+      "category": "Books",
+      "caption": "The Cat in the Hat",
+      "photo": "images/1957/The_Cat_in_the_Hat.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:The_Cat_in_the_Hat.png"
+      }
+    },
+    {
+      "year": 1957,
+      "category": "Books",
+      "caption": "On the Road",
+      "photo": "images/1957/On_the_Road__1957__front_cover__first_edition.jpg",
+      "credit": {
+        "text": "Jacket design by Bill English · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:On_the_Road_%281957%29_front_cover%2C_first_edition.jpg"
       }
     }
   ],
@@ -863,7 +1048,7 @@
     },
     {
       "year": 1958,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Hula hoop (Wham-O sells 25 million in four months)",
       "photo": "images/1958/Girl_twirling_Hula_Hoop__1958.jpg",
       "credit": {
@@ -873,7 +1058,7 @@
     },
     {
       "year": 1958,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Lego brick (The modern interlocking brick is patented)",
       "photo": "images/1958/LEGO_logo.png",
       "credit": {
@@ -904,7 +1089,32 @@
     {
       "year": 1958,
       "category": "Sports",
-      "caption": "Colts beat the Giants in overtime: \"The Greatest Game Ever Played\""
+      "caption": "Colts beat the Giants in overtime: \"The Greatest Game Ever Played\"",
+      "photo": "images/1958/1958ChampionshipGameProgram.jpg",
+      "credit": {
+        "text": "Unknown authorUnknown author · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:1958ChampionshipGameProgram.jpg"
+      }
+    },
+    {
+      "year": 1958,
+      "category": "Architecture",
+      "caption": "Seagram Building, New York",
+      "photo": "images/1958/Seagram_Building__35098307116.jpg",
+      "credit": {
+        "text": "Ken OHYAMA from FUNABASHI, Japan · CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Seagram_Building_%2835098307116%29.jpg"
+      }
+    },
+    {
+      "year": 1958,
+      "category": "Design",
+      "caption": "CorningWare",
+      "photo": "images/1958/Corningware_casserole_dishes.jpg",
+      "credit": {
+        "text": "User:Splarka · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Corningware_casserole_dishes.jpg"
+      }
     }
   ],
   "1959": [
@@ -990,7 +1200,7 @@
     },
     {
       "year": 1959,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Barbie",
       "photo": "images/1959/Barbie_Logo.png",
       "credit": {
@@ -1017,18 +1227,58 @@
         "text": "Civil Aeronautics Board · Public domain",
         "url": "https://commons.wikimedia.org/wiki/File:The_Day_the_Music_Died.jpg"
       }
+    },
+    {
+      "year": 1959,
+      "category": "Design",
+      "caption": "Princess telephone",
+      "photo": "images/1959/Western_Electric_Company_Princess_phones.jpg",
+      "credit": {
+        "text": "User:Mcheath · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Western_Electric_Company_Princess_phones.jpg"
+      }
+    },
+    {
+      "year": 1959,
+      "category": "Architecture",
+      "caption": "Guggenheim Museum, New York",
+      "photo": "images/1959/Solomon_R._Guggenheim_Museum__48059131351.jpg",
+      "credit": {
+        "text": "Ajay Suresh from New York, NY, USA · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Solomon_R._Guggenheim_Museum_%2848059131351%29.jpg"
+      }
+    },
+    {
+      "year": 1959,
+      "category": "Art",
+      "caption": "Robert Frank's photo book The Americans",
+      "photo": "images/1959/The_Americans_Robert_Frank.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:The_Americans_(Robert_Frank).jpg"
+      }
     }
   ],
   "1960": [
     {
       "year": 1960,
       "category": "Music",
-      "caption": "\"Theme from A Summer Place\" by Percy Faith is the year's No. 1 song"
+      "caption": "\"Theme from A Summer Place\" by Percy Faith is the year's No. 1 song",
+      "photo": "images/1960/Percy_Faith_1908-1976_cropped.jpg",
+      "credit": {
+        "text": "Maurice ????/ Archival by La Presse · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Percy_Faith%2C_1908-1976_%28cropped%29.jpg"
+      }
     },
     {
       "year": 1960,
       "category": "Music",
-      "caption": "\"The Twist\" by Chubby Checker"
+      "caption": "\"The Twist\" by Chubby Checker",
+      "photo": "images/1960/WIKI_CHUBBY_CHECKER_1.jpg",
+      "credit": {
+        "text": "The original uploader was ACT1 at English Wikipedia. · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:WIKI_CHUBBY_CHECKER_1.jpg"
+      }
     },
     {
       "year": 1960,
@@ -1092,7 +1342,7 @@
     },
     {
       "year": 1960,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Etch A Sketch",
       "photo": "images/1960/Taj_Mahal_drawing_on_an_Etch-A-Sketch.jpg",
       "credit": {
@@ -1103,7 +1353,12 @@
     {
       "year": 1960,
       "category": "World Events",
-      "caption": "Kennedy and Nixon debate on TV"
+      "caption": "Kennedy and Nixon debate on TV",
+      "photo": "images/1960/Kennedy_Nixon_Debate_1960.jpg",
+      "credit": {
+        "text": "United Press International · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Kennedy_Nixon_Debate_%281960%29.jpg"
+      }
     },
     {
       "year": 1960,
@@ -1118,7 +1373,22 @@
     {
       "year": 1960,
       "category": "Sports",
-      "caption": "Wilma Rudolph wins three gold medals at the Rome Olympics"
+      "caption": "Wilma Rudolph wins three gold medals at the Rome Olympics",
+      "photo": "images/1960/Wilma_Rudolph_1960.jpg",
+      "credit": {
+        "text": "Lindeboom, Henk / Anefo · CC BY-SA 3.0 nl",
+        "url": "https://commons.wikimedia.org/wiki/File:Wilma_Rudolph_1960.jpg"
+      }
+    },
+    {
+      "year": 1960,
+      "category": "Books",
+      "caption": "To Kill a Mockingbird",
+      "photo": "images/1960/To_Kill_a_Mockingbird__first_edition_cover.jpg",
+      "credit": {
+        "text": "Jacket design by Shirley Smith · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:To_Kill_a_Mockingbird_%28first_edition_cover%29.jpg"
+      }
     }
   ],
   "1961": [
@@ -1194,7 +1464,7 @@
     },
     {
       "year": 1961,
-      "category": "Toys & Gadgets",
+      "category": "Design",
       "caption": "IBM Selectric typewriter (The golf-ball typewriter)",
       "photo": "images/1961/IBM_Selectric_I__4.jpg",
       "credit": {
@@ -1225,7 +1495,22 @@
     {
       "year": 1961,
       "category": "Sports",
-      "caption": "Roger Maris hits 61 home runs, passing Babe Ruth's season record"
+      "caption": "Roger Maris hits 61 home runs, passing Babe Ruth's season record",
+      "photo": "images/1961/Roger_Maris_1960.jpg",
+      "credit": {
+        "text": "Unknown authorUnknown author · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Roger_Maris_1960.png"
+      }
+    },
+    {
+      "year": 1961,
+      "category": "Books",
+      "caption": "Catch-22",
+      "photo": "images/1961/Catch-22__1961__front_cover__first_edition.jpg",
+      "credit": {
+        "text": "Jacket design by Paul Bacon · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Catch-22_%281961%29_front_cover%2C_first_edition.jpg"
+      }
     }
   ],
   "1962": [
@@ -1311,7 +1596,7 @@
     },
     {
       "year": 1962,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Spacewar! (One of the first video games, on a room-sized computer at MIT)",
       "photo": "images/1962/Spacewar_-PDP-1-20070512.jpg",
       "credit": {
@@ -1342,14 +1627,64 @@
     {
       "year": 1962,
       "category": "Sports",
-      "caption": "Wilt Chamberlain scores 100 points in a game"
+      "caption": "Wilt Chamberlain scores 100 points in a game",
+      "photo": "images/1962/Wilt_Chamberlain_100_Point_Game_1962_original.jpg",
+      "credit": {
+        "text": "Paul Vathis · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Wilt_Chamberlain_100_Point_Game_1962_%28original%29.jpg"
+      }
+    },
+    {
+      "year": 1962,
+      "category": "Books",
+      "caption": "Silent Spring",
+      "photo": "images/1962/SilentSpring.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:SilentSpring.jpg"
+      }
+    },
+    {
+      "year": 1962,
+      "category": "Art",
+      "caption": "Andy Warhol's Campbell's Soup Cans",
+      "photo": "images/1962/Campbell_s_Soup_Cans_by_Andy_Warhol.jpg",
+      "credit": {
+        "text": "Brandon Fick · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Campbell%27s_Soup_Cans_by_Andy_Warhol.jpg"
+      }
+    },
+    {
+      "year": 1962,
+      "category": "Architecture",
+      "caption": "Space Needle, Seattle",
+      "photo": "images/1962/Space_Needle_2011-07-04.jpg",
+      "credit": {
+        "text": "Jordon Kalilich · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Space_Needle_2011-07-04.jpg"
+      }
+    },
+    {
+      "year": 1962,
+      "category": "Architecture",
+      "caption": "TWA Flight Center, Idlewild Airport",
+      "photo": "images/1962/Ehemaliges_TWA-Terminal_am_John_F._Kennedy_International_Airport_in_New_York.jpg",
+      "credit": {
+        "text": "Roland Arhelger · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Ehemaliges_TWA-Terminal_am_John_F._Kennedy_International_Airport_in_New_York.JPG"
+      }
     }
   ],
   "1963": [
     {
       "year": 1963,
       "category": "Music",
-      "caption": "\"Sugar Shack\" by Jimmy Gilmer and the Fireballs is the year's No. 1 song"
+      "caption": "\"Sugar Shack\" by Jimmy Gilmer and the Fireballs is the year's No. 1 song",
+      "photo": "images/1963/The_Fireballs_1959.jpg",
+      "credit": {
+        "text": "House of Photograph, Raton, NM. · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:The_Fireballs_1959.JPG"
+      }
     },
     {
       "year": 1963,
@@ -1374,7 +1709,12 @@
     {
       "year": 1963,
       "category": "Television",
-      "caption": "General Hospital on TV"
+      "caption": "General Hospital on TV",
+      "photo": "images/1963/Geary_Emmy_2015__cropped.jpg",
+      "credit": {
+        "text": "Maypurple · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Geary_Emmy_2015_%28cropped%29.jpg"
+      }
     },
     {
       "year": 1963,
@@ -1418,7 +1758,7 @@
     },
     {
       "year": 1963,
-      "category": "Toys & Gadgets",
+      "category": "Design",
       "caption": "Push-button telephone (Touch-Tone dialing arrives)",
       "photo": "images/1963/AT_T_push_button_telephone_western_electric_model_2500_dmg_black.jpg",
       "credit": {
@@ -1428,7 +1768,7 @@
     },
     {
       "year": 1963,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Easy-Bake Oven",
       "photo": "images/1963/Easy_bake_brand_logo.png",
       "credit": {
@@ -1454,6 +1794,36 @@
       "credit": {
         "text": "Walt Cisco, Dallas Morning News · Public domain",
         "url": "https://commons.wikimedia.org/wiki/File:JFK_Motorcade_GettyImages-517330536.jpg"
+      }
+    },
+    {
+      "year": 1963,
+      "category": "Books",
+      "caption": "The Feminine Mystique",
+      "photo": "images/1963/The_Feminine_Mystique.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:The_Feminine_Mystique.jpg"
+      }
+    },
+    {
+      "year": 1963,
+      "category": "Books",
+      "caption": "Where the Wild Things Are",
+      "photo": "images/1963/Where_The_Wild_Things_Are__book__cover.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Where_The_Wild_Things_Are_%28book%29_cover.jpg"
+      }
+    },
+    {
+      "year": 1963,
+      "category": "Art",
+      "caption": "Roy Lichtenstein, Whaam!",
+      "photo": "images/1963/Roy_Lichtenstein_Whaam.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Roy_Lichtenstein_Whaam.jpg"
       }
     }
   ],
@@ -1560,12 +1930,17 @@
     },
     {
       "year": 1964,
-      "category": "Toys & Gadgets",
-      "caption": "G.I. Joe"
+      "category": "Toys & Games",
+      "caption": "G.I. Joe",
+      "photo": "images/1964/Hawk_G.I._Joe_action_figure_artwork.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Hawk_%28G.I._Joe_action_figure_artwork%29.jpg"
+      }
     },
     {
       "year": 1964,
-      "category": "Toys & Gadgets",
+      "category": "Misc",
       "caption": "Pop-Tarts",
       "photo": "images/1964/Poptarts_brand_logo.png",
       "credit": {
@@ -1586,7 +1961,22 @@
     {
       "year": 1964,
       "category": "Sports",
-      "caption": "Cassius Clay beats Sonny Liston for the heavyweight title"
+      "caption": "Cassius Clay beats Sonny Liston for the heavyweight title",
+      "photo": "images/1964/Muhammad_Ali_standing_over_Sonny_Liston.jpg",
+      "credit": {
+        "text": "John Rooney · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Muhammad_Ali_standing_over_Sonny_Liston.jpg"
+      }
+    },
+    {
+      "year": 1964,
+      "category": "Art",
+      "caption": "Norman Rockwell, The Problem We All Live With",
+      "photo": "images/1964/The-problem-we-all-live-with-norman-rockwell.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:The-problem-we-all-live-with-norman-rockwell.jpg"
+      }
     }
   ],
   "1965": [
@@ -1672,7 +2062,7 @@
     },
     {
       "year": 1965,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "8-track tape",
       "photo": "images/1965/8track_inside.jpg",
       "credit": {
@@ -1682,7 +2072,7 @@
     },
     {
       "year": 1965,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Super Ball",
       "photo": "images/1965/Glitter_Super_Ball.jpg",
       "credit": {
@@ -1708,6 +2098,46 @@
       "credit": {
         "text": "U.S. Government · Public domain",
         "url": "https://commons.wikimedia.org/wiki/File:Great_Seal_of_the_United_States_(obverse).svg"
+      }
+    },
+    {
+      "year": 1965,
+      "category": "Books",
+      "caption": "Dune",
+      "photo": "images/1965/Dune_by_Frank_Herbert_first_edition_cover.jpg",
+      "credit": {
+        "text": "John Schoenherr · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Dune_by_Frank_Herbert_first_edition_cover.jpg"
+      }
+    },
+    {
+      "year": 1965,
+      "category": "Architecture",
+      "caption": "Gateway Arch, St. Louis",
+      "photo": "images/1965/St_Louis_night_expblend_cropped.jpg",
+      "credit": {
+        "text": "Daniel Schwen · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:St_Louis_night_expblend_cropped.jpg"
+      }
+    },
+    {
+      "year": 1965,
+      "category": "Design",
+      "caption": "Trimline telephone",
+      "photo": "images/1965/Trimline_phone.jpg",
+      "credit": {
+        "text": "Donald Genaro · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Trimline_phone.jpg"
+      }
+    },
+    {
+      "year": 1965,
+      "category": "Design",
+      "caption": "Lava Lite lamp",
+      "photo": "images/1965/Lava_lamps__16136876840.jpg",
+      "credit": {
+        "text": "Dean Hochman from Overland Park, Kansas, U.S. · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Lava_lamps_%2816136876840%29.jpg"
       }
     }
   ],
@@ -1745,7 +2175,12 @@
     {
       "year": 1966,
       "category": "Television",
-      "caption": "Star Trek on TV"
+      "caption": "Star Trek on TV",
+      "photo": "images/1966/Leonard_Nimoy_William_Shatner_Star_Trek_1968.jpg",
+      "credit": {
+        "text": "NBC Television · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Leonard_Nimoy_William_Shatner_Star_Trek_1968.JPG"
+      }
     },
     {
       "year": 1966,
@@ -1799,7 +2234,7 @@
     },
     {
       "year": 1966,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Twister",
       "photo": "images/1966/E3_2011_-_IndieCade_Twister_race__5831107414.jpg",
       "credit": {
@@ -1810,7 +2245,12 @@
     {
       "year": 1966,
       "category": "World Events",
-      "caption": "Miranda rights (\"You have the right to remain silent\")"
+      "caption": "Miranda rights (\"You have the right to remain silent\")",
+      "photo": "images/1966/Ernesto_Miranda_1967.jpg",
+      "credit": {
+        "text": "Unknown authorUnknown author · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Ernesto_Miranda_1967.jpg"
+      }
     }
   ],
   "1967": [
@@ -1847,7 +2287,12 @@
     {
       "year": 1967,
       "category": "Television",
-      "caption": "The Carol Burnett Show on TV"
+      "caption": "The Carol Burnett Show on TV",
+      "photo": "images/1967/Carol_Burnett_2014.jpg",
+      "credit": {
+        "text": "Dennis115 · CC BY 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Carol_Burnett_2014.jpg"
+      }
     },
     {
       "year": 1967,
@@ -1881,7 +2326,7 @@
     },
     {
       "year": 1967,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Lite-Brite",
       "photo": "images/1967/Hello_on_a_Lite-Brite.jpg",
       "credit": {
@@ -1983,12 +2428,17 @@
     },
     {
       "year": 1968,
-      "category": "Toys & Gadgets",
-      "caption": "Hot Wheels"
+      "category": "Toys & Games",
+      "caption": "Hot Wheels",
+      "photo": "images/1968/HOT_WHEELS_MAINLINE_2013_-_CHEVY_CAMARO.jpg",
+      "credit": {
+        "text": "BenedictLiang · CC0",
+        "url": "https://commons.wikimedia.org/wiki/File:HOT_WHEELS_MAINLINE_2013_-_CHEVY_CAMARO.jpg"
+      }
     },
     {
       "year": 1968,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "The computer mouse is demonstrated",
       "photo": "images/1968/SRI_Douglas_Engelbart_1968.jpg",
       "credit": {
@@ -2019,7 +2469,22 @@
     {
       "year": 1968,
       "category": "Sports",
-      "caption": "Tommie Smith and John Carlos raise their fists on the Olympic podium in Mexico City"
+      "caption": "Tommie Smith and John Carlos raise their fists on the Olympic podium in Mexico City",
+      "photo": "images/1968/John_Carlos_Tommie_Smith_Peter_Norman_1968cr.jpg",
+      "credit": {
+        "text": "Angelo Cozzi (Mondadori Publishers) · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:John_Carlos%2C_Tommie_Smith%2C_Peter_Norman_1968cr.jpg"
+      }
+    },
+    {
+      "year": 1968,
+      "category": "Design",
+      "caption": "Waterbed",
+      "photo": "images/1968/Waterbed_Lectus.jpg",
+      "credit": {
+        "text": "NikaMaremico · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Waterbed_Lectus.jpg"
+      }
     }
   ],
   "1969": [
@@ -2125,7 +2590,7 @@
     },
     {
       "year": 1969,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Big Wheel",
       "photo": "images/1969/Boy-on-big-wheel-2008.jpg",
       "credit": {
@@ -2166,19 +2631,52 @@
     {
       "year": 1969,
       "category": "Sports",
-      "caption": "The \"Miracle Mets\" win the World Series"
+      "caption": "The \"Miracle Mets\" win the World Series",
+      "photo": "images/1969/Joe_Pignatano_Eddie_Yost_Yogi_Berra_1969.jpg",
+      "credit": {
+        "text": "Peter Manzari from Bayside, NYC, USA · CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Joe_Pignatano%2C_Eddie_Yost%2C_Yogi_Berra_1969.jpeg"
+      }
+    },
+    {
+      "year": 1969,
+      "category": "Books",
+      "caption": "The Very Hungry Caterpillar",
+      "photo": "images/1969/HungryCaterpillar.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:HungryCaterpillar.JPG"
+      }
+    },
+    {
+      "year": 1969,
+      "category": "Books",
+      "caption": "Slaughterhouse-Five",
+      "photo": "images/1969/Slaughterhouse-Five__first_edition__-_Kurt_Vonnegut.jpg",
+      "credit": {
+        "text": "Jacket design by Paul Bacon · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Slaughterhouse-Five_%28first_edition%29_-_Kurt_Vonnegut.jpg"
+      }
     }
   ],
   "1970": [
     {
       "caption": "Sesame Street releases the children’s single “Rubber Duckie.”",
-      "photo": "",
-      "category": "Music"
+      "photo": "images/1970/Rubber_Duckie.jpg",
+      "category": "Music",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Rubber_Duckie.jpg"
+      }
     },
     {
       "caption": "\"Sing\" becomes a Sesame Street hit.",
-      "photo": "",
-      "category": "Music"
+      "photo": "images/1970/Raposo_joe.jpg",
+      "category": "Music",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Raposo_joe.jpg"
+      }
     },
     {
       "year": 1970,
@@ -2272,7 +2770,7 @@
     },
     {
       "year": 1970,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Nerf ball",
       "photo": "images/1970/Nerf_orange_logo.png",
       "credit": {
@@ -2298,6 +2796,16 @@
       "credit": {
         "text": "© rights holder, low resolution",
         "url": "https://en.wikipedia.org/wiki/File:Kent_State_massacre.jpg"
+      }
+    },
+    {
+      "year": 1970,
+      "category": "Art",
+      "caption": "Spiral Jetty (Robert Smithson, Great Salt Lake)",
+      "photo": "images/1970/Spiral-jetty-from-rozel-point.jpg",
+      "credit": {
+        "text": "Soren.harward · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Spiral-jetty-from-rozel-point.png"
       }
     }
   ],
@@ -2384,7 +2892,7 @@
     },
     {
       "year": 1971,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Uno",
       "photo": "images/1971/UNO_Logo.png",
       "credit": {
@@ -2394,7 +2902,7 @@
     },
     {
       "year": 1971,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Intel 4004 microprocessor (A computer on a chip)",
       "photo": "images/1971/Intel_C4004.jpg",
       "credit": {
@@ -2420,6 +2928,26 @@
       "credit": {
         "text": "TheWanderingTraders · CC BY-SA 4.0",
         "url": "https://commons.wikimedia.org/wiki/File:Cinderella_Castle,_Magic_Kingdom_(2026)_(square_crop).jpg"
+      }
+    },
+    {
+      "year": 1971,
+      "category": "Art",
+      "caption": "Rothko Chapel opens in Houston",
+      "photo": "images/1971/Rothko_Chapel_-_1_August_2010.jpg",
+      "credit": {
+        "text": "David Van Horn from Boston, MA, USA · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Rothko_Chapel_-_1_August_2010.jpg"
+      }
+    },
+    {
+      "year": 1971,
+      "category": "Design",
+      "caption": "Crock-Pot",
+      "photo": "images/1971/Crock_pot.jpg",
+      "credit": {
+        "text": "Janine from Mililani, Hawaii, United States · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Crock_pot.jpg"
       }
     }
   ],
@@ -2496,7 +3024,7 @@
     },
     {
       "year": 1972,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Pong",
       "photo": "images/1972/Signed_Pong_Cabinet.jpg",
       "credit": {
@@ -2506,7 +3034,7 @@
     },
     {
       "year": 1972,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Magnavox Odyssey (The first home video game console)",
       "photo": "images/1972/Magnavox-Odyssey-Console-Set.jpg",
       "credit": {
@@ -2537,7 +3065,22 @@
     {
       "year": 1972,
       "category": "Sports",
-      "caption": "Mark Spitz wins seven gold medals at the Munich Olympics"
+      "caption": "Mark Spitz wins seven gold medals at the Munich Olympics",
+      "photo": "images/1972/Mark_Spitz.jpg",
+      "credit": {
+        "text": "Vinod Divakaran · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Mark_Spitz.jpg"
+      }
+    },
+    {
+      "year": 1972,
+      "category": "Design",
+      "caption": "Mr. Coffee",
+      "photo": "images/1972/Mr._Coffee_machine.jpg",
+      "credit": {
+        "text": "Angela CoffeeRank (coffee-rank.com) · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Mr._Coffee_machine.jpg"
+      }
     }
   ],
   "1973": [
@@ -2623,7 +3166,7 @@
     },
     {
       "year": 1973,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "The first handheld cell phone call (A prototype; you can't buy one for ten years)",
       "photo": "images/1973/2007Computex_e21Forum-MartinCooper.jpg",
       "credit": {
@@ -2634,7 +3177,12 @@
     {
       "year": 1973,
       "category": "World Events",
-      "caption": "Roe v. Wade"
+      "caption": "Roe v. Wade",
+      "photo": "images/1973/Norma_McCorvey_Jane_Roe_onthe_steps_of_the_Supreme_Court_1989_cropped.jpg",
+      "credit": {
+        "text": "Lorie Shaull from St Paul, United States · CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Norma_McCorvey_%28Jane_Roe%29_onthe_steps_of_the_Supreme_Court%2C_1989_%28cropped%29.jpg"
+      }
     },
     {
       "year": 1973,
@@ -2649,7 +3197,22 @@
     {
       "year": 1973,
       "category": "Sports",
-      "caption": "Secretariat wins the Triple Crown"
+      "caption": "Secretariat wins the Triple Crown",
+      "photo": "images/1973/Ron_Turcotte_and_Secretariat_after_winning_the_1973_Preakness_Stakes.jpg",
+      "credit": {
+        "text": "Carl D. Harris · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Ron_Turcotte_and_Secretariat_after_winning_the_1973_Preakness_Stakes.jpg"
+      }
+    },
+    {
+      "year": 1973,
+      "category": "Architecture",
+      "caption": "World Trade Center opens",
+      "photo": "images/1973/Wtc_panynj_1973.jpg",
+      "credit": {
+        "text": "Wil Blanche · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Wtc_panynj_1973.jpg"
+      }
     }
   ],
   "1974": [
@@ -2735,7 +3298,7 @@
     },
     {
       "year": 1974,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Dungeons & Dragons",
       "photo": "images/1974/D_D_Game_1.jpg",
       "credit": {
@@ -2745,7 +3308,7 @@
     },
     {
       "year": 1974,
-      "category": "Toys & Gadgets",
+      "category": "Misc",
       "caption": "The first barcode scan (A pack of Wrigley's gum in Troy, Ohio)",
       "photo": "images/1974/UPC-A-036000291452.png",
       "credit": {
@@ -2772,18 +3335,37 @@
         "text": "Unknown authorUnknown author · Public domain",
         "url": "https://commons.wikimedia.org/wiki/File:Hank_Aaron_1974.jpg"
       }
+    },
+    {
+      "year": 1974,
+      "category": "Architecture",
+      "caption": "Sears Tower, Chicago (The tallest building in the world)",
+      "photo": "images/1974/Sears_Tower__Wacker_Drive_and_Jackson_Boulevard__Chicago__IL_-_54189600901.jpg",
+      "credit": {
+        "text": "w_lemay · CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Sears_Tower%2C_Wacker_Drive_and_Jackson_Boulevard%2C_Chicago%2C_IL_-_54189600901.jpg"
+      }
     }
   ],
   "1975": [
     {
       "caption": "\"Cracks\" Sesame Street short aired.",
-      "photo": "",
-      "category": "Television"
+      "photo": "images/1975/Big_Bird_puppeteer_monitor_harness_1970s_-2.jpg",
+      "category": "Television",
+      "credit": {
+        "text": "HaeB · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Big_Bird_puppeteer_monitor_harness%2C_1970s_-2.jpg"
+      }
     },
     {
       "year": 1975,
       "category": "Music",
-      "caption": "\"Love Will Keep Us Together\" by Captain & Tennille is the year's No. 1 song"
+      "caption": "\"Love Will Keep Us Together\" by Captain & Tennille is the year's No. 1 song",
+      "photo": "images/1975/Captain_and_tennille_1976.jpg",
+      "credit": {
+        "text": "ABC Television · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Captain_and_tennille_1976.jpg"
+      }
     },
     {
       "year": 1975,
@@ -2808,7 +3390,12 @@
     {
       "year": 1975,
       "category": "Television",
-      "caption": "Saturday Night Live on TV"
+      "caption": "Saturday Night Live on TV",
+      "photo": "images/1975/Gilda_Radner_Saturday_Night_Live_NBC_press_photo_circa_1979.jpg",
+      "credit": {
+        "text": "NBC · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Gilda_Radner_Saturday_Night_Live_NBC_press_photo_circa_1979.jpg"
+      }
     },
     {
       "year": 1975,
@@ -2852,7 +3439,7 @@
     },
     {
       "year": 1975,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Pet Rock",
       "photo": "images/1975/PetRock_Box.jpg",
       "credit": {
@@ -2862,7 +3449,7 @@
     },
     {
       "year": 1975,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Betamax",
       "photo": "images/1975/Betamax_logo.png",
       "credit": {
@@ -2872,7 +3459,7 @@
     },
     {
       "year": 1975,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Altair 8800 (The kit computer that started Microsoft)",
       "photo": "images/1975/Altair_8800_Computer.jpg",
       "credit": {
@@ -2893,7 +3480,12 @@
     {
       "year": 1975,
       "category": "Sports",
-      "caption": "Muhammad Ali beats Joe Frazier in the \"Thrilla in Manila\""
+      "caption": "Muhammad Ali beats Joe Frazier in the \"Thrilla in Manila\"",
+      "photo": "images/1975/Muhammad_Ali_vs._Joe_Frazier_III.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Muhammad_Ali_vs._Joe_Frazier_III.jpg"
+      }
     }
   ],
   "1976": [
@@ -2979,7 +3571,7 @@
     },
     {
       "year": 1976,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Apple I",
       "photo": "images/1976/CopsonApple1_2k_cropped.jpg",
       "credit": {
@@ -2989,7 +3581,7 @@
     },
     {
       "year": 1976,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "VHS",
       "photo": "images/1976/VHS_logo.png",
       "credit": {
@@ -3010,7 +3602,12 @@
     {
       "year": 1976,
       "category": "Sports",
-      "caption": "Nadia Comăneci scores the first perfect 10 in Olympic gymnastics"
+      "caption": "Nadia Comăneci scores the first perfect 10 in Olympic gymnastics",
+      "photo": "images/1976/Nadia_Com_neci_at_Sports_Festival_2026.jpg",
+      "credit": {
+        "text": "Nuță Lucian · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Nadia_Com%C4%83neci_at_Sports_Festival_2026.jpg"
+      }
     }
   ],
   "1977": [
@@ -3025,8 +3622,12 @@
     },
     {
       "caption": "Iftah Ya Simsim, the Arabic version of Sesame Street, debuts.",
-      "photo": "",
-      "category": "Television"
+      "photo": "images/1977/Iftah_Ya_Simsim.jpg",
+      "category": "Television",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Iftah_Ya_Simsim.png"
+      }
     },
     {
       "year": 1977,
@@ -3110,7 +3711,7 @@
     },
     {
       "year": 1977,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Atari 2600",
       "photo": "images/1977/Atari-2600-Wood-4Sw-Set.png",
       "credit": {
@@ -3120,7 +3721,7 @@
     },
     {
       "year": 1977,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Apple II",
       "photo": "images/1977/Apple_II-IMG_7064.jpg",
       "credit": {
@@ -3141,7 +3742,22 @@
     {
       "year": 1977,
       "category": "World Events",
-      "caption": "New York City blackout"
+      "caption": "New York City blackout",
+      "photo": "images/1977/The_Subway_Sun_Extra_We_re_Proud_of_You.jpg",
+      "credit": {
+        "text": "New York City Transit Authority · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:The_Subway_Sun_Extra_We%27re_Proud_of_You...jpg"
+      }
+    },
+    {
+      "year": 1977,
+      "category": "Books",
+      "caption": "The Shining",
+      "photo": "images/1977/The_Shining__1977__front_cover__first_edition.jpg",
+      "credit": {
+        "text": "Jacket illustration by Dave Christensen · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:The_Shining_%281977%29_front_cover%2C_first_edition.jpg"
+      }
     }
   ],
   "1978": [
@@ -3237,7 +3853,7 @@
     },
     {
       "year": 1978,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Space Invaders",
       "photo": "images/1978/Space_Invaders_flyer__1978.jpg",
       "credit": {
@@ -3247,7 +3863,7 @@
     },
     {
       "year": 1978,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Speak & Spell",
       "photo": "images/1978/Speak___Spell__original_style.jpg",
       "credit": {
@@ -3258,7 +3874,12 @@
     {
       "year": 1978,
       "category": "World Events",
-      "caption": "The first \"test-tube baby\""
+      "caption": "The first \"test-tube baby\"",
+      "photo": "images/1978/Patrick_Steptoe_First_Greek_IVF_child.jpg",
+      "credit": {
+        "text": "Dimis Argyropoulos · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Patrick_Steptoe_First_Greek_IVF_child.jpg"
+      }
     },
     {
       "year": 1978,
@@ -3315,7 +3936,12 @@
     {
       "year": 1979,
       "category": "Television",
-      "caption": "ESPN launches"
+      "caption": "ESPN launches",
+      "photo": "images/1979/ESPN_Headquarters.jpg",
+      "credit": {
+        "text": "AirportExpert · CC0",
+        "url": "https://commons.wikimedia.org/wiki/File:ESPN_Headquarters.jpg"
+      }
     },
     {
       "year": 1979,
@@ -3349,7 +3975,7 @@
     },
     {
       "year": 1979,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Sony Walkman",
       "photo": "images/1979/Walkman_logo__2000.png",
       "credit": {
@@ -3380,7 +4006,22 @@
     {
       "year": 1979,
       "category": "Sports",
-      "caption": "Magic Johnson's Michigan State beats Larry Bird's Indiana State for the NCAA title"
+      "caption": "Magic Johnson's Michigan State beats Larry Bird's Indiana State for the NCAA title",
+      "photo": "images/1979/Michigan_state_bask_33_magicjohnson.jpg",
+      "credit": {
+        "text": "Fernando Martello · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Michigan_state_bask_33_magicjohnson.jpg"
+      }
+    },
+    {
+      "year": 1979,
+      "category": "Art",
+      "caption": "Judy Chicago's The Dinner Party",
+      "photo": "images/1979/The_dinner_party_book_cover.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:The_dinner_party_book_cover.jpg"
+      }
     }
   ],
   "1980": [
@@ -3476,7 +4117,7 @@
     },
     {
       "year": 1980,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Pac-Man",
       "photo": "images/1980/Pac_flyer.jpg",
       "credit": {
@@ -3486,7 +4127,7 @@
     },
     {
       "year": 1980,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Rubik's Cube (The world release; invented in 1974)",
       "photo": "images/1980/Rubiks_cube_solved.jpg",
       "credit": {
@@ -3496,7 +4137,7 @@
     },
     {
       "year": 1980,
-      "category": "Toys & Gadgets",
+      "category": "Misc",
       "caption": "Post-it Note",
       "photo": "images/1980/Post-it-2020.png",
       "credit": {
@@ -3597,7 +4238,7 @@
     },
     {
       "year": 1981,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "IBM PC",
       "photo": "images/1981/IBM_Personal_Computer_badge_recreation.png",
       "credit": {
@@ -3607,7 +4248,7 @@
     },
     {
       "year": 1981,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Donkey Kong",
       "photo": "images/1981/Donkey_Kong_flier.jpg",
       "credit": {
@@ -3728,7 +4369,7 @@
     },
     {
       "year": 1982,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Commodore 64",
       "photo": "images/1982/Commodore-64-Computer-FL.jpg",
       "credit": {
@@ -3738,7 +4379,7 @@
     },
     {
       "year": 1982,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Compact disc (The first CD player goes on sale in Japan)",
       "photo": "images/1982/Compact_Disc_wordmark.png",
       "credit": {
@@ -3765,6 +4406,16 @@
         "text": "National Park Service · CC BY 2.0",
         "url": "https://commons.wikimedia.org/wiki/File:Vietnam_Veterans_Memorial_reflection_in_low_light.jpg"
       }
+    },
+    {
+      "year": 1982,
+      "category": "Art",
+      "caption": "Vietnam Veterans Memorial (Maya Lin)",
+      "photo": "images/1982/Vietnam_Veterans_Memorial_reflection.jpg",
+      "credit": {
+        "text": "Gary Todd · CC0",
+        "url": "https://commons.wikimedia.org/wiki/File:Vietnam_Veterans_Memorial_reflection.jpg"
+      }
     }
   ],
   "1983": [
@@ -3788,13 +4439,6 @@
     },
     {
       "year": 1983,
-      "category": "Automobiles",
-      "caption": "Renault Espace - Early MPV design",
-      "photo": "",
-      "tags": []
-    },
-    {
-      "year": 1983,
       "category": "Film",
       "caption": "Return of the Jedi released",
       "photo": "images/1983/ReturnOfTheJediPoster1983.jpg",
@@ -3804,8 +4448,12 @@
       "year": 1983,
       "category": "World Events",
       "caption": "KAL 007 shot down",
-      "photo": "",
-      "tags": []
+      "photo": "images/1983/20559-186-HL7442-B747-230B-ZRH-5_80.jpg",
+      "tags": [],
+      "credit": {
+        "text": "mike hoffmann · CC0",
+        "url": "https://commons.wikimedia.org/wiki/File:20559-186-HL7442-B747-230B-ZRH-5%2780.jpg"
+      }
     },
     {
       "year": 1983,
@@ -3840,7 +4488,12 @@
     {
       "year": 1983,
       "category": "Television",
-      "caption": "M*A*S*H finale (The most-watched episode of American TV)"
+      "caption": "M*A*S*H finale (The most-watched episode of American TV)",
+      "photo": "images/1983/MASH_Cast_1977.jpg",
+      "credit": {
+        "text": "CBS Television · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:MASH_Cast_1977.JPG"
+      }
     },
     {
       "year": 1983,
@@ -3874,8 +4527,13 @@
     },
     {
       "year": 1983,
-      "category": "Toys & Gadgets",
-      "caption": "Cabbage Patch Kids (The holiday toy riots)"
+      "category": "Toys & Games",
+      "caption": "Cabbage Patch Kids (The holiday toy riots)",
+      "photo": "images/1983/Cabbage_patch_kids_logo.png",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Cabbage_patch_kids_logo.gif"
+      }
     },
     {
       "year": 1983,
@@ -3936,26 +4594,34 @@
       "year": 1984,
       "category": "World Events",
       "caption": "Astronaut Bruce McCandless performs first untethered spacewalk",
-      "photo": "",
+      "photo": "images/1984/Bruce_McCandless_II.jpg",
       "tags": [
         "nasa",
         "space",
         "astronaut",
         "challenger",
         "eva"
-      ]
+      ],
+      "credit": {
+        "text": "NASA · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Bruce_McCandless_II.jpg"
+      }
     },
     {
       "year": 1984,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Alexey Pajitnov creates the addictive puzzle game Tetris",
-      "photo": "",
+      "photo": "images/1984/Tetris_music_selector.jpg",
       "tags": [
         "puzzle",
         "video game",
         "retro",
         "soviet union"
-      ]
+      ],
+      "credit": {
+        "text": "Nintendo of America · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Tetris_music_selector.jpg"
+      }
     },
     {
       "year": 1984,
@@ -4010,7 +4676,12 @@
     {
       "year": 1984,
       "category": "Television",
-      "caption": "Jeopardy! with Alex Trebek"
+      "caption": "Jeopardy! with Alex Trebek",
+      "photo": "images/1984/Alex_Trebek_at_the_71st_Annual_Peabody_Awards_cropped.jpg",
+      "credit": {
+        "text": "The Peabody Awards · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Alex_Trebek_at_the_71st_Annual_Peabody_Awards_%28cropped%29.jpg"
+      }
     },
     {
       "year": 1984,
@@ -4044,8 +4715,13 @@
     },
     {
       "year": 1984,
-      "category": "Toys & Gadgets",
-      "caption": "Transformers"
+      "category": "Toys & Games",
+      "caption": "Transformers",
+      "photo": "images/1984/Optimus_Prime_patent.jpg",
+      "credit": {
+        "text": "Hiroyuki Obara. · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Optimus_Prime_patent.png"
+      }
     },
     {
       "year": 1984,
@@ -4055,6 +4731,16 @@
       "credit": {
         "text": "© rights holder, low resolution",
         "url": "https://en.wikipedia.org/wiki/File:1984_Summer_Olympics_logo.svg"
+      }
+    },
+    {
+      "year": 1984,
+      "category": "Architecture",
+      "caption": "AT&T Building, New York (The Chippendale top)",
+      "photo": "images/1984/Sony_Building_by_David_Shankbone_crop.jpg",
+      "credit": {
+        "text": "David Shankbone · CC BY 2.5",
+        "url": "https://commons.wikimedia.org/wiki/File:Sony_Building_by_David_Shankbone_crop.jpg"
       }
     }
   ],
@@ -4072,7 +4758,7 @@
     },
     {
       "year": 1985,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Nintendo Entertainment System (NES) released in North America",
       "photo": "images/1985/1280px-NES-Console-Set.jpg",
       "tags": [
@@ -4118,8 +4804,12 @@
       "year": 1985,
       "category": "World Events",
       "caption": "Mikhail Gorbachev becomes leader of the Soviet Union",
-      "photo": "",
-      "tags": []
+      "photo": "images/1985/RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_crop.jpg",
+      "tags": [],
+      "credit": {
+        "text": "Vladimir Vyatkin / RIA Novosti · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_%28crop%29.jpg"
+      }
     },
     {
       "year": 1985,
@@ -4144,7 +4834,12 @@
     {
       "year": 1985,
       "category": "Television",
-      "caption": "The Golden Girls on TV"
+      "caption": "The Golden Girls on TV",
+      "photo": "images/1985/Betty_White_1988_Emmy_Awards__cropped_2.jpg",
+      "credit": {
+        "text": "Alan Light · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Betty_White_1988_Emmy_Awards_%28cropped_2%29.jpg"
+      }
     },
     {
       "year": 1985,
@@ -4158,7 +4853,7 @@
     },
     {
       "year": 1985,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Windows 1.0",
       "photo": "images/1985/Windows1.0.jpg",
       "credit": {
@@ -4179,7 +4874,12 @@
     {
       "year": 1985,
       "category": "Sports",
-      "caption": "Pete Rose passes Ty Cobb's record for career hits"
+      "caption": "Pete Rose passes Ty Cobb's record for career hits",
+      "photo": "images/1985/Pete_Rose_cropped.jpg",
+      "credit": {
+        "text": "Unknown authorUnknown author · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Pete_Rose_%28cropped%29.jpg"
+      }
     }
   ],
   "1986": [
@@ -4187,15 +4887,23 @@
       "year": 1986,
       "category": "Music",
       "caption": "Beastie Boys - Licensed to Ill",
-      "photo": "",
-      "tags": []
+      "photo": "images/1986/Beastie_Boys_-_Licensed_to_Ill.jpg",
+      "tags": [],
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Beastie_Boys_-_Licensed_to_Ill.png"
+      }
     },
     {
       "year": 1986,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Sega Master System released in North America",
-      "photo": "",
-      "tags": []
+      "photo": "images/1986/Sega-Master-System-Console-BL.jpg",
+      "tags": [],
+      "credit": {
+        "text": "Evan-Amos · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Sega-Master-System-Console-BL.jpg"
+      }
     },
     {
       "year": 1986,
@@ -4231,7 +4939,12 @@
     {
       "year": 1986,
       "category": "Music",
-      "caption": "\"That's What Friends Are For\" by Dionne Warwick and Friends is the year's No. 1 song"
+      "caption": "\"That's What Friends Are For\" by Dionne Warwick and Friends is the year's No. 1 song",
+      "photo": "images/1986/Dionne_Warwick_2021.jpg",
+      "credit": {
+        "text": "Montclair Film · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Dionne_Warwick_2021.jpg"
+      }
     },
     {
       "year": 1986,
@@ -4285,7 +4998,7 @@
     },
     {
       "year": 1986,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "The Legend of Zelda",
       "photo": "images/1986/Legend_of_zelda_cover__with_cartridge__gold.jpg",
       "credit": {
@@ -4295,7 +5008,7 @@
     },
     {
       "year": 1986,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Disposable camera",
       "photo": "images/1986/Kodak_front_up.jpg",
       "credit": {
@@ -4316,16 +5029,35 @@
     {
       "year": 1986,
       "category": "Sports",
-      "caption": "The Mets win the World Series after the ball rolls through Bill Buckner's legs"
+      "caption": "The Mets win the World Series after the ball rolls through Bill Buckner's legs",
+      "photo": "images/1986/Bill_Buckner_810611.jpg",
+      "credit": {
+        "text": "Original uploader was Wahkeenah at en.wikipedia · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Bill_Buckner_810611.JPG"
+      }
+    },
+    {
+      "year": 1986,
+      "category": "Art",
+      "caption": "Keith Haring's Crack Is Wack mural",
+      "photo": "images/1986/Keith_Harring_Crack_is_Wack_Mural.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Keith_Harring_Crack_is_Wack_Mural.jpg"
+      }
     }
   ],
   "1987": [
     {
       "year": 1987,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Contra Released (Arcade)",
-      "photo": "",
-      "tags": []
+      "photo": "images/1987/Contra_cover.jpg",
+      "tags": [],
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Contra_cover.jpg"
+      }
     },
     {
       "year": 1987,
@@ -4338,14 +5070,18 @@
       "year": 1987,
       "category": "Television",
       "caption": "The Simpsons first appear as shorts",
-      "photo": "",
+      "photo": "images/1987/Simpsons_on_Tracey_Ullman-2.png",
       "tags": [
         "animation",
         "comedy",
         "fox",
         "simpsons",
         "80s"
-      ]
+      ],
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Simpsons_on_Tracey_Ullman.png"
+      }
     },
     {
       "year": 1987,
@@ -4429,7 +5165,7 @@
     },
     {
       "year": 1987,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Final Fantasy",
       "photo": "images/1987/FF1_USA_boxart.jpg",
       "credit": {
@@ -4456,6 +5192,16 @@
         "text": "Reagan Library · CC BY 3.0",
         "url": "https://commons.wikimedia.org/wiki/File:President_Ronald_Reagan%27s_Speech_at_the_Berlin_Wall,_June_12,_1987.webm"
       }
+    },
+    {
+      "year": 1987,
+      "category": "Books",
+      "caption": "Beloved",
+      "photo": "images/1987/Beloved__1987_1st_ed_dust_jacket_cover.jpg",
+      "credit": {
+        "text": "Jacket design by R. D. Scudellari · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Beloved_%281987_1st_ed_dust_jacket_cover%29.jpg"
+      }
     }
   ],
   "1988": [
@@ -4474,8 +5220,12 @@
       "year": 1988,
       "category": "Tech",
       "caption": "Sound Blaster card released",
-      "photo": "",
-      "tags": []
+      "photo": "images/1988/Sound_Blaster_X-Fi_Notebook_Expresscard.jpg",
+      "tags": [],
+      "credit": {
+        "text": "Vladsinger · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Sound_Blaster_X-Fi_Notebook_Expresscard.jpg"
+      }
     },
     {
       "year": 1988,
@@ -4492,12 +5242,16 @@
       "year": 1988,
       "category": "World Events",
       "caption": "Pan Am Flight 103 bombed over Lockerbie",
-      "photo": "",
-      "tags": []
+      "photo": "images/1988/Pan_Am_Flight_103._Crashed_Lockerbie_Scotland_21_December_1988.jpg",
+      "tags": [],
+      "credit": {
+        "text": "Air Accident Investigation Branch · OGL 2",
+        "url": "https://commons.wikimedia.org/wiki/File:Pan_Am_Flight_103._Crashed_Lockerbie%2C_Scotland%2C_21_December_1988.jpg"
+      }
     },
     {
       "year": 1988,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Mega Man 2 Released (NES)",
       "photo": "images/1988/Megaman2_box.jpg",
       "tags": []
@@ -4525,12 +5279,22 @@
     {
       "year": 1988,
       "category": "Television",
-      "caption": "Roseanne on TV"
+      "caption": "Roseanne on TV",
+      "photo": "images/1988/Roseanne_Barr_Utah_Pride_Festival_2011.jpg",
+      "credit": {
+        "text": "Jonathan Mauer · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Roseanne_Barr_Utah_Pride_Festival_2011.jpg"
+      }
     },
     {
       "year": 1988,
       "category": "Television",
-      "caption": "Murphy Brown on TV"
+      "caption": "Murphy Brown on TV",
+      "photo": "images/1988/CandiceBergen-byPhilipRomano.jpg",
+      "credit": {
+        "text": "PhilipRomanoPhoto · CC BY 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:CandiceBergen-byPhilipRomano.jpg"
+      }
     },
     {
       "year": 1988,
@@ -4564,8 +5328,13 @@
     },
     {
       "year": 1988,
-      "category": "Toys & Gadgets",
-      "caption": "Teenage Mutant Ninja Turtles toys"
+      "category": "Toys & Games",
+      "caption": "Teenage Mutant Ninja Turtles toys",
+      "photo": "images/1988/TMNT1987Series.png",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:TMNT1987Series.png"
+      }
     },
     {
       "year": 1988,
@@ -4580,7 +5349,12 @@
     {
       "year": 1988,
       "category": "Sports",
-      "caption": "Kirk Gibson's pinch-hit home run wins World Series Game 1"
+      "caption": "Kirk Gibson's pinch-hit home run wins World Series Game 1",
+      "photo": "images/1988/Kirk_Gibson_by_Gage_Skidmore.jpg",
+      "credit": {
+        "text": "Gage Skidmore · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Kirk_Gibson_by_Gage_Skidmore.jpg"
+      }
     }
   ],
   "1989": [
@@ -4597,7 +5371,7 @@
     },
     {
       "year": 1989,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Nintendo Game Boy launched",
       "photo": "images/1989/Game-Boy-FL.jpg",
       "tags": [
@@ -4623,14 +5397,18 @@
       "year": 1989,
       "category": "World Events",
       "caption": "Berlin Wall falls",
-      "photo": "",
+      "photo": "images/1989/West_and_East_Germans_at_the_Brandenburg_Gate_in_1989-2.jpg",
       "tags": [
         "germany",
         "cold war",
         "politics",
         "history",
         "reunification"
-      ]
+      ],
+      "credit": {
+        "text": "Lear 21 · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg"
+      }
     },
     {
       "year": 1989,
@@ -4645,10 +5423,14 @@
     },
     {
       "year": 1989,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Tetris released on Game Boy",
-      "photo": "",
-      "tags": []
+      "photo": "images/1989/Tetris_Boxshot.jpg",
+      "tags": [],
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Tetris_Boxshot.jpg"
+      }
     },
     {
       "year": 1989,
@@ -4723,7 +5505,7 @@
       "caption": "The Berlin Wall falls",
       "photo": "images/1989/West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg",
       "credit": {
-        "text": "Unknown photographer, Reproduction by Lear 21 at English Wikipedia. · CC BY-SA 3.0",
+        "text": "Lear 21 · CC BY-SA 3.0",
         "url": "https://commons.wikimedia.org/wiki/File:West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg"
       }
     },
@@ -4743,15 +5525,12 @@
       "year": 1990,
       "category": "Music",
       "caption": "MC Hammer - U Can't Touch This",
-      "photo": "",
-      "tags": []
-    },
-    {
-      "year": 1990,
-      "category": "Gaming",
-      "caption": "Super Nintendo (SNES) released in Japan",
-      "photo": "",
-      "tags": []
+      "photo": "images/1990/Hammer_Touch.jpg",
+      "tags": [],
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Hammer_Touch.jpg"
+      }
     },
     {
       "year": 1990,
@@ -4771,8 +5550,12 @@
       "year": 1990,
       "category": "World Events",
       "caption": "Nelson Mandela released from prison",
-      "photo": "",
-      "tags": []
+      "photo": "images/1990/Nelson_Mandela_1994.jpg",
+      "tags": [],
+      "credit": {
+        "text": "Kingkongphoto & www.celebrity-photos.com from Laurel · CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_1994.jpg"
+      }
     },
     {
       "year": 1990,
@@ -4787,7 +5570,7 @@
     },
     {
       "year": 1990,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Super Mario Bros. 3 defines NES platforming",
       "photo": "images/1990/Super_Mario_Bros._3_coverart.png",
       "tags": [
@@ -4802,7 +5585,7 @@
       "year": 1990,
       "category": "Television",
       "caption": "David Lynch's Twin Peaks captivates audiences",
-      "photo": "",
+      "photo": "images/1990/Twin_Peaks_-_Las_Vegas_-_Sign.jpg",
       "tags": [
         "drama",
         "mystery",
@@ -4810,7 +5593,11 @@
         "cult",
         "david lynch",
         "abc"
-      ]
+      ],
+      "credit": {
+        "text": "Jesse James · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Twin_Peaks_-_Las_Vegas_-_Sign.jpg"
+      }
     },
     {
       "year": 1990,
@@ -4884,7 +5671,7 @@
     },
     {
       "year": 1990,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Super Soaker",
       "photo": "images/1990/Cps2000front.jpg",
       "credit": {
@@ -4894,7 +5681,7 @@
     },
     {
       "year": 1990,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Photoshop 1.0",
       "photo": "images/1990/Adobe_Photoshop_CC_2026_icon.png",
       "credit": {
@@ -4908,8 +5695,18 @@
       "caption": "Germany reunites",
       "photo": "images/1989/West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg",
       "credit": {
-        "text": "Unknown photographer, Reproduction by Lear 21 at English Wikipedia. · CC BY-SA 3.0",
+        "text": "Lear 21 · CC BY-SA 3.0",
         "url": "https://commons.wikimedia.org/wiki/File:West_and_East_Germans_at_the_Brandenburg_Gate_in_1989.jpg"
+      }
+    },
+    {
+      "year": 1990,
+      "category": "Books",
+      "caption": "Jurassic Park",
+      "photo": "images/1990/Jurassic_Park__book_cover.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Jurassic_Park_%28book_cover%29.jpg"
       }
     }
   ],
@@ -4929,7 +5726,7 @@
     },
     {
       "year": 1991,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Super Nintendo (SNES) released in North America",
       "photo": "images/1991/SNES-Mod1-Console-Set.jpg",
       "tags": []
@@ -4954,16 +5751,20 @@
     },
     {
       "year": 1991,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Street Fighter II released (Arcade)",
-      "photo": "",
-      "tags": []
+      "photo": "images/1991/SF2_JPN_flyer.jpg",
+      "tags": [],
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:SF2_JPN_flyer.jpg"
+      }
     },
     {
       "year": 1991,
       "category": "Tech",
       "caption": "World Wide Web becomes publicly available",
-      "photo": "",
+      "photo": "images/1991/Chrome_on_Linux.jpg",
       "tags": [
         "internet",
         "web",
@@ -4971,11 +5772,15 @@
         "cern",
         "html",
         "http"
-      ]
+      ],
+      "credit": {
+        "text": "Liamd967 · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Chrome_on_Linux.png"
+      }
     },
     {
       "year": 1991,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Sonic the Hedgehog challenges Mario",
       "photo": "images/1991/Sonic_the_Hedgehog_1_Genesis_box_art.jpg",
       "tags": [
@@ -5074,7 +5879,12 @@
     {
       "year": 1991,
       "category": "Sports",
-      "caption": "Michael Jordan and the Bulls win their first NBA title"
+      "caption": "Michael Jordan and the Bulls win their first NBA title",
+      "photo": "images/1991/1991NBAFinals.png",
+      "credit": {
+        "text": "National Basketball Association · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:1991NBAFinals.png"
+      }
     }
   ],
   "1992": [
@@ -5089,26 +5899,38 @@
       "year": 1992,
       "category": "Tech",
       "caption": "Sony MiniDisc launched",
-      "photo": "",
-      "tags": []
+      "photo": "images/1992/Sony_MZ_R500_minidisc_player.jpg",
+      "tags": [],
+      "credit": {
+        "text": "UnifiedFunctionality · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Sony_MZ_R500_minidisc_player.jpg"
+      }
     },
     {
       "year": 1992,
       "category": "Film",
       "caption": "Reservoir Dogs released",
-      "photo": "",
-      "tags": []
+      "photo": "images/1992/Reservoir_Dogs.jpg",
+      "tags": [],
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Reservoir_Dogs.png"
+      }
     },
     {
       "year": 1992,
       "category": "World Events",
       "caption": "Mall of America opens",
-      "photo": "",
-      "tags": []
+      "photo": "images/1992/Mall_of_America_interior.jpg",
+      "tags": [],
+      "credit": {
+        "text": "Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Mall_of_America_interior.jpg"
+      }
     },
     {
       "year": 1992,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Mortal Kombat released (Arcade)",
       "photo": "images/1992/Mortal_Kombat_cover.jpg",
       "tags": [],
@@ -5119,7 +5941,7 @@
     },
     {
       "year": 1992,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Super Mario Kart released (SNES)",
       "photo": "images/1992/Supermariokart_box.JPG",
       "tags": []
@@ -5202,7 +6024,7 @@
     },
     {
       "year": 1992,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "The first text message (\"Merry Christmas\")",
       "photo": "images/1992/Party_SMS.jpg",
       "credit": {
@@ -5233,13 +6055,18 @@
     {
       "year": 1992,
       "category": "Sports",
-      "caption": "The \"Dream Team\" wins Olympic basketball gold in Barcelona"
+      "caption": "The \"Dream Team\" wins Olympic basketball gold in Barcelona",
+      "photo": "images/1992/Dream_Team_at_the_1992_Summer_Olympics.jpg",
+      "credit": {
+        "text": "Ken Hackman, U.S. Air Force · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Dream_Team_at_the_1992_Summer_Olympics.JPEG"
+      }
     }
   ],
   "1993": [
     {
       "year": 1993,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Doom released, defining FPS genre",
       "photo": "images/1993/Doom_cover_art.jpg",
       "tags": []
@@ -5337,7 +6164,7 @@
     },
     {
       "year": 1993,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Mosaic web browser",
       "photo": "images/1993/NCSA_Mosaic_Browser_Screenshot.jpg",
       "credit": {
@@ -5368,14 +6195,18 @@
       "year": 1994,
       "category": "Tech",
       "caption": "Netscape Navigator dominates early web browsing",
-      "photo": "",
+      "photo": "images/1994/Netscape_Navigator_2_Screenshot.jpg",
       "tags": [
         "internet",
         "browser",
         "web",
         "netscape",
         "dot-com"
-      ]
+      ],
+      "credit": {
+        "text": "Indolering · CC0",
+        "url": "https://commons.wikimedia.org/wiki/File:Netscape_Navigator_2_Screenshot.png"
+      }
     },
     {
       "year": 1994,
@@ -5462,7 +6293,7 @@
     },
     {
       "year": 1994,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "PlayStation (Japan in 1994, America in 1995)",
       "photo": "images/1994/Playstation_logo_colour.png",
       "credit": {
@@ -5472,7 +6303,7 @@
     },
     {
       "year": 1994,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Amazon starts selling books",
       "photo": "images/1994/Amazon_Tower_I_topped_out__June_2015.jpg",
       "credit": {
@@ -5503,23 +6334,15 @@
     {
       "year": 1994,
       "category": "Sports",
-      "caption": "A players' strike cancels the World Series"
+      "caption": "A players' strike cancels the World Series",
+      "photo": "images/1994/Bud_Selig_on_October_31__2010.jpg",
+      "credit": {
+        "text": "Chairman of the Joint Chiefs of Staff · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Bud_Selig_on_October_31%2C_2010.jpg"
+      }
     }
   ],
   "1995": [
-    {
-      "year": 1995,
-      "category": "Gaming",
-      "caption": "Sony PlayStation launched in North America",
-      "photo": "",
-      "tags": [
-        "sony",
-        "playstation",
-        "console",
-        "gaming",
-        "90s"
-      ]
-    },
     {
       "year": 1995,
       "category": "Tech",
@@ -5653,13 +6476,18 @@
     {
       "year": 1995,
       "category": "Sports",
-      "caption": "Cal Ripken Jr. plays his 2,131st straight game, passing Lou Gehrig"
+      "caption": "Cal Ripken Jr. plays his 2,131st straight game, passing Lou Gehrig",
+      "photo": "images/1995/Lieutenant_Governor_Boyd_Rutherford_with_Cal_Ripken_Jr_cropped.jpg",
+      "credit": {
+        "text": "Maryland GovPics · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Lieutenant_Governor_Boyd_Rutherford_with_Cal_Ripken_Jr_%28cropped%29.jpg"
+      }
     }
   ],
   "1996": [
     {
       "year": 1996,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Nintendo 64 brings 3D gaming home",
       "photo": "images/1996/Nintendo_64__logo.png",
       "tags": [
@@ -5674,18 +6502,6 @@
         "text": "© rights holder, low resolution",
         "url": "https://en.wikipedia.org/wiki/File:Nintendo_64_(logo).svg"
       }
-    },
-    {
-      "year": 1996,
-      "category": "Tech",
-      "caption": "DVD format launched",
-      "photo": "",
-      "tags": [
-        "video",
-        "storage",
-        "disc",
-        "digital"
-      ]
     },
     {
       "year": 1996,
@@ -5805,7 +6621,7 @@
     },
     {
       "year": 1996,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Tamagotchi",
       "photo": "images/1996/Tamagotchi_0124_ubt.jpg",
       "credit": {
@@ -5815,7 +6631,7 @@
     },
     {
       "year": 1996,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Tickle Me Elmo",
       "photo": "images/1996/Tickle_me_elmo.jpg",
       "credit": {
@@ -5826,7 +6642,12 @@
     {
       "year": 1996,
       "category": "Sports",
-      "caption": "Atlanta Summer Olympics"
+      "caption": "Atlanta Summer Olympics",
+      "photo": "images/1996/Atlanta_-_Atlanta_History_Center_-_Museum_-_1996_Centennial_Olympic_Games_-_Mode.jpg",
+      "credit": {
+        "text": "Jared · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Atlanta_-_Atlanta_History_Center_-_Museum_-_1996_Centennial_Olympic_Games_-_Model_of_Centennial_Olympic_Stadium_%2824271156342%29.jpg"
+      }
     }
   ],
   "1997": [
@@ -5834,26 +6655,34 @@
       "year": 1997,
       "category": "Tech",
       "caption": "PalmPilot popularizes the PDA",
-      "photo": "",
+      "photo": "images/1997/Palm-IMG_7025.jpg",
       "tags": [
         "pda",
         "handheld",
         "organizer",
         "palm"
-      ]
+      ],
+      "credit": {
+        "text": "Rama & Musée Bolo · CC BY-SA 2.0 fr",
+        "url": "https://commons.wikimedia.org/wiki/File:Palm-IMG_7025.jpg"
+      }
     },
     {
       "year": 1997,
       "category": "Music",
       "caption": "Radiohead releases landmark album OK Computer",
-      "photo": "",
+      "photo": "images/1997/Radioheadokcomputer.jpg",
       "tags": [
         "alternative",
         "rock",
         "90s",
         "experimental",
         "radiohead"
-      ]
+      ],
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Radioheadokcomputer.png"
+      }
     },
     {
       "year": 1997,
@@ -5910,14 +6739,18 @@
       "year": 1997,
       "category": "World Events",
       "caption": "Hong Kong returned to China",
-      "photo": "",
+      "photo": "images/1997/Image_shows_the_Union_and_Chinese_Flags_together._MOD_45157410.jpg",
       "tags": [
         "china",
         "uk",
         "hong kong",
         "politics",
         "history"
-      ]
+      ],
+      "credit": {
+        "text": "Sergeant Paul Shaw LBIPP · OGL v1.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Image_shows_the_Union_and_Chinese_Flags_together._MOD_45157410.jpg"
+      }
     },
     {
       "year": 1997,
@@ -5981,7 +6814,7 @@
     },
     {
       "year": 1997,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "DVD",
       "photo": "images/1997/DVD-R_bottom-side.jpg",
       "credit": {
@@ -5991,7 +6824,7 @@
     },
     {
       "year": 1997,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Pokémon Red and Blue (Japan in 1996, America in 1998)",
       "photo": "images/1997/Pok_mon_Red_and_Blue_cover_art.jpg",
       "credit": {
@@ -6012,13 +6845,28 @@
     {
       "year": 1997,
       "category": "Sports",
-      "caption": "Tiger Woods wins his first Masters, by 12 strokes"
+      "caption": "Tiger Woods wins his first Masters, by 12 strokes",
+      "photo": "images/1997/1997_Masters_Tournament_official_program_front_cover.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:1997_Masters_Tournament_official_program_front_cover.jpg"
+      }
+    },
+    {
+      "year": 1997,
+      "category": "Architecture",
+      "caption": "Getty Center, Los Angeles",
+      "photo": "images/1997/2024_Getty_Center_08.jpg",
+      "credit": {
+        "text": "Derbrauni · CC BY 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:2024_Getty_Center_08.jpg"
+      }
     }
   ],
   "1998": [
     {
       "year": 1998,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Half-Life revolutionizes FPS storytelling",
       "photo": "images/1998/Half-Life_Cover_Art.jpg",
       "tags": [
@@ -6064,13 +6912,17 @@
       "year": 1998,
       "category": "Science & Space",
       "caption": "Viagra approved by FDA",
-      "photo": "",
+      "photo": "images/1998/Viagra_Tablette.jpg",
       "tags": [
         "medicine",
         "health",
         "pfizer",
         "fda"
-      ]
+      ],
+      "credit": {
+        "text": "Kehkasha · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Viagra_Tablette.jpg"
+      }
     },
     {
       "year": 1998,
@@ -6138,7 +6990,12 @@
     {
       "year": 1998,
       "category": "Television",
-      "caption": "Will & Grace on TV"
+      "caption": "Will & Grace on TV",
+      "photo": "images/1998/Debra_Messing_at_the_2009_Tribeca_Film_Festival.jpg",
+      "credit": {
+        "text": "David Shankbone · CC BY 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Debra_Messing_at_the_2009_Tribeca_Film_Festival.jpg"
+      }
     },
     {
       "year": 1998,
@@ -6162,7 +7019,7 @@
     },
     {
       "year": 1998,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Furby",
       "photo": "images/1998/Furby_brand_logo.png",
       "credit": {
@@ -6178,6 +7035,16 @@
       "credit": {
         "text": "Jon Gudorf Photography · CC BY-SA 2.0",
         "url": "https://commons.wikimedia.org/wiki/File:Mark_McGwire_follow-thru_Piazza_catching-53.jpg"
+      }
+    },
+    {
+      "year": 1998,
+      "category": "Books",
+      "caption": "Harry Potter and the Sorcerer's Stone (U.S. edition)",
+      "photo": "images/1998/Harry_Potter_and_the_Philosopher_s_Stone_Book_Cover.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Harry_Potter_and_the_Philosopher%27s_Stone_Book_Cover.jpg"
       }
     }
   ],
@@ -6217,30 +7084,38 @@
       "year": 1999,
       "category": "Television",
       "caption": "The Sopranos launches HBO's prestige drama era",
-      "photo": "",
+      "photo": "images/1999/James_Gandolfini_Toronto_International_Film_Festival_2011.jpg",
       "tags": [
         "drama",
         "crime",
         "hbo",
         "prestige tv",
         "mafia"
-      ]
+      ],
+      "credit": {
+        "text": "gdcgraphics · CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:James_Gandolfini_%40_Toronto_International_Film_Festival_2011.jpg"
+      }
     },
     {
       "year": 1999,
       "category": "Tech",
       "caption": "Bluetooth 1.0 standard released",
-      "photo": "",
+      "photo": "images/1999/Bluetooth_headset_WEP-200-8934.jpg",
       "tags": [
         "wireless",
         "connectivity",
         "standard",
         "radio"
-      ]
+      ],
+      "credit": {
+        "text": "Raimond Spekking · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Bluetooth_headset_WEP-200-8934.jpg"
+      }
     },
     {
       "year": 1999,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Sega Dreamcast launches in North America",
       "photo": "images/1999/Dreamcast_logo_Japan.png",
       "tags": [
@@ -6259,14 +7134,18 @@
       "year": 1999,
       "category": "World Events",
       "caption": "Y2K Bug concerns grow",
-      "photo": "",
+      "photo": "images/1999/Bug_de_l_an_2000-2.jpg",
       "tags": [
         "tech",
         "computer",
         "bug",
         "panic",
         "millennium"
-      ]
+      ],
+      "credit": {
+        "text": "Bug de l'an 2000 · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Bug_de_l%27an_2000.jpg"
+      }
     },
     {
       "year": 1999,
@@ -6350,7 +7229,7 @@
     },
     {
       "year": 1999,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "TiVo",
       "photo": "images/1999/Front_view_of_a_TiVo_EDGE_DVR_For_Cable.jpg",
       "credit": {
@@ -6371,13 +7250,18 @@
     {
       "year": 1999,
       "category": "Sports",
-      "caption": "The U.S. wins the Women's World Cup on Brandi Chastain's penalty kick"
+      "caption": "The U.S. wins the Women's World Cup on Brandi Chastain's penalty kick",
+      "photo": "images/1999/Brandi_Chastain_2023.jpg",
+      "credit": {
+        "text": "US Embassy Australia · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Brandi_Chastain_2023.jpg"
+      }
     }
   ],
   "2000": [
     {
       "year": 2000,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "PlayStation 2 becomes best-selling console",
       "photo": "images/2000/Sony_PlayStation_2.png",
       "tags": [
@@ -6397,27 +7281,35 @@
       "year": 2000,
       "category": "World Events",
       "caption": "Dot-com bubble bursts",
-      "photo": "",
+      "photo": "images/2000/Pets.com_Sock_Puppet_12935451763.jpg",
       "tags": [
         "tech",
         "business",
         "internet",
         "stock market",
         "crash"
-      ]
+      ],
+      "credit": {
+        "text": "Atomic Taco from Seattle, WA, USA · CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Pets.com_Sock_Puppet_%2812935451763%29.jpg"
+      }
     },
     {
       "year": 2000,
       "category": "Science & Space",
       "caption": "International Space Station (ISS) welcomes first resident crew",
-      "photo": "",
+      "photo": "images/2000/S97e5009.jpg",
       "tags": [
         "iss",
         "nasa",
         "space station",
         "astronauts",
         "roscosmos"
-      ]
+      ],
+      "credit": {
+        "text": "NASA · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:S97e5009.jpg"
+      }
     },
     {
       "year": 2000,
@@ -6493,7 +7385,12 @@
     {
       "year": 2000,
       "category": "Television",
-      "caption": "Gilmore Girls on TV"
+      "caption": "Gilmore Girls on TV",
+      "photo": "images/2000/Lauren_Graham_August_2014.jpg",
+      "credit": {
+        "text": "SAMHSA · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Lauren_Graham_August_2014.jpg"
+      }
     },
     {
       "year": 2000,
@@ -6517,7 +7414,7 @@
     },
     {
       "year": 2000,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "The Sims",
       "photo": "images/2000/The_Sims_Coverart.jpg",
       "credit": {
@@ -6539,7 +7436,7 @@
   "2001": [
     {
       "year": 2001,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Microsoft enters console market with Xbox and Halo",
       "photo": "images/2001/Xbox-console.jpg",
       "tags": [
@@ -6603,14 +7500,18 @@
       "year": 2001,
       "category": "Film",
       "caption": "Lord of the Rings: Fellowship of the Ring released",
-      "photo": "",
+      "photo": "images/2001/Lord_Rings_Fellowship_Ring-2.jpg",
       "tags": [
         "fantasy",
         "movie",
         "tolkien",
         "peter jackson",
         "epic"
-      ]
+      ],
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Lord_Rings_Fellowship_Ring.jpg"
+      }
     },
     {
       "year": 2001,
@@ -6695,7 +7596,12 @@
     {
       "year": 2001,
       "category": "Sports",
-      "caption": "Barry Bonds hits 73 home runs"
+      "caption": "Barry Bonds hits 73 home runs",
+      "photo": "images/2001/BarryBonds1993.jpg",
+      "credit": {
+        "text": "Jim Accordino · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:BarryBonds1993.jpg"
+      }
     }
   ],
   "2002": [
@@ -6737,14 +7643,18 @@
       "year": 2002,
       "category": "Sports",
       "caption": "Salt Lake City Winter Olympics",
-      "photo": "",
+      "photo": "images/2002/Salt_Lake_City_Utah_2021_-_149.jpg",
       "tags": [
         "olympics",
         "winter games",
         "sports",
         "utah",
         "usa"
-      ]
+      ],
+      "credit": {
+        "text": "Another Believer · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Salt_Lake_City%2C_Utah_%282021%29_-_149.jpg"
+      }
     },
     {
       "year": 2002,
@@ -6767,13 +7677,17 @@
       "year": 2002,
       "category": "Tech",
       "caption": "Friendster launched (early social media)",
-      "photo": "",
+      "photo": "images/2002/Friendster_logo_new.png",
       "tags": [
         "social media",
         "internet",
         "website",
         "dot-com"
-      ]
+      ],
+      "credit": {
+        "text": "Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Friendster_logo_new.svg"
+      }
     },
     {
       "year": 2002,
@@ -6837,7 +7751,7 @@
     },
     {
       "year": 2002,
-      "category": "Toys & Gadgets",
+      "category": "Design",
       "caption": "Roomba",
       "photo": "images/2002/Roomba_original.jpg",
       "credit": {
@@ -6868,14 +7782,18 @@
       "year": 2003,
       "category": "Science & Space",
       "caption": "Human Genome Project completed",
-      "photo": "",
+      "photo": "images/2003/Logo_HGP.jpg",
       "tags": [
         "genetics",
         "dna",
         "biology",
         "research",
         "hgp"
-      ]
+      ],
+      "credit": {
+        "text": "U.S. Department of Energy, Human Genome Project · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Logo_HGP.jpg"
+      }
     },
     {
       "year": 2003,
@@ -6923,19 +7841,6 @@
         "text": "Skype Technologies · Public domain",
         "url": "https://commons.wikimedia.org/wiki/File:Skype_logo_(2019%E2%80%93present).svg"
       }
-    },
-    {
-      "year": 2003,
-      "category": "Tech",
-      "caption": "iTunes Music Store opens",
-      "photo": "",
-      "tags": [
-        "apple",
-        "music",
-        "digital download",
-        "ecommerce",
-        "ipod"
-      ]
     },
     {
       "year": 2003,
@@ -7019,21 +7924,41 @@
     },
     {
       "year": 2003,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "iTunes Store",
       "photo": "images/2003/ITunes_Store.jpg",
       "credit": {
         "text": "© rights holder, low resolution",
         "url": "https://en.wikipedia.org/wiki/File:ITunes_Store.jpg"
       }
+    },
+    {
+      "year": 2003,
+      "category": "Books",
+      "caption": "The Da Vinci Code",
+      "photo": "images/2003/DaVinciCode.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:DaVinciCode.jpg"
+      }
+    },
+    {
+      "year": 2003,
+      "category": "Architecture",
+      "caption": "Walt Disney Concert Hall, Los Angeles",
+      "photo": "images/2003/Walt_Disney_Concert_Hall__LA__CA__jjron_22.03.2012.jpg",
+      "credit": {
+        "text": "jjron · GFDL 1.2",
+        "url": "https://commons.wikimedia.org/wiki/File:Walt_Disney_Concert_Hall%2C_LA%2C_CA%2C_jjron_22.03.2012.jpg"
+      }
     }
   ],
   "2004": [
     {
       "year": 2004,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "World of Warcraft defines the modern MMO",
-      "photo": "",
+      "photo": "images/2004/World_of_Warcraft.jpg",
       "tags": [
         "pc",
         "blizzard",
@@ -7041,7 +7966,11 @@
         "rpg",
         "warcraft",
         "gaming"
-      ]
+      ],
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:World_of_Warcraft.png"
+      }
     },
     {
       "year": 2004,
@@ -7078,20 +8007,24 @@
       "year": 2004,
       "category": "World Events",
       "caption": "Indian Ocean earthquake/tsunami",
-      "photo": "",
+      "photo": "images/2004/US_Navy_050102-N-9593M-040_A_village_near_the_coast_of_Sumatra_lays_in_ruin_afte-2.jpg",
       "tags": [
         "disaster",
         "natural disaster",
         "tsunami",
         "earthquake",
         "asia"
-      ]
+      ],
+      "credit": {
+        "text": "U.S. Navy photo by Photographer's Mate 2nd Class Philip A. McDaniel · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:US_Navy_050102-N-9593M-040_A_village_near_the_coast_of_Sumatra_lays_in_ruin_after_the_Tsunami_that_struck_South_East_Asia.jpg"
+      }
     },
     {
       "year": 2004,
       "category": "Science & Space",
       "caption": "Mars Exploration Rovers (Spirit/Opportunity) land",
-      "photo": "",
+      "photo": "images/2004/NASA_Mars_Rover.jpg",
       "tags": [
         "nasa",
         "mars",
@@ -7099,20 +8032,28 @@
         "space exploration",
         "jpl",
         "robotics"
-      ]
+      ],
+      "credit": {
+        "text": "NASA/JPL/Cornell University, Maas Digital LLC · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:NASA_Mars_Rover.jpg"
+      }
     },
     {
       "year": 2004,
       "category": "Tech",
       "caption": "Google IPO",
-      "photo": "",
+      "photo": "images/2004/Google_garage.jpg",
       "tags": [
         "google",
         "business",
         "stock market",
         "ipo",
         "finance"
-      ]
+      ],
+      "credit": {
+        "text": "Jordiipa · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Google_garage.JPG"
+      }
     },
     {
       "year": 2004,
@@ -7147,7 +8088,12 @@
     {
       "year": 2004,
       "category": "Television",
-      "caption": "Desperate Housewives on TV"
+      "caption": "Desperate Housewives on TV",
+      "photo": "images/2004/TeriHatcher-byPhilipRomano.jpg",
+      "credit": {
+        "text": "PhilipRomanoPhoto · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:TeriHatcher-byPhilipRomano.jpg"
+      }
     },
     {
       "year": 2004,
@@ -7191,7 +8137,7 @@
     },
     {
       "year": 2004,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Motorola Razr",
       "photo": "images/2004/Motorola_RAZR_V3i_01.jpg",
       "credit": {
@@ -7201,7 +8147,7 @@
     },
     {
       "year": 2004,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Nintendo DS",
       "photo": "images/2004/Nintendo-DS-Fat-Blue.png",
       "credit": {
@@ -7235,14 +8181,18 @@
       "year": 2005,
       "category": "Television",
       "caption": "The Office (US) mockumentary sitcom begins",
-      "photo": "",
+      "photo": "images/2005/Steve_Carell_-_The_40-Year-Old-Virgin.jpg",
       "tags": [
         "comedy",
         "sitcom",
         "mockumentary",
         "nbc",
         "tv"
-      ]
+      ],
+      "credit": {
+        "text": "Kevin Paul · CC BY 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Steve_Carell_-_The_40-Year-Old-Virgin.jpg"
+      }
     },
     {
       "year": 2005,
@@ -7276,28 +8226,36 @@
     },
     {
       "year": 2005,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Xbox 360 released",
-      "photo": "",
+      "photo": "images/2005/Xbox-360-Pro-wController.jpg",
       "tags": [
         "microsoft",
         "xbox",
         "console",
         "gaming",
         "hd"
-      ]
+      ],
+      "credit": {
+        "text": "Evan-Amos · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Xbox-360-Pro-wController.jpg"
+      }
     },
     {
       "year": 2005,
       "category": "World Events",
       "caption": "Angela Merkel becomes Chancellor of Germany",
-      "photo": "",
+      "photo": "images/2005/Angela_Merkel_2019_cropped.jpg",
       "tags": [
         "germany",
         "politics",
         "chancellor",
         "europe"
-      ]
+      ],
+      "credit": {
+        "text": "Raimond Spekking · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Angela_Merkel_2019_cropped.jpg"
+      }
     },
     {
       "year": 2005,
@@ -7332,7 +8290,12 @@
     {
       "year": 2005,
       "category": "Television",
-      "caption": "Grey's Anatomy on TV"
+      "caption": "Grey's Anatomy on TV",
+      "photo": "images/2005/Ellen_Pompeo_LF.jpg",
+      "credit": {
+        "text": "lukeford.net · CC BY-SA 2.5",
+        "url": "https://commons.wikimedia.org/wiki/File:Ellen_Pompeo_LF.JPG"
+      }
     },
     {
       "year": 2005,
@@ -7363,22 +8326,29 @@
         "text": "Ford Motor Company · CC BY 3.0",
         "url": "https://commons.wikimedia.org/wiki/File:Shelby_Mustang_GT500_Goodwood_001.jpg"
       }
+    },
+    {
+      "year": 2005,
+      "category": "Books",
+      "caption": "Twilight",
+      "photo": "images/2005/Twilightbook.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Twilightbook.jpg"
+      }
+    },
+    {
+      "year": 2005,
+      "category": "Art",
+      "caption": "Christo and Jeanne-Claude's The Gates, Central Park",
+      "photo": "images/2005/The_Gates__a_site-specific_work_of_art_by_Christo_and_Jeanne-Claude_in_Central_P.jpg",
+      "credit": {
+        "text": "Carol M. Highsmith · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:The_Gates%2C_a_site-specific_work_of_art_by_Christo_and_Jeanne-Claude_in_Central_Park%2C_New_York_City_LCCN2011633978.jpg"
+      }
     }
   ],
   "2006": [
-    {
-      "year": 2006,
-      "category": "Gaming",
-      "caption": "Nintendo Wii released, popularizes motion controls",
-      "photo": "",
-      "tags": [
-        "nintendo",
-        "wii",
-        "console",
-        "gaming",
-        "motion control"
-      ]
-    },
     {
       "year": 2006,
       "category": "Tech",
@@ -7413,14 +8383,18 @@
       "year": 2006,
       "category": "Science & Space",
       "caption": "Pluto demoted to dwarf planet status",
-      "photo": "",
+      "photo": "images/2006/Pluto_in_True_Color_-_High-Res.jpg",
       "tags": [
         "astronomy",
         "space",
         "planet",
         "iau",
         "solar system"
-      ]
+      ],
+      "credit": {
+        "text": "NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Inst · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Pluto_in_True_Color_-_High-Res.png"
+      }
     },
     {
       "year": 2006,
@@ -7467,7 +8441,12 @@
     {
       "year": 2006,
       "category": "Television",
-      "caption": "30 Rock on TV"
+      "caption": "30 Rock on TV",
+      "photo": "images/2006/TinaFey-byPhilipRomano2.jpg",
+      "credit": {
+        "text": "PhilipRomanoPhoto · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:TinaFey-byPhilipRomano2.jpg"
+      }
     },
     {
       "year": 2006,
@@ -7511,7 +8490,7 @@
     },
     {
       "year": 2006,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Wii",
       "photo": "images/2006/Wii-Console.png",
       "credit": {
@@ -7527,6 +8506,16 @@
       "credit": {
         "text": "CC BY-SA 3.0",
         "url": "https://commons.wikimedia.org/wiki/File:Euler_diagram_of_solar_system_bodies.svg"
+      }
+    },
+    {
+      "year": 2006,
+      "category": "Art",
+      "caption": "Cloud Gate (\"The Bean\") finished in Chicago",
+      "photo": "images/2006/Cloud_Gate__The_Bean__from_east.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Cloud_Gate_%28The_Bean%29_from_east%27.jpg"
       }
     }
   ],
@@ -7553,14 +8542,18 @@
       "year": 2007,
       "category": "World Events",
       "caption": "Global Financial Crisis begins to unfold",
-      "photo": "",
+      "photo": "images/2007/Lehman_Brothers_Times_Square_by_David_Shankbone.jpg",
       "tags": [
         "finance",
         "economics",
         "recession",
         "stock market",
         "banking"
-      ]
+      ],
+      "credit": {
+        "text": "David Shankbone · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Lehman_Brothers_Times_Square_by_David_Shankbone.jpg"
+      }
     },
     {
       "year": 2007,
@@ -7577,9 +8570,9 @@
     },
     {
       "year": 2007,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Bioshock released",
-      "photo": "",
+      "photo": "images/2007/BioShock_cover.jpg",
       "tags": [
         "fps",
         "video game",
@@ -7587,7 +8580,11 @@
         "xbox",
         "playstation",
         "art deco"
-      ]
+      ],
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:BioShock_cover.jpg"
+      }
     },
     {
       "year": 2007,
@@ -7694,7 +8691,7 @@
     },
     {
       "year": 2007,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Amazon Kindle",
       "photo": "images/2007/Amazon_Kindle_2024.png",
       "credit": {
@@ -7715,7 +8712,12 @@
     {
       "year": 2007,
       "category": "Sports",
-      "caption": "The New England Patriots go 16-0 in the regular season"
+      "caption": "The New England Patriots go 16-0 in the regular season",
+      "photo": "images/2007/AFCE-2007-Uniform-NE.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:AFCE-2007-Uniform-NE.png"
+      }
     }
   ],
   "2008": [
@@ -7723,7 +8725,7 @@
       "year": 2008,
       "category": "Tech",
       "caption": "First Android phone (T-Mobile G1 / HTC Dream) released",
-      "photo": "",
+      "photo": "images/2008/HTC_Dream_Orange_FR.jpg",
       "tags": [
         "android",
         "google",
@@ -7731,13 +8733,17 @@
         "smartphone",
         "mobile",
         "os"
-      ]
+      ],
+      "credit": {
+        "text": "Akela NDE · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:HTC_Dream_Orange_FR.jpeg"
+      }
     },
     {
       "year": 2008,
       "category": "World Events",
       "caption": "Global Financial Crisis intensifies",
-      "photo": "",
+      "photo": "images/2008/Lehman_Brothers_Times_Square_by_David_Shankbone-2.jpg",
       "tags": [
         "finance",
         "economics",
@@ -7745,7 +8751,11 @@
         "stock market",
         "banking",
         "lehman brothers"
-      ]
+      ],
+      "credit": {
+        "text": "David Shankbone · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Lehman_Brothers_Times_Square_by_David_Shankbone.jpg"
+      }
     },
     {
       "year": 2008,
@@ -7764,27 +8774,35 @@
       "year": 2008,
       "category": "Sports",
       "caption": "Beijing Summer Olympics",
-      "photo": "",
+      "photo": "images/2008/Beijing_national_stadium.jpg",
       "tags": [
         "olympics",
         "summer games",
         "sports",
         "china",
         "beijing"
-      ]
+      ],
+      "credit": {
+        "text": "Peter23 · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Beijing_national_stadium.jpg"
+      }
     },
     {
       "year": 2008,
       "category": "Science & Space",
       "caption": "Large Hadron Collider (LHC) first activated",
-      "photo": "",
+      "photo": "images/2008/CERN_LHC_CMS_11.jpg",
       "tags": [
         "physics",
         "cern",
         "lhc",
         "particle physics",
         "science"
-      ]
+      ],
+      "credit": {
+        "text": "SimonWaldherr · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:CERN_LHC_CMS_11.jpg"
+      }
     },
     {
       "year": 2008,
@@ -7865,8 +8883,13 @@
     },
     {
       "year": 2008,
-      "category": "Toys & Gadgets",
-      "caption": "The App Store"
+      "category": "Tech",
+      "caption": "The App Store",
+      "photo": "images/2008/Incase_app_for_iPhone_4973847949.jpg",
+      "credit": {
+        "text": "Incase from California, USA · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Incase_app_for_iPhone_%284973847949%29.jpg"
+      }
     },
     {
       "year": 2008,
@@ -7887,6 +8910,26 @@
         "text": "David Shankbone · CC BY-SA 3.0",
         "url": "https://commons.wikimedia.org/wiki/File:Lehman_Brothers_Times_Square_by_David_Shankbone.jpg"
       }
+    },
+    {
+      "year": 2008,
+      "category": "Books",
+      "caption": "The Hunger Games",
+      "photo": "images/2008/The_Hunger_Games.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:The_Hunger_Games.jpg"
+      }
+    },
+    {
+      "year": 2008,
+      "category": "Art",
+      "caption": "Shepard Fairey's Obama \"Hope\" poster",
+      "photo": "images/2008/Barack_Obama_Hope_poster.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Barack_Obama_Hope_poster.jpg"
+      }
     }
   ],
   "2009": [
@@ -7905,42 +8948,37 @@
     },
     {
       "year": 2009,
-      "category": "Gaming",
-      "caption": "Minecraft first public alpha released",
-      "photo": "",
-      "tags": [
-        "gaming",
-        "sandbox",
-        "pc",
-        "mojang",
-        "indie game"
-      ]
-    },
-    {
-      "year": 2009,
       "category": "Tech",
       "caption": "Uber founded",
-      "photo": "",
+      "photo": "images/2009/Uber_logo_2018.png",
       "tags": [
         "startup",
         "ridesharing",
         "business",
         "app",
         "transportation"
-      ]
+      ],
+      "credit": {
+        "text": "Wolff Olins · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Uber_logo_2018.svg"
+      }
     },
     {
       "year": 2009,
       "category": "World Events",
       "caption": "Swine Flu (H1N1) pandemic",
-      "photo": "",
+      "photo": "images/2009/Influenza_A_Virus_H1N1_-1.jpg",
       "tags": [
         "health",
         "pandemic",
         "virus",
         "influenza",
         "who"
-      ]
+      ],
+      "credit": {
+        "text": "NIH Image Gallery · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Influenza_A_Virus_%28H1N1%29-1.jpg"
+      }
     },
     {
       "year": 2009,
@@ -7988,7 +9026,12 @@
     {
       "year": 2009,
       "category": "Television",
-      "caption": "Parks and Recreation on TV"
+      "caption": "Parks and Recreation on TV",
+      "photo": "images/2009/Amy_Poehler_53671989427_cropped.jpg",
+      "credit": {
+        "text": "Gage Skidmore from Surprise, AZ, United States of America · CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Amy_Poehler_%2853671989427%29_cropped.jpg"
+      }
     },
     {
       "year": 2009,
@@ -8003,7 +9046,12 @@
     {
       "year": 2009,
       "category": "Television",
-      "caption": "Modern Family on TV"
+      "caption": "Modern Family on TV",
+      "photo": "images/2009/Cast_of_Modern_Family_69th_Annual_Golden_Globes_Awards.jpg",
+      "credit": {
+        "text": "jdeeringdavis · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Cast_of_Modern_Family_%40_69th_Annual_Golden_Globes_Awards.jpg"
+      }
     },
     {
       "year": 2009,
@@ -8038,7 +9086,22 @@
     {
       "year": 2009,
       "category": "Sports",
-      "caption": "Usain Bolt runs the 100 meters in 9.58 seconds"
+      "caption": "Usain Bolt runs the 100 meters in 9.58 seconds",
+      "photo": "images/2009/Usain_Bolt_smiling_Berlin_2009.jpg",
+      "credit": {
+        "text": "Erik van Leeuwen · GFDL",
+        "url": "https://commons.wikimedia.org/wiki/File:Usain_Bolt_smiling_Berlin_2009.JPG"
+      }
+    },
+    {
+      "year": 2009,
+      "category": "Architecture",
+      "caption": "The High Line opens, New York",
+      "photo": "images/2009/High_Line_Park__Section_1a.jpg",
+      "credit": {
+        "text": "Dansnguyen · CC0",
+        "url": "https://commons.wikimedia.org/wiki/File:High_Line_Park%2C_Section_1a.jpg"
+      }
     }
   ],
   "2010": [
@@ -8093,20 +9156,24 @@
       "year": 2010,
       "category": "World Events",
       "caption": "WikiLeaks publishes diplomatic cables (Cablegate)",
-      "photo": "",
+      "photo": "images/2010/Julian_Assange_at_2025_Cannes_The_Six_Billion_Dollar_Man_Photocall_3_cropped.jpg",
       "tags": [
         "wikileaks",
         "politics",
         "journalism",
         "internet",
         "security"
-      ]
+      ],
+      "credit": {
+        "text": "Kacy Bao · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Julian_Assange_at_2025_Cannes_The_Six_Billion_Dollar_Man_Photocall_3_%28cropped%29.jpg"
+      }
     },
     {
       "year": 2010,
       "category": "World Events",
       "caption": "Arab Spring begins (Tunisia)",
-      "photo": "",
+      "photo": "images/2010/Tunisian_Revolution_Protest.jpg",
       "tags": [
         "protest",
         "revolution",
@@ -8114,7 +9181,11 @@
         "north africa",
         "politics",
         "history"
-      ]
+      ],
+      "credit": {
+        "text": "cjb · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Tunisian_Revolution_Protest.jpg"
+      }
     },
     {
       "year": 2010,
@@ -8149,7 +9220,12 @@
     {
       "year": 2010,
       "category": "Television",
-      "caption": "The Walking Dead on TV"
+      "caption": "The Walking Dead on TV",
+      "photo": "images/2010/The_Walking_Dead_cast_at_Comic-Con_2013.jpg",
+      "credit": {
+        "text": "Gage Skidmore from Peoria, AZ, United States of America · CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:The_Walking_Dead_cast_at_Comic-Con_2013.jpg"
+      }
     },
     {
       "year": 2010,
@@ -8194,7 +9270,12 @@
     {
       "year": 2010,
       "category": "Sports",
-      "caption": "The New Orleans Saints win their first Super Bowl"
+      "caption": "The New Orleans Saints win their first Super Bowl",
+      "photo": "images/2010/Drew_Brees_after_winning_Super_Bowl_XLIV_Jan._7th_2010.jpg",
+      "credit": {
+        "text": "Ian Ransley · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Drew_Brees_after_winning_Super_Bowl_XLIV_Jan._7th%2C_2010.jpg"
+      }
     }
   ],
   "2011": [
@@ -8215,14 +9296,18 @@
       "year": 2011,
       "category": "World Events",
       "caption": "Osama bin Laden killed",
-      "photo": "",
+      "photo": "images/2011/Osama_bin_Laden_compound1-2.jpg",
       "tags": [
         "terrorism",
         "al-qaeda",
         "us",
         "military",
         "pakistan"
-      ]
+      ],
+      "credit": {
+        "text": "Sajjad Ali Qureshi · CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Osama_bin_Laden_compound1.jpg"
+      }
     },
     {
       "year": 2011,
@@ -8241,39 +9326,51 @@
       "year": 2011,
       "category": "World Events",
       "caption": "Fukushima Daiichi nuclear disaster",
-      "photo": "",
+      "photo": "images/2011/Fukushima_I_by_Digital_Globe-2.jpg",
       "tags": [
         "japan",
         "nuclear",
         "disaster",
         "earthquake",
         "tsunami"
-      ]
+      ],
+      "credit": {
+        "text": "Digital Globe · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Fukushima_I_by_Digital_Globe.jpg"
+      }
     },
     {
       "year": 2011,
       "category": "Tech",
       "caption": "Google+ launched",
-      "photo": "",
+      "photo": "images/2011/Google_plus_icon.png",
       "tags": [
         "google",
         "social media",
         "internet",
         "website"
-      ]
+      ],
+      "credit": {
+        "text": "Google · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Google_plus_icon.svg"
+      }
     },
     {
       "year": 2011,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Minecraft full release",
-      "photo": "",
+      "photo": "images/2011/Screenshot_from_the_Minecraft_End.jpg",
       "tags": [
         "gaming",
         "sandbox",
         "pc",
         "mojang",
         "survival"
-      ]
+      ],
+      "credit": {
+        "text": "Xbox México · CC BY 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Screenshot_from_the_Minecraft_End.png"
+      }
     },
     {
       "year": 2011,
@@ -8337,7 +9434,7 @@
     },
     {
       "year": 2011,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Siri",
       "photo": "images/2011/Logo_Apple_Siri_iOS_2024.png",
       "credit": {
@@ -8364,6 +9461,16 @@
         "text": "Digital Globe · CC BY-SA 3.0",
         "url": "https://commons.wikimedia.org/wiki/File:Fukushima_I_by_Digital_Globe.jpg"
       }
+    },
+    {
+      "year": 2011,
+      "category": "Design",
+      "caption": "Nest thermostat",
+      "photo": "images/2011/NestLearningThermostat2.jpg",
+      "credit": {
+        "text": "Raysonho @ Open Grid Scheduler / Grid Engine · CC0",
+        "url": "https://commons.wikimedia.org/wiki/File:NestLearningThermostat2.JPG"
+      }
     }
   ],
   "2012": [
@@ -8389,14 +9496,18 @@
       "year": 2012,
       "category": "Sports",
       "caption": "London Summer Olympics",
-      "photo": "",
+      "photo": "images/2012/Olympic_Stadium_London_16_April_2012.jpg",
       "tags": [
         "olympics",
         "summer games",
         "sports",
         "uk",
         "london"
-      ]
+      ],
+      "credit": {
+        "text": "EG Focus · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Olympic_Stadium_%28London%29%2C_16_April_2012.jpg"
+      }
     },
     {
       "year": 2012,
@@ -8452,7 +9563,12 @@
     {
       "year": 2012,
       "category": "Television",
-      "caption": "Girls on TV"
+      "caption": "Girls on TV",
+      "photo": "images/2012/Lena_Dunham_at_Berlinale_2024.jpg",
+      "credit": {
+        "text": "Elena Ternovaja · CC BY-SA 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Lena_Dunham_at_Berlinale_2024.jpg"
+      }
     },
     {
       "year": 2012,
@@ -8476,7 +9592,7 @@
     },
     {
       "year": 2012,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Candy Crush Saga",
       "photo": "images/2012/Candy_Crush_logo.png",
       "credit": {
@@ -8486,12 +9602,22 @@
     },
     {
       "year": 2012,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Raspberry Pi",
       "photo": "images/2012/Raspberry_Pi_Logo.png",
       "credit": {
         "text": "© rights holder, low resolution",
         "url": "https://en.wikipedia.org/wiki/File:Raspberry_Pi_Logo.svg"
+      }
+    },
+    {
+      "year": 2012,
+      "category": "Books",
+      "caption": "Gone Girl",
+      "photo": "images/2012/Gone_Girl__Flynn_novel.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Gone_Girl_%28Flynn_novel%29.jpg"
       }
     }
   ],
@@ -8500,7 +9626,7 @@
       "year": 2013,
       "category": "World Events",
       "caption": "Edward Snowden leaks NSA documents",
-      "photo": "",
+      "photo": "images/2013/Edward_Snowden_2013-10-9_1_cropped.jpg",
       "tags": [
         "nsa",
         "surveillance",
@@ -8508,24 +9634,32 @@
         "whistleblower",
         "security",
         "politics"
-      ]
+      ],
+      "credit": {
+        "text": "WikiLeaks · CC BY 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Edward_Snowden_2013-10-9_%281%29_%28cropped%29.jpg"
+      }
     },
     {
       "year": 2013,
       "category": "World Events",
       "caption": "Pope Francis elected",
-      "photo": "",
+      "photo": "images/2013/Pope_Francis_Korea_Haemi_Castle_19_4x5_cropped.jpg",
       "tags": [
         "pope",
         "catholic church",
         "vatican",
         "religion",
         "argentina"
-      ]
+      ],
+      "credit": {
+        "text": "Korea.net / Korean Culture and Information Service (Jeon Han)",
+        "url": "https://commons.wikimedia.org/wiki/File:Pope_Francis_Korea_Haemi_Castle_19_%284x5_cropped%29.jpg"
+      }
     },
     {
       "year": 2013,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Grand Theft Auto V released",
       "photo": "images/2013/Grand_Theft_Auto_V.png",
       "tags": [
@@ -8637,7 +9771,7 @@
     },
     {
       "year": 2013,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "PlayStation 4",
       "photo": "images/2013/PS4_consoles_montage.jpg",
       "credit": {
@@ -8651,40 +9785,52 @@
       "year": 2014,
       "category": "World Events",
       "caption": "Ebola virus epidemic in West Africa",
-      "photo": "",
+      "photo": "images/2014/Ruth_Johnson_RN_wearing_PPE_Portrait_ELWA_2_Ebola_Treatment_Unit_Paynesville_Lib.jpg",
       "tags": [
         "health",
         "epidemic",
         "virus",
         "africa",
         "public health"
-      ]
+      ],
+      "credit": {
+        "text": "Mary Beth Heffernan · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Ruth_Johnson%2C_RN%2C_wearing_PPE_Portrait%2C_ELWA_2_Ebola_Treatment_Unit%2C_Paynesville%2C_Liberia%2C_March_6%2C_2015.jpg"
+      }
     },
     {
       "year": 2014,
       "category": "Sports",
       "caption": "Sochi Winter Olympics",
-      "photo": "",
+      "photo": "images/2014/Fisht_Olympic_Stadium.jpg",
       "tags": [
         "olympics",
         "winter games",
         "sports",
         "russia",
         "sochi"
-      ]
+      ],
+      "credit": {
+        "text": "SKas · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Fisht_Olympic_Stadium.jpg"
+      }
     },
     {
       "year": 2014,
       "category": "World Events",
       "caption": "Annexation of Crimea by Russia",
-      "photo": "",
+      "photo": "images/2014/2014_25.jpg",
       "tags": [
         "russia",
         "ukraine",
         "crimea",
         "politics",
         "international relations"
-      ]
+      ],
+      "credit": {
+        "text": "Ilya Varlamov · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:%D0%9A%D1%80%D1%8B%D0%BC%2C_%D0%92%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%BE%D0%B2%2C_%D0%BC%D0%B0%D1%80%D1%82_2014%2C_25.jpg"
+      }
     },
     {
       "year": 2014,
@@ -8794,8 +9940,23 @@
     },
     {
       "year": 2014,
-      "category": "Toys & Gadgets",
-      "caption": "Amazon Echo"
+      "category": "Tech",
+      "caption": "Amazon Echo",
+      "photo": "images/2014/Amazon_Echo_Dot_RS03QR_-0479.jpg",
+      "credit": {
+        "text": "Raimond Spekking · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Amazon_Echo_Dot_%28RS03QR%29-0479.jpg"
+      }
+    },
+    {
+      "year": 2014,
+      "category": "Architecture",
+      "caption": "One World Trade Center opens",
+      "photo": "images/2014/One_World_Trade_Center_Building__2021.jpg",
+      "credit": {
+        "text": "Praneeth Thalla · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:One_World_Trade_Center_Building_%282021%29.jpg"
+      }
     }
   ],
   "2015": [
@@ -8803,7 +9964,7 @@
       "year": 2015,
       "category": "World Events",
       "caption": "Paris Agreement on climate change adopted",
-      "photo": "",
+      "photo": "images/2015/COP21_Climate_Negotiations.jpg",
       "tags": [
         "climate change",
         "environment",
@@ -8811,7 +9972,11 @@
         "united nations",
         "cop21",
         "paris"
-      ]
+      ],
+      "credit": {
+        "text": "Mark Dixon from Pittsburgh, PA · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:COP21_Climate_Negotiations.jpg"
+      }
     },
     {
       "year": 2015,
@@ -8834,7 +9999,7 @@
       "year": 2015,
       "category": "Science & Space",
       "caption": "NASA announces evidence of flowing water on Mars",
-      "photo": "",
+      "photo": "images/2015/Oblique_View_of_Warm_Season_Flows_in_Newton_Crater.jpg",
       "tags": [
         "nasa",
         "mars",
@@ -8842,7 +10007,11 @@
         "science",
         "water",
         "astronomy"
-      ]
+      ],
+      "credit": {
+        "text": "NASA/JPL-Caltech/Univ. of Arizona · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Oblique_View_of_Warm_Season_Flows_in_Newton_Crater.jpg"
+      }
     },
     {
       "year": 2015,
@@ -8861,14 +10030,18 @@
       "year": 2015,
       "category": "World Events",
       "caption": "European migrant crisis intensifies",
-      "photo": "",
+      "photo": "images/2015/Map_of_the_European_Migrant_Crisis_2015.jpg",
       "tags": [
         "europe",
         "migration",
         "refugee",
         "politics",
         "syria"
-      ]
+      ],
+      "credit": {
+        "text": "Maximilian Dörrbecker (Chumwa) · CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Map_of_the_European_Migrant_Crisis_2015.png"
+      }
     },
     {
       "year": 2015,
@@ -8943,7 +10116,12 @@
     {
       "year": 2015,
       "category": "World Events",
-      "caption": "Same-sex marriage nationwide"
+      "caption": "Same-sex marriage nationwide",
+      "photo": "images/2015/Obergefell_v._Hodges_Decision_Announced_at_the_Supreme_Court_of_the_United_State.jpg",
+      "credit": {
+        "text": "Mattpopovich · CC0",
+        "url": "https://commons.wikimedia.org/wiki/File:Obergefell_v._Hodges_Decision_Announced_at_the_Supreme_Court_of_the_United_States%2C_June_26%2C_2015.jpg"
+      }
     },
     {
       "year": 2015,
@@ -8958,13 +10136,18 @@
     {
       "year": 2015,
       "category": "Sports",
-      "caption": "American Pharoah wins the first Triple Crown in 37 years"
+      "caption": "American Pharoah wins the first Triple Crown in 37 years",
+      "photo": "images/2015/American_Pharoah.jpg",
+      "credit": {
+        "text": "Maryland GovPics · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:American_Pharoah.jpg"
+      }
     }
   ],
   "2016": [
     {
       "year": 2016,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Pokémon GO brings AR gaming mainstream",
       "photo": "images/2016/Pokemon_Go.png",
       "tags": [
@@ -8984,14 +10167,18 @@
       "year": 2016,
       "category": "World Events",
       "caption": "Brexit referendum: UK votes to leave the EU",
-      "photo": "",
+      "photo": "images/2016/Brexit_27240041144.jpg",
       "tags": [
         "uk",
         "eu",
         "politics",
         "referendum",
         "brexit"
-      ]
+      ],
+      "credit": {
+        "text": "Ungry Young Man from Vienna, Austria · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Brexit_%2827240041144%29.jpg"
+      }
     },
     {
       "year": 2016,
@@ -9063,7 +10250,12 @@
     {
       "year": 2016,
       "category": "Television",
-      "caption": "This Is Us on TV"
+      "caption": "This Is Us on TV",
+      "photo": "images/2016/Sterling_K_Brown_-_Paradise.jpg",
+      "credit": {
+        "text": "Kevin Paul · CC BY 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Sterling_K_Brown_-_Paradise.jpg"
+      }
     },
     {
       "year": 2016,
@@ -9146,7 +10338,7 @@
     },
     {
       "year": 2017,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Nintendo Switch released",
       "photo": "images/2017/1280px-Nintendo_Switch_Logo.svg.png",
       "tags": [
@@ -9161,7 +10353,7 @@
       "year": 2017,
       "category": "Science & Space",
       "caption": "Great American Eclipse visible across the US",
-      "photo": "",
+      "photo": "images/2017/Total_Solar_Eclipse_8-21-17-2.jpg",
       "tags": [
         "astronomy",
         "eclipse",
@@ -9169,7 +10361,11 @@
         "moon",
         "usa",
         "science"
-      ]
+      ],
+      "credit": {
+        "text": "Michael S Adler · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Total_Solar_Eclipse_8-21-17.jpg"
+      }
     },
     {
       "year": 2017,
@@ -9187,9 +10383,9 @@
     },
     {
       "year": 2017,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Fortnite Battle Royale released",
-      "photo": "",
+      "photo": "images/2017/Fortnite_Battle_Royale_2022_Logo.png",
       "tags": [
         "gaming",
         "battle royale",
@@ -9198,7 +10394,11 @@
         "console",
         "mobile",
         "culture"
-      ]
+      ],
+      "credit": {
+        "text": "Epic Games · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Fortnite_Battle_Royale_2022_Logo.png"
+      }
     },
     {
       "year": 2017,
@@ -9272,7 +10472,7 @@
     },
     {
       "year": 2017,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Fidget spinner",
       "photo": "images/2017/Fidget_spinner_red__cropped.jpg",
       "credit": {
@@ -9288,6 +10488,26 @@
       "credit": {
         "text": "Michael S Adler · CC BY-SA 4.0",
         "url": "https://commons.wikimedia.org/wiki/File:Total_Solar_Eclipse_8-21-17.jpg"
+      }
+    },
+    {
+      "year": 2017,
+      "category": "Architecture",
+      "caption": "Apple Park, Cupertino",
+      "photo": "images/2017/Aerial_view_of_Apple_Park_dllu.jpg",
+      "credit": {
+        "text": "Daniel L. Lu (user:dllu) · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Apple_Park_dllu.jpg"
+      }
+    },
+    {
+      "year": 2017,
+      "category": "Art",
+      "caption": "Fearless Girl statue faces the Wall Street bull",
+      "photo": "images/2017/Fearless_Girl_sculpture_by_Kristen_Visbal__2017_.___2020_Rouslan_Valonen.jpg",
+      "credit": {
+        "text": "Liberty Tours LLC · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Fearless_Girl_sculpture_by_Kristen_Visbal_%282017%29._%C2%A9_2020_Rouslan_Valonen.jpg"
       }
     }
   ],
@@ -9325,14 +10545,18 @@
       "year": 2018,
       "category": "Science & Space",
       "caption": "SpaceX launches Falcon Heavy",
-      "photo": "",
+      "photo": "images/2018/Falcon_Heavy_Demo_Mission_39337245145.jpg",
       "tags": [
         "spacex",
         "rocket",
         "space exploration",
         "elon musk",
         "tech"
-      ]
+      ],
+      "credit": {
+        "text": "SpaceX · CC0",
+        "url": "https://commons.wikimedia.org/wiki/File:Falcon_Heavy_Demo_Mission_%2839337245145%29.jpg"
+      }
     },
     {
       "year": 2018,
@@ -9351,7 +10575,12 @@
     {
       "year": 2018,
       "category": "Music",
-      "caption": "\"God's Plan\" by Drake is the year's No. 1 song"
+      "caption": "\"God's Plan\" by Drake is the year's No. 1 song",
+      "photo": "images/2018/Drake_at_The_Carter_Effect_2017_36818935200_cropped.jpg",
+      "credit": {
+        "text": "GabboT · CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg"
+      }
     },
     {
       "year": 2018,
@@ -9366,7 +10595,12 @@
     {
       "year": 2018,
       "category": "Music",
-      "caption": "\"Shallow\" by Lady Gaga and Bradley Cooper"
+      "caption": "\"Shallow\" by Lady Gaga and Bradley Cooper",
+      "photo": "images/2018/Lady_Gaga_at_Joe_Biden_s_inauguration_cropped_5.jpg",
+      "credit": {
+        "text": "Carlos M. Vazquez II · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Lady_Gaga_at_Joe_Biden%27s_inauguration_%28cropped_5%29.jpg"
+      }
     },
     {
       "year": 2018,
@@ -9410,17 +10644,22 @@
     },
     {
       "year": 2018,
-      "category": "Toys & Gadgets",
-      "caption": "Fortnite"
-    },
-    {
-      "year": 2018,
       "category": "World Events",
       "caption": "The Thai cave rescue",
       "photo": "images/2018/Rescue_equipment_in_Tham_Luang_entrance_chamber__cropped.jpg",
       "credit": {
         "text": "NBT · CC BY 3.0",
         "url": "https://commons.wikimedia.org/wiki/File:Rescue_equipment_in_Tham_Luang_entrance_chamber_(cropped).jpg"
+      }
+    },
+    {
+      "year": 2018,
+      "category": "Books",
+      "caption": "Where the Crawdads Sing",
+      "photo": "images/2018/Where_The_Crawdads_Sing_Book_Cover.jpg",
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Where_The_Crawdads_Sing_Book_Cover.jpg"
       }
     }
   ],
@@ -9429,7 +10668,7 @@
       "year": 2019,
       "category": "World Events",
       "caption": "Notre Dame Cathedral fire",
-      "photo": "",
+      "photo": "images/2019/Incendie_Notre_Dame_de_Paris.jpg",
       "tags": [
         "paris",
         "france",
@@ -9437,7 +10676,11 @@
         "cathedral",
         "culture",
         "history"
-      ]
+      ],
+      "credit": {
+        "text": "LeLaisserPasserA38 · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Incendie_Notre_Dame_de_Paris.jpg"
+      }
     },
     {
       "year": 2019,
@@ -9483,14 +10726,18 @@
       "year": 2019,
       "category": "World Events",
       "caption": "Protests in Hong Kong escalate",
-      "photo": "",
+      "photo": "images/2019/Hong_Kong_anti-extradition_bill_protest_48108527758.jpg",
       "tags": [
         "hong kong",
         "china",
         "protest",
         "politics",
         "democracy"
-      ]
+      ],
+      "credit": {
+        "text": "Studio Incendo · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Hong_Kong_anti-extradition_bill_protest_%2848108527758%29.jpg"
+      }
     },
     {
       "year": 2019,
@@ -9515,7 +10762,12 @@
     {
       "year": 2019,
       "category": "Television",
-      "caption": "The Mandalorian on TV"
+      "caption": "The Mandalorian on TV",
+      "photo": "images/2019/Cosplay_of_Blue_Mandalorian_at_GalaxyCon_Richmond_2020_49667541902.jpg",
+      "credit": {
+        "text": "Super Festivals from Ft. Lauderdale, USA · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Blue_Mandalorian_at_GalaxyCon_Richmond_2020_%2849667541902%29.jpg"
+      }
     },
     {
       "year": 2019,
@@ -9570,7 +10822,12 @@
     {
       "year": 2019,
       "category": "Sports",
-      "caption": "The U.S. women win a fourth World Cup"
+      "caption": "The U.S. women win a fourth World Cup",
+      "photo": "images/2019/Megan_Rapinoe__48675274817___cropped.jpg",
+      "credit": {
+        "text": "Lorie Shaull from St Paul, United States · CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Megan_Rapinoe_%2848675274817%29_%28cropped%29.jpg"
+      }
     }
   ],
   "2020": [
@@ -9596,7 +10853,7 @@
       "year": 2020,
       "category": "World Events",
       "caption": "George Floyd protests against racial injustice erupt globally",
-      "photo": "",
+      "photo": "images/2020/Minneapolis_05-28-20_49947863357.jpg",
       "tags": [
         "blm",
         "protest",
@@ -9604,11 +10861,15 @@
         "usa",
         "george floyd",
         "culture"
-      ]
+      ],
+      "credit": {
+        "text": "Dan Aasland · CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Minneapolis_05-28-20_%2849947863357%29.jpg"
+      }
     },
     {
       "year": 2020,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "PlayStation 5 and Xbox Series X/S consoles released",
       "photo": "images/2020/Black_and_white_Playstation_5_base_edition_with_controller.png",
       "tags": [
@@ -9629,7 +10890,7 @@
       "year": 2020,
       "category": "Science & Space",
       "caption": "SpaceX Crew Dragon Demo-2 launches astronauts to ISS",
-      "photo": "",
+      "photo": "images/2020/SpaceX_Demo-2_Launch_NHQ202005300044.jpg",
       "tags": [
         "spacex",
         "nasa",
@@ -9637,13 +10898,17 @@
         "iss",
         "astronauts",
         "tech"
-      ]
+      ],
+      "credit": {
+        "text": "Joel Kowsky · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:SpaceX_Demo-2_Launch_%28NHQ202005300044%29.jpg"
+      }
     },
     {
       "year": 2020,
-      "category": "Gaming",
+      "category": "Toys & Games",
       "caption": "Among Us gains massive popularity",
-      "photo": "",
+      "photo": "images/2020/Among_Us_cover_art.jpg",
       "tags": [
         "gaming",
         "mobile",
@@ -9652,7 +10917,11 @@
         "innersloth",
         "culture",
         "viral"
-      ]
+      ],
+      "credit": {
+        "text": "© rights holder, low resolution",
+        "url": "https://en.wikipedia.org/wiki/File:Among_Us_cover_art.jpg"
+      }
     },
     {
       "year": 2020,
@@ -9736,7 +11005,7 @@
     },
     {
       "year": 2020,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Animal Crossing: New Horizons",
       "photo": "images/2020/Animal_Crossing_New_Horizons.jpg",
       "credit": {
@@ -9747,7 +11016,12 @@
     {
       "year": 2020,
       "category": "Sports",
-      "caption": "Kobe Bryant dies in a helicopter crash"
+      "caption": "Kobe Bryant dies in a helicopter crash",
+      "photo": "images/2020/Kobe_Bryant_Dec_2014.jpg",
+      "credit": {
+        "text": "Keith Allison · CC BY-SA 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Kobe_Bryant_Dec_2014.jpg"
+      }
     }
   ],
   "2021": [
@@ -9755,19 +11029,23 @@
       "year": 2021,
       "category": "World Events",
       "caption": "January 6th United States Capitol attack",
-      "photo": "",
+      "photo": "images/2021/2021_storming_of_the_United_States_Capitol_DSC09254-2_50820534063_retouched.jpg",
       "tags": [
         "usa",
         "politics",
         "capitol attack",
         "election"
-      ]
+      ],
+      "credit": {
+        "text": "Tyler Merbler from USA · CC BY 2.0",
+        "url": "https://commons.wikimedia.org/wiki/File:2021_storming_of_the_United_States_Capitol_DSC09254-2_%2850820534063%29_%28retouched%29.jpg"
+      }
     },
     {
       "year": 2021,
       "category": "Science & Space",
       "caption": "James Webb Space Telescope launched",
-      "photo": "",
+      "photo": "images/2021/JWST_spacecraft_model_3.png",
       "tags": [
         "nasa",
         "space",
@@ -9776,13 +11054,17 @@
         "astronomy",
         "science",
         "tech"
-      ]
+      ],
+      "credit": {
+        "text": "NASA · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:JWST_spacecraft_model_3.png"
+      }
     },
     {
       "year": 2021,
       "category": "World Events",
       "caption": "Suez Canal obstruction by Ever Given",
-      "photo": "",
+      "photo": "images/2021/Ever_Given_in_Suez_Canal_viewed_from_ISS_cropped_3_to_2.jpg",
       "tags": [
         "suez canal",
         "shipping",
@@ -9790,20 +11072,28 @@
         "economics",
         "world events",
         "egypt"
-      ]
+      ],
+      "credit": {
+        "text": "NASA JSC ISS image library · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Ever_Given_in_Suez_Canal_viewed_from_ISS_%28cropped%29_3_to_2.jpg"
+      }
     },
     {
       "year": 2021,
       "category": "World Events",
       "caption": "Withdrawal of US troops from Afghanistan",
-      "photo": "",
+      "photo": "images/2021/C-17s_support_Afghanistan_drawdown_2021.jpg",
       "tags": [
         "afghanistan",
         "usa",
         "military",
         "politics",
         "taliban"
-      ]
+      ],
+      "credit": {
+        "text": "Photo by Staff Sgt. Kylee Gardner · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:C-17s_support_Afghanistan_drawdown_2021.jpg"
+      }
     },
     {
       "year": 2021,
@@ -9885,8 +11175,13 @@
     },
     {
       "year": 2021,
-      "category": "Toys & Gadgets",
-      "caption": "Wordle"
+      "category": "Toys & Games",
+      "caption": "Wordle",
+      "photo": "images/2021/Wordle_screenshot.jpg",
+      "credit": {
+        "text": "Josh Wardle · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Wordle_screenshot.png"
+      }
     },
     {
       "year": 2021,
@@ -9911,7 +11206,12 @@
     {
       "year": 2021,
       "category": "Sports",
-      "caption": "Tom Brady wins a seventh Super Bowl"
+      "caption": "Tom Brady wins a seventh Super Bowl",
+      "photo": "images/2021/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_croppe.jpg",
+      "credit": {
+        "text": "Barcex · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_%28cropped%29_%28cropped%29.jpg"
+      }
     }
   ],
   "2022": [
@@ -9933,14 +11233,18 @@
       "year": 2022,
       "category": "World Events",
       "caption": "Queen Elizabeth II dies",
-      "photo": "",
+      "photo": "images/2022/Queen_Elizabeth_II_Funeral_Procession_1.jpg",
       "tags": [
         "uk",
         "monarchy",
         "queen elizabeth",
         "royal family",
         "history"
-      ]
+      ],
+      "credit": {
+        "text": "No 10 Downing Street · OGL 3",
+        "url": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_Funeral_Procession_%281%29.jpg"
+      }
     },
     {
       "year": 2022,
@@ -9975,7 +11279,7 @@
       "year": 2022,
       "category": "Science & Space",
       "caption": "NASA's DART mission successfully impacts asteroid Dimorphos",
-      "photo": "",
+      "photo": "images/2022/Dart-poster3.jpg",
       "tags": [
         "nasa",
         "space",
@@ -9984,7 +11288,11 @@
         "planetary defense",
         "science",
         "tech"
-      ]
+      ],
+      "credit": {
+        "text": "Credits: NASA/Johns Hopkins Applied Physics Lab · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Dart-poster3.jpg"
+      }
     },
     {
       "year": 2022,
@@ -10029,7 +11337,12 @@
     {
       "year": 2022,
       "category": "Television",
-      "caption": "Wednesday on TV"
+      "caption": "Wednesday on TV",
+      "photo": "images/2022/Jenna_Ortega-63799_cropped.jpg",
+      "credit": {
+        "text": "Harald Krichel · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Jenna_Ortega-63799_%28cropped%29.jpg"
+      }
     },
     {
       "year": 2022,
@@ -10105,27 +11418,35 @@
       "year": 2023,
       "category": "World Events",
       "caption": "Significant heatwaves and climate events globally",
-      "photo": "",
+      "photo": "images/2023/July_2023_was_the_warmest_globally.jpg",
       "tags": [
         "climate change",
         "environment",
         "weather",
         "heatwave",
         "global warming"
-      ]
+      ],
+      "credit": {
+        "text": "European Union, Copernicus Climate Change Service data · Attribution",
+        "url": "https://commons.wikimedia.org/wiki/File:July_2023_was_the_warmest_globally.png"
+      }
     },
     {
       "year": 2023,
       "category": "World Events",
       "caption": "Coronation of King Charles III",
-      "photo": "",
+      "photo": "images/2023/2023_Coronation_Balcony.jpg",
       "tags": [
         "uk",
         "monarchy",
         "king charles",
         "royal family",
         "coronation"
-      ]
+      ],
+      "credit": {
+        "text": "HM Government · OGL 3",
+        "url": "https://commons.wikimedia.org/wiki/File:2023_Coronation_Balcony.jpg"
+      }
     },
     {
       "year": 2023,
@@ -10149,7 +11470,12 @@
     {
       "year": 2023,
       "category": "Music",
-      "caption": "\"Last Night\" by Morgan Wallen is the year's No. 1 song"
+      "caption": "\"Last Night\" by Morgan Wallen is the year's No. 1 song",
+      "photo": "images/2023/Morgan_Wallen_performing_at_Bank_of_America_Stadium.jpg",
+      "credit": {
+        "text": "the CwE · CC BY 3.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Morgan_Wallen_performing_at_Bank_of_America_Stadium.png"
+      }
     },
     {
       "year": 2023,
@@ -10174,7 +11500,12 @@
     {
       "year": 2023,
       "category": "Television",
-      "caption": "The Last of Us on TV"
+      "caption": "The Last of Us on TV",
+      "photo": "images/2023/Pedro_Pascal_at_the_2026_New_York_Film_Festival-042.jpg",
+      "credit": {
+        "text": "Bryan Berlin · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Pedro_Pascal_at_the_2026_New_York_Film_Festival-042.jpg"
+      }
     },
     {
       "year": 2023,
@@ -10188,7 +11519,7 @@
     },
     {
       "year": 2023,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "The Legend of Zelda: Tears of the Kingdom",
       "photo": "images/2023/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg",
       "credit": {
@@ -10219,7 +11550,12 @@
     {
       "year": 2023,
       "category": "Sports",
-      "caption": "Lionel Messi joins Inter Miami"
+      "caption": "Lionel Messi joins Inter Miami",
+      "photo": "images/2023/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
+      "credit": {
+        "text": "Bryan Berlin · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg"
+      }
     }
   ],
   "2024": [
@@ -10227,20 +11563,24 @@
       "year": 2024,
       "category": "Sports",
       "caption": "Paris Summer Olympics",
-      "photo": "",
+      "photo": "images/2024/Azerbaijani_team_at_the_opening_ceremony_of_the_2024_Summer_Olympics.jpg",
       "tags": [
         "olympics",
         "summer games",
         "sports",
         "paris",
         "france"
-      ]
+      ],
+      "credit": {
+        "text": "Dilaver Najafov · CC BY-SA 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:Azerbaijani_team_at_the_opening_ceremony_of_the_2024_Summer_Olympics.jpg"
+      }
     },
     {
       "year": 2024,
       "category": "World Events",
       "caption": "Major elections worldwide (US, India, Mexico, UK, etc.)",
-      "photo": "",
+      "photo": "images/2024/January_2025_Official_Presidential_Portrait_of_Donald_J._Trump.jpg",
       "tags": [
         "politics",
         "election",
@@ -10248,7 +11588,11 @@
         "usa",
         "india",
         "world events"
-      ]
+      ],
+      "credit": {
+        "text": "Daniel Torok · Public domain",
+        "url": "https://commons.wikimedia.org/wiki/File:January_2025_Official_Presidential_Portrait_of_Donald_J._Trump.jpg"
+      }
     },
     {
       "year": 2024,
@@ -10342,7 +11686,7 @@
     },
     {
       "year": 2024,
-      "category": "Toys & Gadgets",
+      "category": "Tech",
       "caption": "Apple Vision Pro",
       "photo": "images/2024/Apple_Vision_Pro_with_Solo_Knit_Band.jpg",
       "credit": {
@@ -10375,7 +11719,12 @@
     {
       "year": 2025,
       "category": "Music",
-      "caption": "\"Luther\" by Kendrick Lamar and SZA"
+      "caption": "\"Luther\" by Kendrick Lamar and SZA",
+      "photo": "images/2025/KendrickSZASPurs230725-19_-_54683179509_cropped_cropped.jpg",
+      "credit": {
+        "text": "Raph_PH · CC BY 4.0",
+        "url": "https://commons.wikimedia.org/wiki/File:KendrickSZASPurs230725-19_-_54683179509_%28cropped%29_%28cropped%29.jpg"
+      }
     },
     {
       "year": 2025,
@@ -10439,7 +11788,7 @@
     },
     {
       "year": 2025,
-      "category": "Toys & Gadgets",
+      "category": "Toys & Games",
       "caption": "Nintendo Switch 2",
       "photo": "images/2025/Nintendo_Switch_2_logo.jpg",
       "credit": {
