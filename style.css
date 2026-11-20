@@ -269,6 +269,30 @@ h2 {
 }
 */
 
+/* Link to the flow view, beside the filter button */
+.view-link {
+    margin-left: auto;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.75em;
+    color: #222222;
+    background-color: #eeeeee;
+    border: 2px solid #222222;
+    padding: 8px 12px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.view-link:hover, .view-link:focus-visible {
+    background-color: #5850ae;
+    border-color: #5850ae;
+    color: #ffffff;
+}
+@media (max-width: 768px) {
+    .view-link { font-size: 0.55em; padding: 6px 8px; }
+    .view-link-long { display: none; }
+    .header-title { font-size: 1.1em; }
+    #hamburger-btn { margin-left: 10px; }
+}
+
 #hamburger-btn {
     position: static; /* Ensure it's in flex flow */
     margin-left: 20px; /* Add some space */
